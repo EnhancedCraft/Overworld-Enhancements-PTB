@@ -1,0 +1,39 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "overworld:scorpion",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/entity/scorpion"
+			},
+			"geometry": {
+				"default": "geometry.scorpion"
+			},
+			"animations": {
+				"crawl": "animation.scorpion.crawl",
+				"bob": "animation.scorpion.bob",
+				"base_pose": "animation.scorpion.base_pose",
+				"attack": "animation.scorpion.attack",
+				"controller": "controller.animation.scorpion"
+			},
+			"scripts": {
+				"animate": [
+					"controller",
+					"base_pose",
+					"bob"
+				]
+			},
+			"render_controllers": [
+				"controller.render.default"
+			],
+			"spawn_egg": {
+				"texture_index": 0,
+				"overlay_color": "#141516",
+				"base_color": "#393844"
+			}
+		}
+	}
+}

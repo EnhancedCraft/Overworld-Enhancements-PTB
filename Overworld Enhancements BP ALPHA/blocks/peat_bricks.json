@@ -1,0 +1,14 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "overworld:peat_bricks"
+		},
+		"components": {
+			"minecraft:destroy_time": 8,
+			"minecraft:explosion_resistance": 3
+		},
+		"events": {}
+	}
+}

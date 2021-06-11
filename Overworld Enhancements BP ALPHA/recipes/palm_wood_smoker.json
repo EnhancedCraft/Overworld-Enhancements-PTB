@@ -1,0 +1,27 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "overworld:palm_wood_smoker"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            " L ",
+            "LFL",
+            " L "
+        ],
+        "key": {
+            "L": {
+                "item": "overworld:palm_wood"
+            },
+            "F": {
+                "item": "minecraft:furnace"
+            }
+        },
+        "result": {
+            "item": "minecraft:smoker"
+        }
+    }
+}

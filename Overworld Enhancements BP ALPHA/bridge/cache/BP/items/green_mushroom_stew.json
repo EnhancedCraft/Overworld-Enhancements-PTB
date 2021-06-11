@@ -1,0 +1,548 @@
+{
+	"file_path": "C:\\Users\\nicki\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Overworld Enhancements BP\\items\\green_mushroom_stew.json",
+	"file_type": "item",
+	"format_version": 1,
+	"file_uuid": "906e8632_6325_4967_8c6b_6eb479c1f341",
+	"file_version": 5,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:item": {
+						"description": {
+							"identifier": "overworld:green_mushroom_stew",
+							"category": "nature"
+						},
+						"components": {
+							"minecraft:use_duration": 1.6,
+							"minecraft:max_stack_size": 1,
+							"minecraft:food": {
+								"nutrition": 5,
+								"saturation_modifier": "normal",
+								"using_converts_to": "bowl",
+								"on_consume": {
+									"event": "eat",
+									"target": "self"
+								}
+							},
+							"minecraft:stacked_by_data": true,
+							"minecraft:icon": {
+								"texture": "green_mushroom_stew"
+							},
+							"minecraft:display_name": {
+								"value": "Green Mushroom Stew"
+							},
+							"minecraft:use_animation": "eat",
+							"minecraft:creative_category": {
+								"parent": "itemGroup.name.miscFood"
+							}
+						},
+						"events": {
+							"eat": {
+								"sequence": [
+									{
+										"add_mob_effect": {
+											"effect": "blindness",
+											"target": "holder",
+											"duration": 15,
+											"amplifier": 0
+										}
+									},
+									{
+										"add_mob_effect": {
+											"effect": "regeneration",
+											"target": "holder",
+											"duration": 30,
+											"amplifier": 1
+										}
+									}
+								]
+							}
+						}
+					}
+				},
+				"key": "minecraft:item",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "overworld:green_mushroom_stew",
+								"category": "nature"
+							},
+							"components": {
+								"minecraft:use_duration": 1.6,
+								"minecraft:max_stack_size": 1,
+								"minecraft:food": {
+									"nutrition": 5,
+									"saturation_modifier": "normal",
+									"using_converts_to": "bowl",
+									"on_consume": {
+										"event": "eat",
+										"target": "self"
+									}
+								},
+								"minecraft:stacked_by_data": true,
+								"minecraft:icon": {
+									"texture": "green_mushroom_stew"
+								},
+								"minecraft:display_name": {
+									"value": "Green Mushroom Stew"
+								},
+								"minecraft:use_animation": "eat",
+								"minecraft:creative_category": {
+									"parent": "itemGroup.name.miscFood"
+								}
+							},
+							"events": {
+								"eat": {
+									"sequence": [
+										{
+											"add_mob_effect": {
+												"effect": "blindness",
+												"target": "holder",
+												"duration": 15,
+												"amplifier": 0
+											}
+										},
+										{
+											"add_mob_effect": {
+												"effect": "regeneration",
+												"target": "holder",
+												"duration": 30,
+												"amplifier": 1
+											}
+										}
+									]
+								}
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "overworld:green_mushroom_stew",
+							"category": "nature"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "overworld:green_mushroom_stew",
+								"category": "nature"
+							},
+							"components": {
+								"minecraft:use_duration": 1.6,
+								"minecraft:max_stack_size": 1,
+								"minecraft:food": {
+									"nutrition": 5,
+									"saturation_modifier": "normal",
+									"using_converts_to": "bowl",
+									"on_consume": {
+										"event": "eat",
+										"target": "self"
+									}
+								},
+								"minecraft:stacked_by_data": true,
+								"minecraft:icon": {
+									"texture": "green_mushroom_stew"
+								},
+								"minecraft:display_name": {
+									"value": "Green Mushroom Stew"
+								},
+								"minecraft:use_animation": "eat",
+								"minecraft:creative_category": {
+									"parent": "itemGroup.name.miscFood"
+								}
+							},
+							"events": {
+								"eat": {
+									"sequence": [
+										{
+											"add_mob_effect": {
+												"effect": "blindness",
+												"target": "holder",
+												"duration": 15,
+												"amplifier": 0
+											}
+										},
+										{
+											"add_mob_effect": {
+												"effect": "regeneration",
+												"target": "holder",
+												"duration": 30,
+												"amplifier": 1
+											}
+										}
+									]
+								}
+							}
+						},
+						"key": "components",
+						"children": [
+							{
+								"data": "1.6",
+								"key": "minecraft:use_duration"
+							},
+							{
+								"data": "1",
+								"key": "minecraft:max_stack_size"
+							},
+							{
+								"open": {
+									"minecraft:use_duration": 1.6,
+									"minecraft:max_stack_size": 1,
+									"minecraft:food": {
+										"nutrition": 5,
+										"saturation_modifier": "normal",
+										"using_converts_to": "bowl",
+										"on_consume": {
+											"event": "eat",
+											"target": "self"
+										}
+									},
+									"minecraft:stacked_by_data": true,
+									"minecraft:icon": {
+										"texture": "green_mushroom_stew"
+									},
+									"minecraft:display_name": {
+										"value": "Green Mushroom Stew"
+									},
+									"minecraft:use_animation": "eat",
+									"minecraft:creative_category": {
+										"parent": "itemGroup.name.miscFood"
+									}
+								},
+								"key": "minecraft:food",
+								"children": [
+									{
+										"data": "5",
+										"key": "nutrition"
+									},
+									{
+										"data": "normal",
+										"key": "saturation_modifier"
+									},
+									{
+										"data": "bowl",
+										"key": "using_converts_to"
+									},
+									{
+										"open": {
+											"nutrition": 5,
+											"saturation_modifier": "normal",
+											"using_converts_to": "bowl",
+											"on_consume": {
+												"event": "eat",
+												"target": "self"
+											}
+										},
+										"key": "on_consume",
+										"is_minified": true,
+										"children": {
+											"event": "eat",
+											"target": "self"
+										}
+									}
+								]
+							},
+							{
+								"data": "true",
+								"key": "minecraft:stacked_by_data"
+							},
+							{
+								"open": {
+									"minecraft:use_duration": 1.6,
+									"minecraft:max_stack_size": 1,
+									"minecraft:food": {
+										"nutrition": 5,
+										"saturation_modifier": "normal",
+										"using_converts_to": "bowl",
+										"on_consume": {
+											"event": "eat",
+											"target": "self"
+										}
+									},
+									"minecraft:stacked_by_data": true,
+									"minecraft:icon": {
+										"texture": "green_mushroom_stew"
+									},
+									"minecraft:display_name": {
+										"value": "Green Mushroom Stew"
+									},
+									"minecraft:use_animation": "eat",
+									"minecraft:creative_category": {
+										"parent": "itemGroup.name.miscFood"
+									}
+								},
+								"key": "minecraft:icon",
+								"is_minified": true,
+								"children": {
+									"texture": "green_mushroom_stew"
+								}
+							},
+							{
+								"open": {
+									"minecraft:use_duration": 1.6,
+									"minecraft:max_stack_size": 1,
+									"minecraft:food": {
+										"nutrition": 5,
+										"saturation_modifier": "normal",
+										"using_converts_to": "bowl",
+										"on_consume": {
+											"event": "eat",
+											"target": "self"
+										}
+									},
+									"minecraft:stacked_by_data": true,
+									"minecraft:icon": {
+										"texture": "green_mushroom_stew"
+									},
+									"minecraft:display_name": {
+										"value": "Green Mushroom Stew"
+									},
+									"minecraft:use_animation": "eat",
+									"minecraft:creative_category": {
+										"parent": "itemGroup.name.miscFood"
+									}
+								},
+								"key": "minecraft:display_name",
+								"is_minified": true,
+								"children": {
+									"value": "Green Mushroom Stew"
+								}
+							},
+							{
+								"data": "eat",
+								"key": "minecraft:use_animation"
+							},
+							{
+								"open": {
+									"minecraft:use_duration": 1.6,
+									"minecraft:max_stack_size": 1,
+									"minecraft:food": {
+										"nutrition": 5,
+										"saturation_modifier": "normal",
+										"using_converts_to": "bowl",
+										"on_consume": {
+											"event": "eat",
+											"target": "self"
+										}
+									},
+									"minecraft:stacked_by_data": true,
+									"minecraft:icon": {
+										"texture": "green_mushroom_stew"
+									},
+									"minecraft:display_name": {
+										"value": "Green Mushroom Stew"
+									},
+									"minecraft:use_animation": "eat",
+									"minecraft:creative_category": {
+										"parent": "itemGroup.name.miscFood"
+									}
+								},
+								"key": "minecraft:creative_category",
+								"is_minified": true,
+								"children": {
+									"parent": "itemGroup.name.miscFood"
+								}
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "overworld:green_mushroom_stew",
+								"category": "nature"
+							},
+							"components": {
+								"minecraft:use_duration": 1.6,
+								"minecraft:max_stack_size": 1,
+								"minecraft:food": {
+									"nutrition": 5,
+									"saturation_modifier": "normal",
+									"using_converts_to": "bowl",
+									"on_consume": {
+										"event": "eat",
+										"target": "self"
+									}
+								},
+								"minecraft:stacked_by_data": true,
+								"minecraft:icon": {
+									"texture": "green_mushroom_stew"
+								},
+								"minecraft:display_name": {
+									"value": "Green Mushroom Stew"
+								},
+								"minecraft:use_animation": "eat",
+								"minecraft:creative_category": {
+									"parent": "itemGroup.name.miscFood"
+								}
+							},
+							"events": {
+								"eat": {
+									"sequence": [
+										{
+											"add_mob_effect": {
+												"effect": "blindness",
+												"target": "holder",
+												"duration": 15,
+												"amplifier": 0
+											}
+										},
+										{
+											"add_mob_effect": {
+												"effect": "regeneration",
+												"target": "holder",
+												"duration": 30,
+												"amplifier": 1
+											}
+										}
+									]
+								}
+							}
+						},
+						"key": "events",
+						"children": [
+							{
+								"open": {
+									"eat": {
+										"sequence": [
+											{
+												"add_mob_effect": {
+													"effect": "blindness",
+													"target": "holder",
+													"duration": 15,
+													"amplifier": 0
+												}
+											},
+											{
+												"add_mob_effect": {
+													"effect": "regeneration",
+													"target": "holder",
+													"duration": 30,
+													"amplifier": 1
+												}
+											}
+										]
+									}
+								},
+								"key": "eat",
+								"children": [
+									{
+										"open": {
+											"sequence": [
+												{
+													"add_mob_effect": {
+														"effect": "blindness",
+														"target": "holder",
+														"duration": 15,
+														"amplifier": 0
+													}
+												},
+												{
+													"add_mob_effect": {
+														"effect": "regeneration",
+														"target": "holder",
+														"duration": 30,
+														"amplifier": 1
+													}
+												}
+											]
+										},
+										"key": "sequence",
+										"children": [
+											{
+												"open": [
+													{
+														"add_mob_effect": {
+															"effect": "blindness",
+															"target": "holder",
+															"duration": 15,
+															"amplifier": 0
+														}
+													},
+													{
+														"add_mob_effect": {
+															"effect": "regeneration",
+															"target": "holder",
+															"duration": 30,
+															"amplifier": 1
+														}
+													}
+												],
+												"children": [
+													{
+														"open": {
+															"add_mob_effect": {
+																"effect": "blindness",
+																"target": "holder",
+																"duration": 15,
+																"amplifier": 0
+															}
+														},
+														"key": "add_mob_effect",
+														"is_minified": true,
+														"children": {
+															"effect": "blindness",
+															"target": "holder",
+															"duration": 15,
+															"amplifier": 0
+														}
+													}
+												]
+											},
+											{
+												"open": [
+													{
+														"add_mob_effect": {
+															"effect": "blindness",
+															"target": "holder",
+															"duration": 15,
+															"amplifier": 0
+														}
+													},
+													{
+														"add_mob_effect": {
+															"effect": "regeneration",
+															"target": "holder",
+															"duration": 30,
+															"amplifier": 1
+														}
+													}
+												],
+												"children": [
+													{
+														"open": {
+															"add_mob_effect": {
+																"effect": "regeneration",
+																"target": "holder",
+																"duration": 30,
+																"amplifier": 1
+															}
+														},
+														"key": "add_mob_effect",
+														"is_minified": true,
+														"children": {
+															"effect": "regeneration",
+															"target": "holder",
+															"duration": 30,
+															"amplifier": 1
+														}
+													}
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

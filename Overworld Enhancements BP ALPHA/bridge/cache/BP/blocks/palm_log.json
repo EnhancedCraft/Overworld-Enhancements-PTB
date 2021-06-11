@@ -1,0 +1,390 @@
+{
+	"file_path": "C:\\Users\\nicki\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Overworld Enhancements BP\\blocks\\palm_log.json",
+	"file_type": "block",
+	"format_version": 1,
+	"file_uuid": "3ca3b4da_529e_43b9_a9e3_0b51b47b9849",
+	"file_version": 6,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:block": {
+						"description": {
+							"identifier": "overworld:palm_log",
+							"properties": {
+								"overworld:log_rotation": [
+									0,
+									1,
+									2
+								]
+							}
+						},
+						"components": {
+							"minecraft:destroy_time": 4,
+							"minecraft:block_light_absorption": 0,
+							"minecraft:explosion_resistance": 2,
+							"minecraft:flammable": {
+								"burn_odds": 30,
+								"flame_odds": 30
+							},
+							"tag:minecraft:wood": {},
+							"minecraft:geometry": "geometry.block",
+							"minecraft:material_instances": {
+								"*": {
+									"texture": "palm_log",
+									"render_method": "opaque"
+								}
+							},
+							"minecraft:on_player_placing": {
+								"event": "overworld:update_rotation",
+								"target": "self"
+							},
+							"minecraft:loot": "loot_tables/blocks/mangrove_log_loot.json"
+						},
+						"permutations": [
+							{
+								"condition": "query.block_property('overworld:log_rotation') == 0",
+								"components": {
+									"minecraft:rotation": [
+										0,
+										0,
+										0
+									]
+								}
+							},
+							{
+								"condition": "query.block_property('overworld:log_rotation') == 1",
+								"components": {
+									"minecraft:rotation": [
+										90,
+										0,
+										0
+									]
+								}
+							},
+							{
+								"condition": "query.block_property('overworld:log_rotation') == 2",
+								"components": {
+									"minecraft:rotation": [
+										0,
+										0,
+										90
+									]
+								}
+							}
+						],
+						"events": {
+							"overworld:update_rotation": {
+								"set_block_property": {
+									"overworld:log_rotation": "math.floor(query.block_face / 2.0)"
+								}
+							}
+						}
+					}
+				},
+				"key": "minecraft:block",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "overworld:palm_log",
+								"properties": {
+									"overworld:log_rotation": [
+										0,
+										1,
+										2
+									]
+								}
+							},
+							"components": {
+								"minecraft:destroy_time": 4,
+								"minecraft:block_light_absorption": 0,
+								"minecraft:explosion_resistance": 2,
+								"minecraft:flammable": {
+									"burn_odds": 30,
+									"flame_odds": 30
+								},
+								"tag:minecraft:wood": {},
+								"minecraft:geometry": "geometry.block",
+								"minecraft:material_instances": {
+									"*": {
+										"texture": "palm_log",
+										"render_method": "opaque"
+									}
+								},
+								"minecraft:on_player_placing": {
+									"event": "overworld:update_rotation",
+									"target": "self"
+								},
+								"minecraft:loot": "loot_tables/blocks/mangrove_log_loot.json"
+							},
+							"permutations": [
+								{
+									"condition": "query.block_property('overworld:log_rotation') == 0",
+									"components": {
+										"minecraft:rotation": [
+											0,
+											0,
+											0
+										]
+									}
+								},
+								{
+									"condition": "query.block_property('overworld:log_rotation') == 1",
+									"components": {
+										"minecraft:rotation": [
+											90,
+											0,
+											0
+										]
+									}
+								},
+								{
+									"condition": "query.block_property('overworld:log_rotation') == 2",
+									"components": {
+										"minecraft:rotation": [
+											0,
+											0,
+											90
+										]
+									}
+								}
+							],
+							"events": {
+								"overworld:update_rotation": {
+									"set_block_property": {
+										"overworld:log_rotation": "math.floor(query.block_face / 2.0)"
+									}
+								}
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "overworld:palm_log",
+							"properties": {
+								"overworld:log_rotation": [
+									0,
+									1,
+									2
+								]
+							}
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "overworld:palm_log",
+								"properties": {
+									"overworld:log_rotation": [
+										0,
+										1,
+										2
+									]
+								}
+							},
+							"components": {
+								"minecraft:destroy_time": 4,
+								"minecraft:block_light_absorption": 0,
+								"minecraft:explosion_resistance": 2,
+								"minecraft:flammable": {
+									"burn_odds": 30,
+									"flame_odds": 30
+								},
+								"tag:minecraft:wood": {},
+								"minecraft:geometry": "geometry.block",
+								"minecraft:material_instances": {
+									"*": {
+										"texture": "palm_log",
+										"render_method": "opaque"
+									}
+								},
+								"minecraft:on_player_placing": {
+									"event": "overworld:update_rotation",
+									"target": "self"
+								},
+								"minecraft:loot": "loot_tables/blocks/mangrove_log_loot.json"
+							},
+							"permutations": [
+								{
+									"condition": "query.block_property('overworld:log_rotation') == 0",
+									"components": {
+										"minecraft:rotation": [
+											0,
+											0,
+											0
+										]
+									}
+								},
+								{
+									"condition": "query.block_property('overworld:log_rotation') == 1",
+									"components": {
+										"minecraft:rotation": [
+											90,
+											0,
+											0
+										]
+									}
+								},
+								{
+									"condition": "query.block_property('overworld:log_rotation') == 2",
+									"components": {
+										"minecraft:rotation": [
+											0,
+											0,
+											90
+										]
+									}
+								}
+							],
+							"events": {
+								"overworld:update_rotation": {
+									"set_block_property": {
+										"overworld:log_rotation": "math.floor(query.block_face / 2.0)"
+									}
+								}
+							}
+						},
+						"key": "components",
+						"children": [
+							{
+								"data": "4",
+								"key": "minecraft:destroy_time"
+							},
+							{
+								"data": "0",
+								"key": "minecraft:block_light_absorption"
+							},
+							{
+								"data": "2",
+								"key": "minecraft:explosion_resistance"
+							},
+							{
+								"key": "minecraft:flammable",
+								"is_minified": true,
+								"children": {
+									"burn_odds": 30,
+									"flame_odds": 30
+								}
+							},
+							{
+								"key": "tag:minecraft:wood",
+								"is_minified": true,
+								"children": {}
+							},
+							{
+								"data": "geometry.block",
+								"key": "minecraft:geometry"
+							},
+							{
+								"open": {
+									"minecraft:destroy_time": 4,
+									"minecraft:block_light_absorption": 0,
+									"minecraft:explosion_resistance": 2,
+									"minecraft:flammable": {
+										"burn_odds": 30,
+										"flame_odds": 30
+									},
+									"tag:minecraft:wood": {},
+									"minecraft:geometry": "geometry.block",
+									"minecraft:material_instances": {
+										"*": {
+											"texture": "palm_log",
+											"render_method": "opaque"
+										}
+									},
+									"minecraft:on_player_placing": {
+										"event": "overworld:update_rotation",
+										"target": "self"
+									},
+									"minecraft:loot": "loot_tables/blocks/mangrove_log_loot.json"
+								},
+								"key": "minecraft:material_instances",
+								"children": [
+									{
+										"open": {
+											"*": {
+												"texture": "palm_log",
+												"render_method": "opaque"
+											}
+										},
+										"key": "*",
+										"is_minified": true,
+										"children": {
+											"texture": "palm_log",
+											"render_method": "opaque"
+										}
+									}
+								]
+							},
+							{
+								"key": "minecraft:on_player_placing",
+								"is_minified": true,
+								"children": {
+									"event": "overworld:update_rotation",
+									"target": "self"
+								}
+							},
+							{
+								"data": "loot_tables/blocks/mangrove_log_loot.json",
+								"key": "minecraft:loot"
+							}
+						]
+					},
+					{
+						"key": "permutations",
+						"is_minified": true,
+						"children": [
+							{
+								"condition": "query.block_property('overworld:log_rotation') == 0",
+								"components": {
+									"minecraft:rotation": [
+										0,
+										0,
+										0
+									]
+								}
+							},
+							{
+								"condition": "query.block_property('overworld:log_rotation') == 1",
+								"components": {
+									"minecraft:rotation": [
+										90,
+										0,
+										0
+									]
+								}
+							},
+							{
+								"condition": "query.block_property('overworld:log_rotation') == 2",
+								"components": {
+									"minecraft:rotation": [
+										0,
+										0,
+										90
+									]
+								}
+							}
+						]
+					},
+					{
+						"key": "events",
+						"is_minified": true,
+						"children": {
+							"overworld:update_rotation": {
+								"set_block_property": {
+									"overworld:log_rotation": "math.floor(query.block_face / 2.0)"
+								}
+							}
+						}
+					}
+				]
+			}
+		]
+	}
+}

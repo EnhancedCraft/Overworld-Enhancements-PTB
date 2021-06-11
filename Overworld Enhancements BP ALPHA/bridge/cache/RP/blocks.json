@@ -1,0 +1,337 @@
+{
+	"file_path": "C:\\Users\\nicki\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\Overworld Enhancements RP\\blocks.json",
+	"file_type": "client_block",
+	"format_version": 1,
+	"file_uuid": "fd3c3dd7_e824_423b_9f55_bc4a9753f325",
+	"file_version": 20,
+	"cache_content": {
+		"children": [
+			{
+				"key": "format_version",
+				"is_minified": true,
+				"children": [
+					1,
+					1,
+					0
+				]
+			},
+			{
+				"key": "overworld:mangrove_log",
+				"is_minified": true,
+				"children": {
+					"textures": {
+						"side": "mangrove_log_side",
+						"up": "mangrove_log_top",
+						"down": "mangrove_log_top"
+					},
+					"sound": "wood"
+				}
+			},
+			{
+				"key": "overworld:palm_leaves",
+				"is_minified": true,
+				"children": {
+					"textures": "palm_leaves",
+					"sound": "grass"
+				}
+			},
+			{
+				"key": "overworld:cattail",
+				"is_minified": true,
+				"children": {
+					"sound": "grass"
+				}
+			},
+			{
+				"open": {
+					"format_version": [
+						1,
+						1,
+						0
+					],
+					"overworld:mangrove_log": {
+						"textures": {
+							"side": "mangrove_log_side",
+							"up": "mangrove_log_top",
+							"down": "mangrove_log_top"
+						},
+						"sound": "wood"
+					},
+					"overworld:palm_leaves": {
+						"textures": "palm_leaves",
+						"sound": "grass"
+					},
+					"overworld:cattail": {
+						"sound": "grass"
+					},
+					"overworld:pink_opal_lily": {
+						"sound": "grass"
+					},
+					"overworld:green_mushroom": {
+						"sound": "grass"
+					},
+					"overworld:mangrove_planks": {
+						"textures": "mangrove_planks",
+						"sound": "wood"
+					},
+					"overworld:canary_grass": {
+						"textures": "canary_grass",
+						"sound": "grass"
+					},
+					"overworld:wampi_plant": {
+						"textures": "wampi_plant",
+						"sound": "grass"
+					},
+					"overworld:palm_log": {
+						"textures": "palm_log",
+						"sound": "wood"
+					},
+					"overworld:mangrove_leaves": {
+						"textures": "mangrove_leaves",
+						"sound": "grass"
+					},
+					"overworld:peat": {
+						"textures": "peat",
+						"sound": "gravel"
+					},
+					"overworld:mud": {
+						"textures": "mud",
+						"sound": "roots"
+					},
+					"overworld:root_block": {
+						"textures": {
+							"side": "root_dirt",
+							"up": "toproot",
+							"down": "toproot"
+						},
+						"sound": "grass"
+					},
+					"overworld:yellow_mushroom": {
+						"textures": "yellow_mushroom",
+						"sound": "grass"
+					},
+					"overworld:peat_bricks": {
+						"textures": "peat_bricks",
+						"sound": "brick"
+					},
+					"overworld:palm_planks": {
+						"textures": "palm_planks",
+						"sound": "wood"
+					},
+					"overworld:mangrove_sapling": {
+						"textures": "mangrove_sapling",
+						"sound": "grass"
+					},
+					"overworld:desert_spike_bush": {
+						"textures": "spike_plant",
+						"sound": "grass"
+					}
+				},
+				"key": "overworld:pink_opal_lily",
+				"is_minified": true,
+				"children": {
+					"sound": "grass"
+				}
+			},
+			{
+				"key": "overworld:green_mushroom",
+				"is_minified": true,
+				"children": {
+					"sound": "grass"
+				}
+			},
+			{
+				"key": "overworld:mangrove_planks",
+				"is_minified": true,
+				"children": {
+					"textures": "mangrove_planks",
+					"sound": "wood"
+				}
+			},
+			{
+				"key": "overworld:canary_grass",
+				"is_minified": true,
+				"children": {
+					"textures": "canary_grass",
+					"sound": "grass"
+				}
+			},
+			{
+				"key": "overworld:wampi_plant",
+				"is_minified": true,
+				"children": {
+					"textures": "wampi_plant",
+					"sound": "grass"
+				}
+			},
+			{
+				"key": "overworld:palm_log",
+				"is_minified": true,
+				"children": {
+					"textures": "palm_log",
+					"sound": "wood"
+				}
+			},
+			{
+				"key": "overworld:mangrove_leaves",
+				"is_minified": true,
+				"children": {
+					"textures": "mangrove_leaves",
+					"sound": "grass"
+				}
+			},
+			{
+				"key": "overworld:peat",
+				"is_minified": true,
+				"children": {
+					"textures": "peat",
+					"sound": "gravel"
+				}
+			},
+			{
+				"key": "overworld:mud",
+				"is_minified": true,
+				"children": {
+					"textures": "mud",
+					"sound": "roots"
+				}
+			},
+			{
+				"key": "overworld:root_block",
+				"is_minified": true,
+				"children": {
+					"textures": {
+						"side": "root_dirt",
+						"up": "toproot",
+						"down": "toproot"
+					},
+					"sound": "grass"
+				}
+			},
+			{
+				"key": "overworld:yellow_mushroom",
+				"is_minified": true,
+				"children": {
+					"textures": "yellow_mushroom",
+					"sound": "grass"
+				}
+			},
+			{
+				"key": "overworld:peat_bricks",
+				"is_minified": true,
+				"children": {
+					"textures": "peat_bricks",
+					"sound": "brick"
+				}
+			},
+			{
+				"key": "overworld:palm_planks",
+				"is_minified": true,
+				"children": {
+					"textures": "palm_planks",
+					"sound": "wood"
+				}
+			},
+			{
+				"key": "overworld:mangrove_sapling",
+				"is_minified": true,
+				"children": {
+					"textures": "mangrove_sapling",
+					"sound": "grass"
+				}
+			},
+			{
+				"open": {
+					"format_version": [
+						1,
+						1,
+						0
+					],
+					"overworld:mangrove_log": {
+						"textures": {
+							"side": "mangrove_log_side",
+							"up": "mangrove_log_top",
+							"down": "mangrove_log_top"
+						},
+						"sound": "wood"
+					},
+					"overworld:palm_leaves": {
+						"textures": "palm_leaves",
+						"sound": "grass"
+					},
+					"overworld:cattail": {
+						"sound": "grass"
+					},
+					"overworld:pink_opal_lily": {
+						"sound": "grass"
+					},
+					"overworld:green_mushroom": {
+						"sound": "grass"
+					},
+					"overworld:mangrove_planks": {
+						"textures": "mangrove_planks",
+						"sound": "wood"
+					},
+					"overworld:canary_grass": {
+						"textures": "canary_grass",
+						"sound": "grass"
+					},
+					"overworld:wampi_plant": {
+						"textures": "wampi_plant",
+						"sound": "grass"
+					},
+					"overworld:palm_log": {
+						"textures": "palm_log",
+						"sound": "wood"
+					},
+					"overworld:mangrove_leaves": {
+						"textures": "mangrove_leaves",
+						"sound": "grass"
+					},
+					"overworld:peat": {
+						"textures": "peat",
+						"sound": "gravel"
+					},
+					"overworld:mud": {
+						"textures": "mud",
+						"sound": "roots"
+					},
+					"overworld:root_block": {
+						"textures": {
+							"side": "root_dirt",
+							"up": "toproot",
+							"down": "toproot"
+						},
+						"sound": "grass"
+					},
+					"overworld:yellow_mushroom": {
+						"textures": "yellow_mushroom",
+						"sound": "grass"
+					},
+					"overworld:peat_bricks": {
+						"textures": "peat_bricks",
+						"sound": "brick"
+					},
+					"overworld:palm_planks": {
+						"textures": "palm_planks",
+						"sound": "wood"
+					},
+					"overworld:mangrove_sapling": {
+						"textures": "mangrove_sapling",
+						"sound": "grass"
+					},
+					"overworld:desert_spike_bush": {
+						"textures": "spike_plant",
+						"sound": "grass"
+					}
+				},
+				"key": "overworld:desert_spike_bush",
+				"is_minified": true,
+				"children": {
+					"textures": "spike_plant",
+					"sound": "grass"
+				}
+			}
+		]
+	}
+}

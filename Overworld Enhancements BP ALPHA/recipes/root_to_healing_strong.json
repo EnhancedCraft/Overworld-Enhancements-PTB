@@ -1,0 +1,15 @@
+//bridge-file-version: #2
+{
+	"format_version": 1.12,
+	"minecraft:recipe_brewing_mix": {
+		"description": {
+			"identifier": "overworld:root_to_healing_strong"
+		},
+		"tags": [
+			"brewing_stand"
+		],
+		"reagent": "overworld:roots",
+		"input": "minecraft:potion_type:healing",
+		"output": "minecraft:potion_type:strong_healing"
+	}
+}

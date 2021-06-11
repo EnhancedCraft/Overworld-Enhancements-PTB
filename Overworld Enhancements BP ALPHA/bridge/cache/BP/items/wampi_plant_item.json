@@ -1,0 +1,168 @@
+{
+	"file_path": "C:\\Users\\nicki\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Overworld Enhancements BP\\items\\wampi_plant_item.json",
+	"file_type": "item",
+	"format_version": 1,
+	"file_uuid": "34f38165_5e27_419e_b4cf_a9bd2b9a041d",
+	"file_version": 0,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:item": {
+						"description": {
+							"identifier": "overworld:wampi_plant_item",
+							"category": "nature"
+						},
+						"components": {
+							"minecraft:hand_equipped": false,
+							"minecraft:stacked_by_data": true,
+							"minecraft:block_placer": {
+								"block": "overworld:wampi_plant",
+								"use_block_description": true
+							},
+							"minecraft:icon": {
+								"texture": "wampi_plant_item"
+							},
+							"minecraft:display_name": {
+								"value": "Wampi Plant"
+							}
+						}
+					}
+				},
+				"key": "minecraft:item",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "overworld:wampi_plant_item",
+								"category": "nature"
+							},
+							"components": {
+								"minecraft:hand_equipped": false,
+								"minecraft:stacked_by_data": true,
+								"minecraft:block_placer": {
+									"block": "overworld:wampi_plant",
+									"use_block_description": true
+								},
+								"minecraft:icon": {
+									"texture": "wampi_plant_item"
+								},
+								"minecraft:display_name": {
+									"value": "Wampi Plant"
+								}
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "overworld:wampi_plant_item",
+							"category": "nature"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "overworld:wampi_plant_item",
+								"category": "nature"
+							},
+							"components": {
+								"minecraft:hand_equipped": false,
+								"minecraft:stacked_by_data": true,
+								"minecraft:block_placer": {
+									"block": "overworld:wampi_plant",
+									"use_block_description": true
+								},
+								"minecraft:icon": {
+									"texture": "wampi_plant_item"
+								},
+								"minecraft:display_name": {
+									"value": "Wampi Plant"
+								}
+							}
+						},
+						"key": "components",
+						"children": [
+							{
+								"data": "false",
+								"key": "minecraft:hand_equipped"
+							},
+							{
+								"data": "true",
+								"key": "minecraft:stacked_by_data"
+							},
+							{
+								"open": {
+									"minecraft:hand_equipped": false,
+									"minecraft:stacked_by_data": true,
+									"minecraft:block_placer": {
+										"block": "overworld:wampi_plant",
+										"use_block_description": true
+									},
+									"minecraft:icon": {
+										"texture": "wampi_plant_item"
+									},
+									"minecraft:display_name": {
+										"value": "Wampi Plant"
+									}
+								},
+								"key": "minecraft:block_placer",
+								"is_minified": true,
+								"children": {
+									"block": "overworld:wampi_plant",
+									"use_block_description": true
+								}
+							},
+							{
+								"open": {
+									"minecraft:hand_equipped": false,
+									"minecraft:stacked_by_data": true,
+									"minecraft:block_placer": {
+										"block": "overworld:wampi_plant",
+										"use_block_description": true
+									},
+									"minecraft:icon": {
+										"texture": "wampi_plant_item"
+									},
+									"minecraft:display_name": {
+										"value": "Wampi Plant"
+									}
+								},
+								"key": "minecraft:icon",
+								"is_minified": true,
+								"children": {
+									"texture": "wampi_plant_item"
+								}
+							},
+							{
+								"open": {
+									"minecraft:hand_equipped": false,
+									"minecraft:stacked_by_data": true,
+									"minecraft:block_placer": {
+										"block": "overworld:wampi_plant",
+										"use_block_description": true
+									},
+									"minecraft:icon": {
+										"texture": "wampi_plant_item"
+									},
+									"minecraft:display_name": {
+										"value": "Wampi Plant"
+									}
+								},
+								"key": "minecraft:display_name",
+								"is_minified": true,
+								"children": {
+									"value": "Wampi Plant"
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

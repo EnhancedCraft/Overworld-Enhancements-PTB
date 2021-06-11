@@ -1,0 +1,72 @@
+{
+	//This is here becuase of the limitations of the minecraft:direction property DO NOT DELETE!!!!
+    "format_version": "1.17.0",
+    "minecraft:block": {
+        "description": {
+            "identifier": "overworld:imbued_scarecrow_2"
+        },
+        "components": {
+			"minecraft:loot": "loot_tables/blocks/imbued_loot.json",
+            "minecraft:destroy_time": 1.3,
+			"minecraft:block_light_absorption": 0,
+			"minecraft:explosion_resistance": 1,
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "scarecrow",
+					"render_method": "alpha_test",
+					"ambient_occlusion": false
+				}
+			},
+			"minecraft:geometry": "geometry.scarecrow",
+			"minecraft:pick_collision": {
+				"origin": [
+					-3,
+					0,
+					-3
+				],
+				"size": [
+					6,
+					16,
+					6
+				]
+			},
+			"minecraft:entity_collision": {
+				"origin": [
+					-3,
+					0,
+					-3
+				],
+				"size": [
+					6,
+					16,
+					6
+				]
+			},
+			"minecraft:flammable": {
+				"burn_odds": 10,
+				"flame_odds": 40
+			},
+			"minecraft:breakonpush": true,
+			"minecraft:on_player_placing": {
+				"event": "update_rotation",
+				"target": "self"
+			},
+			"minecraft:preventsjumping": true,
+			"minecraft:placement_filter": {
+				"conditions": [
+					{
+						"allowed_faces": [
+							"up"
+						]
+					}
+				]
+			},
+			"minecraft:breathability": "air",
+            "minecraft:rotation": [
+                0,
+                90,
+                0
+            ]
+        }
+    }
+}

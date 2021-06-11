@@ -1,0 +1,50 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "overworld:palm_sapling_item",
+			"category": "nature"
+		},
+		"components": {
+			"minecraft:hand_equipped": false,
+			"minecraft:stacked_by_data": true,
+			"minecraft:block_placer": {
+				"block": "overworld:palm_sapling",
+				"use_block_description": true
+			},
+			"minecraft:icon": {
+				"texture": "palm_sapling"
+			},
+			"minecraft:display_name": {
+				"value": "Palm Sapling"
+			},
+			"minecraft:fuel": {
+				"duration": 5
+			},
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.sapling"
+			},
+			"minecraft:on_use_on": {
+				"on_use_on": {
+					"event": "sound",
+					"target": "self"
+				}
+			}
+		},
+		"events": {
+			"sound": {
+				"run_command": {
+					"command": [
+						"stopsound @s dig.stone",
+						"playsound dig.grass @a ~ ~ ~",
+						"stopsound @s step.stone",
+						"stopsound @s hit.stone",
+						"stopsound @s jump.stand",
+						"stopsound @s land.stone",
+						"stopsound @s use.stone"
+					]
+				}
+			}
+		}
+	}
+}

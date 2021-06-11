@@ -1,0 +1,34 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "overworld:scarecrow_recipe"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            " P ",
+            "LHL",
+            " S "
+        ],
+        "key": {
+            "P": {
+                "item": "minecraft:carved_pumpkin"
+            },
+            "L": {
+                "item": "minecraft:leather"
+            },
+            "H": {
+                "item": "minecraft:hay_block"
+            },
+            "S": {
+                "item": "minecraft:stick"
+            }
+        },
+        "result": {
+            "item": "overworld:scarecrow",
+            "count": 1
+        }
+    }
+}

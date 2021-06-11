@@ -1,0 +1,560 @@
+{
+	"BP/blocks/mangrove_log.json": {
+		"data": {}
+	},
+	"RP/textures/terrain_texture.json": {
+		"data": {}
+	},
+	"RP/blocks.json": {
+		"data": {}
+	},
+	"BP/feature_rules/mangrove1_feature_rule.json": {
+		"data": {}
+	},
+	"BP/feature_rules/mangrove3_feature_rule.json": {
+		"data": {}
+	},
+	"BP/blocks/cattail.json": {
+		"data": {}
+	},
+	"BP/feature_rules/mangrove2_feature_rule.json": {
+		"data": {}
+	},
+	"BP/features/cattail_feature_2.json": {
+		"data": {}
+	},
+	"BP/features/cattail_feature_3.json": {
+		"data": {}
+	},
+	"BP/feature_rules/cattail_gen.json": {
+		"data": {}
+	},
+	"RP/biomes_client.json": {
+		"data": {}
+	},
+	"BP/blocks/green_mushroom.json": {
+		"data": {}
+	},
+	"BP/features/green_mushroom_feature.json": {
+		"data": {}
+	},
+	"BP/features/green_mushroom_scatter.json": {
+		"data": {}
+	},
+	"BP/feature_rules/green_mushroom_gen.json": {
+		"data": {}
+	},
+	"BP/blocks/mangrove_planks.json": {
+		"data": {}
+	},
+	"BP/features/swamp_tree_feature.json": {
+		"data": {}
+	},
+	"RP/textures/item_texture.json": {
+		"data": {}
+	},
+	"BP/entities/player.json": {
+		"data": {}
+	},
+	"BP/animation_controllers/bridge/custom_item_behavior.json": {
+		"data": {
+			"395e24e4_d36b_4cd5_b1a2_8c9c3f05c976": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"857cb7ac_56be_41ef_bd73_2e9f595b2067": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"a89eb5bf_a751_41d4_a688_aa20ca5b6ff4": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"794c63a9_813e_466a_9449_a513a3f04b64": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"46c98720_bc6e_4a95_b935_b3ace05ab8db": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"34f38165_5e27_419e_b4cf_a9bd2b9a041d": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"f69f97f9_ef24_414d_a57e_8befb688d09e": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"4f088b97_a9d7_4e45_a46a_fedc46b516af": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"667beee6_31e9_475b_b03c_59714899d482": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"906e8632_6325_4967_8c6b_6eb479c1f341": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"b2c1c6ec_457c_440a_bf23_cce9566fccf1": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"021165fc_9ecc_4434_a712_b4fbafbfcb19": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"c4d926af_3884_459f_aea0_34defa22eeda": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"f68397cb_8d21_41e2_a78d_63f28076f7dd": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"aa1aeb70_dd8a_4487_8654_c73e1fe84b0c": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"76b494e8_bb3f_44c3_b666_51b09f09d087": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"d33da455_0d74_4ab6_9464_ccef9b9e3aa9": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"060e27eb_d27b_4163_9b9b_3f716eb1b64f": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"80434723_5db5_4856_9531_3be9ab6db633": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"d60cc96b_5e9a_4aa8_8982_1b5b2f894416": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			}
+		}
+	},
+	"BP/items/green_mushroom.json": {
+		"data": {}
+	},
+	"BP/items/cattail.json": {
+		"data": {}
+	},
+	"BP/loot_tables/blocks/cattail_loot.json": {
+		"data": {}
+	},
+	"BP/loot_tables/blocks/green_mushroom_loot.json": {
+		"data": {}
+	},
+	"BP/manifest.json": {
+		"data": {}
+	},
+	"RP/manifest.json": {
+		"data": {}
+	},
+	"BP/blocks/canary_grass.json": {
+		"data": {}
+	},
+	"BP/features/canary_feature_1.json": {
+		"data": {}
+	},
+	"BP/features/canary_feature_2.json": {
+		"data": {}
+	},
+	"BP/feature_rules/canary_gen.json": {
+		"data": {}
+	},
+	"BP/blocks/wampi_plant.json": {
+		"data": {}
+	},
+	"BP/blocks/palm_log.json": {
+		"data": {}
+	},
+	"BP/blocks/palm_leaves.json": {
+		"data": {}
+	},
+	"BP/items/lantern_on_stick.json": {
+		"data": {}
+	},
+	"RP/attachables/lantern_in_a_stick.json": {
+		"data": {}
+	},
+	"BP/animations/player.json": {
+		"data": {}
+	},
+	"BP/animation_controllers/start.json": {
+		"data": {}
+	},
+	"BP/biomes/swamp.json": {
+		"data": {}
+	},
+	"BP/blocks/mangrove_leaves.json": {
+		"data": {}
+	},
+	"BP/items/lantern_on_stick_burnt_out.json": {
+		"data": {}
+	},
+	"RP/attachables/lantern_on_stick_burnt_out.json": {
+		"data": {}
+	},
+	"RP/attachables/lantern_on_a_stick.json": {
+		"data": {}
+	},
+	"BP/features/witch_house_feature.json": {
+		"data": {}
+	},
+	"BP/feature_rules/witch_house_rule.json": {
+		"data": {}
+	},
+	"BP/spawn_rules/leaf_spawn.json": {
+		"data": {}
+	},
+	"BP/blocks/peat.json": {
+		"data": {}
+	},
+	"BP/features/peat_feature.json": {
+		"data": {}
+	},
+	"BP/feature_rules/peat_gen.json": {
+		"data": {}
+	},
+	"BP/items/wampi_fruit.json": {
+		"data": {}
+	},
+	"BP/features/wampi_plant_feature.json": {
+		"data": {}
+	},
+	"BP/feature_rules/wampi_plant_gen.json": {
+		"data": {}
+	},
+	"BP/items/wampi_plant_item.json": {
+		"data": {}
+	},
+	"BP/items/canary_grass_item.json": {
+		"data": {}
+	},
+	"BP/blocks/root_block.json": {
+		"data": {}
+	},
+	"BP/features/root_feature.json": {
+		"data": {}
+	},
+	"BP/feature_rules/root_gen.json": {
+		"data": {}
+	},
+	"BP/blocks/yellow_mushroom.json": {
+		"data": {}
+	},
+	"BP/features/yellow_mushroom_feature.json": {
+		"data": {}
+	},
+	"BP/features/yellow_mushroom_scatter.json": {
+		"data": {}
+	},
+	"BP/feature_rules/yellow_mushroom_gen.json": {
+		"data": {}
+	},
+	"BP/blocks/peat_bricks.json": {
+		"data": {}
+	},
+	"BP/items/yellow_mushroom_item.json": {
+		"data": {}
+	},
+	"BP/recipes/peat_bricks.json": {
+		"data": {}
+	},
+	"RP/particles/leaf.particle.json": {
+		"data": {}
+	},
+	"BP/items/mining_helmet.json": {
+		"data": {}
+	},
+	"RP/attachables/mining_helmet.json": {
+		"data": {}
+	},
+	"RP/attachables/mining_helmet.player.json": {
+		"data": {}
+	},
+	"BP/blocks/palm_planks.json": {
+		"data": {}
+	},
+	"BP/items/green_mushroom_stew.json": {
+		"data": {}
+	},
+	"BP/items/yellow_mushroom_stew.json": {
+		"data": {}
+	},
+	"BP/recipes/green_mushroom_stew.json": {
+		"data": {}
+	},
+	"BP/recipes/yellow_mushroom_stew.json": {
+		"data": {}
+	},
+	"BP/loot_tables/blocks/blank.json": {
+		"data": {}
+	},
+	"BP/loot_tables/blocks/break_wampi.json": {
+		"data": {}
+	},
+	"BP/loot_tables/blocks/wampi_harvest.json": {
+		"data": {}
+	},
+	"BP/loot_tables/blocks/mangrove_log_loot.json": {
+		"data": {}
+	},
+	"BP/loot_tables/blocks/yellow_mushroom_break.json": {
+		"data": {}
+	},
+	"BP/items/cotton.json": {
+		"data": {}
+	},
+	"BP/items/catkins.json": {
+		"data": {}
+	},
+	"BP/recipes/catkins_to_cotton.json": {
+		"data": {}
+	},
+	"BP/items/bloody_bandage_roll.json": {
+		"data": {}
+	},
+	"BP/items/bandage_roll.json": {
+		"data": {}
+	},
+	"BP/items/bandage_roll_2.json": {
+		"data": {}
+	},
+	"BP/items/bandage_roll_3.json": {
+		"data": {}
+	},
+	"BP/items/bandage_pad.json": {
+		"data": {}
+	},
+	"BP/items/roots.json": {
+		"data": {}
+	},
+	"BP/features/swamp_statue_structure.json": {
+		"data": {}
+	},
+	"BP/feature_rules/swamp_statue_generation.json": {
+		"data": {}
+	},
+	"BP/recipes/root_is_sapling1.json": {
+		"data": {}
+	},
+	"BP/recipes/root_is_sapling2.json": {
+		"data": {}
+	},
+	"BP/recipes/root_is_sapling3.json": {
+		"data": {}
+	},
+	"BP/recipes/root_is_sapling4.json": {
+		"data": {}
+	},
+	"BP/recipes/root_is_sapling5.json": {
+		"data": {}
+	},
+	"BP/recipes/root_is_sapling6.json": {
+		"data": {}
+	},
+	"BP/recipes/root_to_bonemeal.json": {
+		"data": {}
+	},
+	"BP/recipes/root_to_healing_potion.json": {
+		"data": {}
+	},
+	"BP/recipes/root_to_healing_strong.json": {
+		"data": {}
+	},
+	"BP/blocks/mangrove_sapling.json": {
+		"data": {}
+	},
+	"BP/loot_tables/blocks/skin_cattail.json": {
+		"data": {}
+	},
+	"BP/loot_tables/roots_break.json": {
+		"data": {}
+	},
+	"BP/items/mangrove_sapling_item.json": {
+		"data": {}
+	},
+	"BP/loot_tables/blocks/leaves_break.json": {
+		"data": {}
+	},
+	"BP/loot_tables/sapling_break.json": {
+		"data": {}
+	},
+	"BP/blocks/desert_spike_bush.json": {
+		"data": {}
+	},
+	"BP/functions/tick.json": {
+		"data": {}
+	},
+	"BP/blocks/pink_opal_lily.json": {
+		"data": {}
+	},
+	"BP/features/pink_opal_lily_feature.json": {
+		"data": {}
+	},
+	"BP/feature_rules/pink_opal_lily_gen.json": {
+		"data": {}
+	},
+	"BP/recipes/mangrove_planks.json": {
+		"data": {}
+	},
+	"BP/recipes/mangrove_planks_to_sticks.json": {
+		"data": {}
+	},
+	"BP/recipes/mangrove_planks_to_sword.json": {
+		"data": {}
+	},
+	"BP/recipes/mangrove_planks_to_pickaxe.json": {
+		"data": {}
+	},
+	"BP/recipes/mangrove_planks_to_axe.json": {
+		"data": {}
+	},
+	"BP/recipes/mangrove_planks_to_shovel.json": {
+		"data": {}
+	},
+	"BP/recipes/mangrove_planks_to_hoe.json": {
+		"data": {}
+	},
+	"BP/blocks/glowing_mushroom_block.json": {
+		"data": {}
+	},
+	"BP/biomes/glowing_mushroom.json": {
+		"data": {}
+	},
+	"BP/entities/scorcher.json": {
+		"data": {}
+	},
+	"RP/sounds.json": {
+		"data": {}
+	}
+}

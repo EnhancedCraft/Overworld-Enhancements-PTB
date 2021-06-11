@@ -1,0 +1,151 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "overworld:palm_sapling"
+		},
+		"components": {
+			"minecraft:destroy_time": 0.1,
+			"minecraft:block_light_absorption": 0,
+			"minecraft:explosion_resistance": 0,
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "palm_sapling",
+					"render_method": "alpha_test"
+				}
+			},
+			"minecraft:geometry": "geometry.sapling",
+			"minecraft:placement_filter": {
+				"conditions": [
+					{
+						"block_filter": [
+							"minecraft:sand"
+						],
+						"allowed_faces": [
+							"up"
+						]
+					}
+				]
+			},
+			"minecraft:on_interact": {
+				"condition": "query.get_equipped_item_name=='bone_meal'",
+				"target": "self",
+				"event": "bonemeal"
+			},
+			"minecraft:pick_collision": {
+				"origin": [
+					-5,
+					0,
+					-4
+				],
+				"size": [
+					11,
+					14,
+					11
+				]
+			},
+			"minecraft:entity_collision": false,
+			"minecraft:random_ticking": {
+				"on_tick": {
+					"event": "grow",
+					"target": "self"
+				}
+			},
+			"minecraft:breathability": "air"
+		},
+		"events": {
+			"bonemeal": {
+				"randomize": [
+					{
+						"weight": 30,
+						"run_command": {
+							"command": [
+								"particle minecraft:crop_growth_emitter ~~~"
+							],
+							"target": "self"
+						}
+					},
+					{
+						"weight": 3,
+						"run_command": {
+							"command": [
+								"particle minecraft:crop_growth_emitter ~~~",
+								"structure load mystructure:big_palm ~-4 ~ ~-4",
+								"clear @s bone_meal 0 1"
+							],
+							"target": "self"
+						},
+						"set_block": {
+							"block_type": "overworld:palm_log"
+						}
+					},
+					{
+						"weight": 5,
+						"run_command": {
+							"command": [
+								"particle minecraft:crop_growth_emitter ~~~",
+								"structure load mystructure:side_palm ~-3 ~ ~-6"
+							],
+							"target": "self"
+						},
+						"set_block": {
+							"block_type": "overworld:palm_log"
+						}
+					},
+					{
+						"weight": 6,
+						"run_command": {
+							"command": [
+								"particle minecraft:crop_growth_emitter ~~~",
+								"structure load mystructure:basic_palm ~-3 ~ ~-3",
+								"particle minecraft:crop_growth_emitter ~~~",
+								"particle minecraft:crop_growth_emitter ~~~"
+							],
+							"target": "self"
+						},
+						"set_block": {
+							"block_type": "overworld:palm_log"
+						}
+					}
+				]
+			},
+			"grow": {
+				"randomize": [
+					{
+						"weight": 5,
+						"run_command": {
+							"command": [
+								"structure load mystructure:big_palm ~-4 ~ ~-4"
+							]
+						},
+						"set_block": {
+							"block_type": "overworld:palm_log"
+						}
+					},
+					{
+						"weight": 8,
+						"run_command": {
+							"command": [
+								"structure load mystructure:side_palm ~-3 ~ ~-6"
+							]
+						},
+						"set_block": {
+							"block_type": "overworld:palm_log"
+						}
+					},
+					{
+						"weight": 10,
+						"run_command": {
+							"command": [
+								"structure load mystructure:basic_palm ~-3 ~ ~-3"
+							]
+						},
+						"set_block": {
+							"block_type": "overworld:palm_log"
+						}
+					}
+				]
+			}
+		}
+	}
+}

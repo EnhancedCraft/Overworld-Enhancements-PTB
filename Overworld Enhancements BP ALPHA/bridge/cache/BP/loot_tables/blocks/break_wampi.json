@@ -1,0 +1,200 @@
+{
+	"file_path": "C:\\Users\\nicki\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Overworld Enhancements BP\\loot_tables\\break_wampi.json",
+	"file_type": "loot_table",
+	"format_version": 1,
+	"file_uuid": "4138536f_93b0_455c_b137_200e7a5e2fbe",
+	"file_version": 0,
+	"cache_content": {
+		"children": [
+			{
+				"open": {
+					"pools": [
+						{
+							"rolls": {
+								"min": 1,
+								"max": 1
+							},
+							"entries": [
+								{
+									"type": "item",
+									"name": "overworld:wampi_fruit",
+									"functions": [
+										{
+											"function": "set_count",
+											"count": {
+												"min": 1,
+												"max": 3
+											}
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				"key": "pools",
+				"children": [
+					{
+						"open": [
+							{
+								"rolls": {
+									"min": 1,
+									"max": 1
+								},
+								"entries": [
+									{
+										"type": "item",
+										"name": "overworld:wampi_fruit",
+										"functions": [
+											{
+												"function": "set_count",
+												"count": {
+													"min": 1,
+													"max": 3
+												}
+											}
+										]
+									}
+								]
+							}
+						],
+						"children": [
+							{
+								"open": {
+									"rolls": {
+										"min": 1,
+										"max": 1
+									},
+									"entries": [
+										{
+											"type": "item",
+											"name": "overworld:wampi_fruit",
+											"functions": [
+												{
+													"function": "set_count",
+													"count": {
+														"min": 1,
+														"max": 3
+													}
+												}
+											]
+										}
+									]
+								},
+								"key": "rolls",
+								"is_minified": true,
+								"children": {
+									"min": 1,
+									"max": 1
+								}
+							},
+							{
+								"open": {
+									"rolls": {
+										"min": 1,
+										"max": 1
+									},
+									"entries": [
+										{
+											"type": "item",
+											"name": "overworld:wampi_fruit",
+											"functions": [
+												{
+													"function": "set_count",
+													"count": {
+														"min": 1,
+														"max": 3
+													}
+												}
+											]
+										}
+									]
+								},
+								"key": "entries",
+								"children": [
+									{
+										"open": [
+											{
+												"type": "item",
+												"name": "overworld:wampi_fruit",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 1,
+															"max": 3
+														}
+													}
+												]
+											}
+										],
+										"children": [
+											{
+												"data": "item",
+												"key": "type"
+											},
+											{
+												"data": "overworld:wampi_fruit",
+												"key": "name"
+											},
+											{
+												"open": {
+													"type": "item",
+													"name": "overworld:wampi_fruit",
+													"functions": [
+														{
+															"function": "set_count",
+															"count": {
+																"min": 1,
+																"max": 3
+															}
+														}
+													]
+												},
+												"key": "functions",
+												"children": [
+													{
+														"open": [
+															{
+																"function": "set_count",
+																"count": {
+																	"min": 1,
+																	"max": 3
+																}
+															}
+														],
+														"children": [
+															{
+																"data": "set_count",
+																"key": "function"
+															},
+															{
+																"open": {
+																	"function": "set_count",
+																	"count": {
+																		"min": 1,
+																		"max": 3
+																	}
+																},
+																"key": "count",
+																"is_minified": true,
+																"children": {
+																	"min": 1,
+																	"max": 3
+																}
+															}
+														]
+													}
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

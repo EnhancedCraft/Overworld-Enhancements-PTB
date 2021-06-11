@@ -1,0 +1,178 @@
+{
+	"file_path": "C:\\Users\\nicki\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Overworld Enhancements BP\\recipes\\root_is_sapling3.json",
+	"file_type": "recipe",
+	"format_version": 1,
+	"file_uuid": "0416b71c_1aec_4f25_833b_3e87d769b18d",
+	"file_version": 6,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.0",
+					"minecraft:recipe_shaped": {
+						"description": {
+							"identifier": "overworld:root_is_sapling3"
+						},
+						"tags": [
+							"crafting_table"
+						],
+						"pattern": [
+							"wew",
+							"wew",
+							"wew"
+						],
+						"key": {
+							"w": {
+								"item": "overworld:roots",
+								"data": 0
+							},
+							"e": {
+								"item": "minecraft:log",
+								"data": 2
+							}
+						},
+						"result": [
+							{
+								"item": "minecraft:sapling",
+								"data": 2,
+								"count": 1
+							}
+						]
+					}
+				},
+				"key": "minecraft:recipe_shaped",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "overworld:root_is_sapling3"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"wew",
+								"wew",
+								"wew"
+							],
+							"key": {
+								"w": {
+									"item": "overworld:roots",
+									"data": 0
+								},
+								"e": {
+									"item": "minecraft:log",
+									"data": 2
+								}
+							},
+							"result": [
+								{
+									"item": "minecraft:sapling",
+									"data": 2,
+									"count": 1
+								}
+							]
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "overworld:root_is_sapling3"
+						}
+					},
+					{
+						"key": "tags",
+						"is_minified": true,
+						"children": [
+							"crafting_table"
+						]
+					},
+					{
+						"key": "pattern",
+						"is_minified": true,
+						"children": [
+							"wew",
+							"wew",
+							"wew"
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "overworld:root_is_sapling3"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"wew",
+								"wew",
+								"wew"
+							],
+							"key": {
+								"w": {
+									"item": "overworld:roots",
+									"data": 0
+								},
+								"e": {
+									"item": "minecraft:log",
+									"data": 2
+								}
+							},
+							"result": [
+								{
+									"item": "minecraft:sapling",
+									"data": 2,
+									"count": 1
+								}
+							]
+						},
+						"key": "key",
+						"children": [
+							{
+								"open": {
+									"w": {
+										"item": "overworld:roots",
+										"data": 0
+									},
+									"e": {
+										"item": "minecraft:log",
+										"data": 2
+									}
+								},
+								"key": "w",
+								"is_minified": true,
+								"children": {
+									"item": "overworld:roots",
+									"data": 0
+								}
+							},
+							{
+								"key": "e",
+								"is_minified": true,
+								"children": {
+									"item": "minecraft:log",
+									"data": 2
+								}
+							}
+						]
+					},
+					{
+						"key": "result",
+						"is_minified": true,
+						"children": [
+							{
+								"item": "minecraft:sapling",
+								"data": 2,
+								"count": 1
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

@@ -1,0 +1,82 @@
+{
+	"file_path": "C:\\Users\\nicki\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Overworld Enhancements BP\\features\\swamp_statue_structure.json",
+	"file_type": "feature",
+	"format_version": 1,
+	"file_uuid": "fd9a16cb_cdff_4c2e_afe2_c4fe97d4e27d",
+	"file_version": 0,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.13.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.13.0",
+					"minecraft:structure_template_feature": {
+						"description": {
+							"identifier": "overworld:swamp_statue_structure"
+						},
+						"structure_name": "mystructure:swamp_statue",
+						"adjustment_radius": 8,
+						"facing_direction": "random",
+						"constraints": {
+							"grounded": {}
+						}
+					}
+				},
+				"key": "minecraft:structure_template_feature",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "overworld:swamp_statue_structure"
+							},
+							"structure_name": "mystructure:swamp_statue",
+							"adjustment_radius": 8,
+							"facing_direction": "random",
+							"constraints": {
+								"grounded": {}
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "overworld:swamp_statue_structure"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "overworld:swamp_statue_structure"
+							},
+							"structure_name": "mystructure:swamp_statue",
+							"adjustment_radius": 8,
+							"facing_direction": "random",
+							"constraints": {
+								"grounded": {}
+							}
+						},
+						"data": "mystructure:swamp_statue",
+						"key": "structure_name"
+					},
+					{
+						"data": "8",
+						"key": "adjustment_radius"
+					},
+					{
+						"data": "random",
+						"key": "facing_direction"
+					},
+					{
+						"key": "constraints",
+						"is_minified": true,
+						"children": {
+							"grounded": {}
+						}
+					}
+				]
+			}
+		]
+	}
+}

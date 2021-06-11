@@ -1,0 +1,1249 @@
+{
+	"file_path": "C:\\Users\\nicki\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Overworld Enhancements BP\\blocks\\mangrove_sapling.json",
+	"file_type": "block",
+	"format_version": 1,
+	"file_uuid": "8c835e4b_88ff_4ea4_ab97_002f6b177d87",
+	"file_version": 37,
+	"cache_content": {
+		"children": [
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:block": {
+						"description": {
+							"identifier": "overworld:mangrove_sapling"
+						},
+						"components": {
+							"minecraft:destroy_time": 0.3,
+							"minecraft:block_light_absorption": 0,
+							"minecraft:explosion_resistance": 0,
+							"minecraft:material_instances": {
+								"*": {
+									"texture": "mangrove_sapling",
+									"render_method": "alpha_test"
+								}
+							},
+							"minecraft:geometry": "geometry.sapling",
+							"minecraft:placement_filter": {
+								"conditions": [
+									{
+										"block_filter": [
+											"minecraft:grass",
+											"minecraft:dirt"
+										],
+										"allowed_faces": [
+											"up"
+										]
+									}
+								]
+							},
+							"minecraft:on_interact": {
+								"condition": "query.get_equipped_item_name == 'bone_meal'",
+								"target": "self",
+								"event": "bonemeal"
+							},
+							"minecraft:loot": "loot_tables/sapling_break.json",
+							"minecraft:pick_collision": {
+								"origin": [
+									-5,
+									0,
+									-4
+								],
+								"size": [
+									11,
+									14,
+									11
+								]
+							},
+							"minecraft:entity_collision": false
+						},
+						"events": {
+							"bonemeal": {
+								"randomize": [
+									{
+										"weight": 15,
+										"run_command": {
+											"command": [
+												"particle minecraft:villager_happy ~~~"
+											],
+											"target": "self"
+										}
+									},
+									{
+										"weight": 6,
+										"run_command": {
+											"command": [
+												"particle minecraft:villager_happy ~~~",
+												"structure load mystructure:mangrove2 ~-6 ~ ~-4",
+												"clear @s bone_meal 0 1"
+											],
+											"target": "self"
+										},
+										"set_block": {
+											"block_type": "minecraft:air"
+										}
+									},
+									{
+										"weight": 4,
+										"run_command": {
+											"command": [
+												"particle minecraft:villager_happy ~~~",
+												"structure load mystructure:mangrove1 ~-3 ~ ~-2"
+											],
+											"target": "self"
+										},
+										"set_block": {
+											"block_type": "minecraft:air"
+										}
+									},
+									{
+										"weight": 3,
+										"run_command": {
+											"command": [
+												"particle minecraft:villager_happy ~~~",
+												"structure load mystructure:mangrove3 ~-3 ~ ~-1",
+												"particle minecraft:villager_happy ~~~",
+												"particle minecraft:villager_happy ~~~"
+											],
+											"target": "self"
+										},
+										"set_block": {
+											"block_type": "minecraft:air"
+										}
+									}
+								]
+							}
+						}
+					}
+				},
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:block": {
+						"description": {
+							"identifier": "overworld:mangrove_sapling"
+						},
+						"components": {
+							"minecraft:destroy_time": 0.3,
+							"minecraft:block_light_absorption": 0,
+							"minecraft:explosion_resistance": 0,
+							"minecraft:material_instances": {
+								"*": {
+									"texture": "mangrove_sapling",
+									"render_method": "alpha_test"
+								}
+							},
+							"minecraft:geometry": "geometry.sapling",
+							"minecraft:placement_filter": {
+								"conditions": [
+									{
+										"block_filter": [
+											"minecraft:grass",
+											"minecraft:dirt"
+										],
+										"allowed_faces": [
+											"up"
+										]
+									}
+								]
+							},
+							"minecraft:on_interact": {
+								"condition": "query.get_equipped_item_name == 'bone_meal'",
+								"target": "self",
+								"event": "bonemeal"
+							},
+							"minecraft:loot": "loot_tables/sapling_break.json",
+							"minecraft:pick_collision": {
+								"origin": [
+									-5,
+									0,
+									-4
+								],
+								"size": [
+									11,
+									14,
+									11
+								]
+							},
+							"minecraft:entity_collision": false
+						},
+						"events": {
+							"bonemeal": {
+								"randomize": [
+									{
+										"weight": 15,
+										"run_command": {
+											"command": [
+												"particle minecraft:villager_happy ~~~"
+											],
+											"target": "self"
+										}
+									},
+									{
+										"weight": 6,
+										"run_command": {
+											"command": [
+												"particle minecraft:villager_happy ~~~",
+												"structure load mystructure:mangrove2 ~-6 ~ ~-4",
+												"clear @s bone_meal 0 1"
+											],
+											"target": "self"
+										},
+										"set_block": {
+											"block_type": "minecraft:air"
+										}
+									},
+									{
+										"weight": 4,
+										"run_command": {
+											"command": [
+												"particle minecraft:villager_happy ~~~",
+												"structure load mystructure:mangrove1 ~-3 ~ ~-2"
+											],
+											"target": "self"
+										},
+										"set_block": {
+											"block_type": "minecraft:air"
+										}
+									},
+									{
+										"weight": 3,
+										"run_command": {
+											"command": [
+												"particle minecraft:villager_happy ~~~",
+												"structure load mystructure:mangrove3 ~-3 ~ ~-1",
+												"particle minecraft:villager_happy ~~~",
+												"particle minecraft:villager_happy ~~~"
+											],
+											"target": "self"
+										},
+										"set_block": {
+											"block_type": "minecraft:air"
+										}
+									}
+								]
+							}
+						}
+					}
+				},
+				"key": "minecraft:block",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "overworld:mangrove_sapling"
+							},
+							"components": {
+								"minecraft:destroy_time": 0.3,
+								"minecraft:block_light_absorption": 0,
+								"minecraft:explosion_resistance": 0,
+								"minecraft:material_instances": {
+									"*": {
+										"texture": "mangrove_sapling",
+										"render_method": "alpha_test"
+									}
+								},
+								"minecraft:geometry": "geometry.sapling",
+								"minecraft:placement_filter": {
+									"conditions": [
+										{
+											"block_filter": [
+												"minecraft:grass",
+												"minecraft:dirt"
+											],
+											"allowed_faces": [
+												"up"
+											]
+										}
+									]
+								},
+								"minecraft:on_interact": {
+									"condition": "query.get_equipped_item_name == 'bone_meal'",
+									"target": "self",
+									"event": "bonemeal"
+								},
+								"minecraft:loot": "loot_tables/sapling_break.json",
+								"minecraft:pick_collision": {
+									"origin": [
+										-5,
+										0,
+										-4
+									],
+									"size": [
+										11,
+										14,
+										11
+									]
+								},
+								"minecraft:entity_collision": false
+							},
+							"events": {
+								"bonemeal": {
+									"randomize": [
+										{
+											"weight": 15,
+											"run_command": {
+												"command": [
+													"particle minecraft:villager_happy ~~~"
+												],
+												"target": "self"
+											}
+										},
+										{
+											"weight": 6,
+											"run_command": {
+												"command": [
+													"particle minecraft:villager_happy ~~~",
+													"structure load mystructure:mangrove2 ~-6 ~ ~-4",
+													"clear @s bone_meal 0 1"
+												],
+												"target": "self"
+											},
+											"set_block": {
+												"block_type": "minecraft:air"
+											}
+										},
+										{
+											"weight": 4,
+											"run_command": {
+												"command": [
+													"particle minecraft:villager_happy ~~~",
+													"structure load mystructure:mangrove1 ~-3 ~ ~-2"
+												],
+												"target": "self"
+											},
+											"set_block": {
+												"block_type": "minecraft:air"
+											}
+										},
+										{
+											"weight": 3,
+											"run_command": {
+												"command": [
+													"particle minecraft:villager_happy ~~~",
+													"structure load mystructure:mangrove3 ~-3 ~ ~-1",
+													"particle minecraft:villager_happy ~~~",
+													"particle minecraft:villager_happy ~~~"
+												],
+												"target": "self"
+											},
+											"set_block": {
+												"block_type": "minecraft:air"
+											}
+										}
+									]
+								}
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "overworld:mangrove_sapling"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "overworld:mangrove_sapling"
+							},
+							"components": {
+								"minecraft:destroy_time": 0.3,
+								"minecraft:block_light_absorption": 0,
+								"minecraft:explosion_resistance": 0,
+								"minecraft:material_instances": {
+									"*": {
+										"texture": "mangrove_sapling",
+										"render_method": "alpha_test"
+									}
+								},
+								"minecraft:geometry": "geometry.sapling",
+								"minecraft:placement_filter": {
+									"conditions": [
+										{
+											"block_filter": [
+												"minecraft:grass",
+												"minecraft:dirt"
+											],
+											"allowed_faces": [
+												"up"
+											]
+										}
+									]
+								},
+								"minecraft:on_interact": {
+									"condition": "query.get_equipped_item_name == 'bone_meal'",
+									"target": "self",
+									"event": "bonemeal"
+								},
+								"minecraft:loot": "loot_tables/sapling_break.json",
+								"minecraft:pick_collision": {
+									"origin": [
+										-5,
+										0,
+										-4
+									],
+									"size": [
+										11,
+										14,
+										11
+									]
+								},
+								"minecraft:entity_collision": false
+							},
+							"events": {
+								"bonemeal": {
+									"randomize": [
+										{
+											"weight": 15,
+											"run_command": {
+												"command": [
+													"particle minecraft:villager_happy ~~~"
+												],
+												"target": "self"
+											}
+										},
+										{
+											"weight": 6,
+											"run_command": {
+												"command": [
+													"particle minecraft:villager_happy ~~~",
+													"structure load mystructure:mangrove2 ~-6 ~ ~-4",
+													"clear @s bone_meal 0 1"
+												],
+												"target": "self"
+											},
+											"set_block": {
+												"block_type": "minecraft:air"
+											}
+										},
+										{
+											"weight": 4,
+											"run_command": {
+												"command": [
+													"particle minecraft:villager_happy ~~~",
+													"structure load mystructure:mangrove1 ~-3 ~ ~-2"
+												],
+												"target": "self"
+											},
+											"set_block": {
+												"block_type": "minecraft:air"
+											}
+										},
+										{
+											"weight": 3,
+											"run_command": {
+												"command": [
+													"particle minecraft:villager_happy ~~~",
+													"structure load mystructure:mangrove3 ~-3 ~ ~-1",
+													"particle minecraft:villager_happy ~~~",
+													"particle minecraft:villager_happy ~~~"
+												],
+												"target": "self"
+											},
+											"set_block": {
+												"block_type": "minecraft:air"
+											}
+										}
+									]
+								}
+							}
+						},
+						"key": "components",
+						"children": [
+							{
+								"data": "0.3",
+								"key": "minecraft:destroy_time"
+							},
+							{
+								"data": "0.0",
+								"key": "minecraft:block_light_absorption"
+							},
+							{
+								"data": "0.0",
+								"key": "minecraft:explosion_resistance"
+							},
+							{
+								"key": "minecraft:material_instances",
+								"children": [
+									{
+										"open": {
+											"*": {
+												"texture": "mangrove_sapling",
+												"render_method": "alpha_test"
+											}
+										},
+										"key": "*",
+										"is_minified": true,
+										"children": {
+											"texture": "mangrove_sapling",
+											"render_method": "alpha_test"
+										}
+									}
+								]
+							},
+							{
+								"data": "geometry.sapling",
+								"key": "minecraft:geometry"
+							},
+							{
+								"key": "minecraft:placement_filter",
+								"children": [
+									{
+										"open": {
+											"conditions": [
+												{
+													"block_filter": [
+														"minecraft:grass",
+														"minecraft:dirt"
+													],
+													"allowed_faces": [
+														"up"
+													]
+												}
+											]
+										},
+										"key": "conditions",
+										"children": [
+											{
+												"open": [
+													{
+														"block_filter": [
+															"minecraft:grass",
+															"minecraft:dirt"
+														],
+														"allowed_faces": [
+															"up"
+														]
+													}
+												],
+												"children": [
+													{
+														"open": {
+															"block_filter": [
+																"minecraft:grass",
+																"minecraft:dirt"
+															],
+															"allowed_faces": [
+																"up"
+															]
+														},
+														"key": "block_filter",
+														"is_minified": true,
+														"children": [
+															"minecraft:grass",
+															"minecraft:dirt"
+														]
+													},
+													{
+														"open": {
+															"block_filter": [
+																"minecraft:grass",
+																"minecraft:dirt"
+															],
+															"allowed_faces": [
+																"up"
+															]
+														},
+														"key": "allowed_faces",
+														"is_minified": true,
+														"children": [
+															"up"
+														]
+													}
+												]
+											}
+										]
+									}
+								]
+							},
+							{
+								"open": {
+									"minecraft:destroy_time": 0.3,
+									"minecraft:block_light_absorption": 0,
+									"minecraft:explosion_resistance": 0,
+									"minecraft:material_instances": {
+										"*": {
+											"texture": "mangrove_sapling",
+											"render_method": "alpha_test"
+										}
+									},
+									"minecraft:geometry": "geometry.sapling",
+									"minecraft:placement_filter": {
+										"conditions": [
+											{
+												"block_filter": [
+													"minecraft:grass",
+													"minecraft:dirt"
+												],
+												"allowed_faces": [
+													"up"
+												]
+											}
+										]
+									},
+									"minecraft:on_interact": {
+										"condition": "query.get_equipped_item_name == 'bone_meal'",
+										"target": "self",
+										"event": "bonemeal"
+									},
+									"minecraft:loot": "loot_tables/sapling_break.json",
+									"minecraft:pick_collision": {
+										"origin": [
+											-5,
+											0,
+											-4
+										],
+										"size": [
+											11,
+											14,
+											11
+										]
+									},
+									"minecraft:entity_collision": false
+								},
+								"key": "minecraft:on_interact",
+								"is_minified": true,
+								"children": {
+									"condition": "query.get_equipped_item_name == 'bone_meal'",
+									"target": "self",
+									"event": "bonemeal"
+								}
+							},
+							{
+								"data": "loot_tables/sapling_break.json",
+								"key": "minecraft:loot"
+							},
+							{
+								"open": {
+									"minecraft:destroy_time": 0.3,
+									"minecraft:block_light_absorption": 0,
+									"minecraft:explosion_resistance": 0,
+									"minecraft:material_instances": {
+										"*": {
+											"texture": "mangrove_sapling",
+											"render_method": "alpha_test"
+										}
+									},
+									"minecraft:geometry": "geometry.sapling",
+									"minecraft:placement_filter": {
+										"conditions": [
+											{
+												"block_filter": [
+													"minecraft:grass",
+													"minecraft:dirt"
+												],
+												"allowed_faces": [
+													"up"
+												]
+											}
+										]
+									},
+									"minecraft:on_interact": {
+										"condition": "query.get_equipped_item_name == 'bone_meal'",
+										"target": "self",
+										"event": "bonemeal"
+									},
+									"minecraft:loot": "loot_tables/sapling_break.json",
+									"minecraft:pick_collision": {
+										"origin": [
+											-5,
+											0,
+											-4
+										],
+										"size": [
+											11,
+											14,
+											11
+										]
+									},
+									"minecraft:entity_collision": false
+								},
+								"key": "minecraft:pick_collision",
+								"children": [
+									{
+										"open": {
+											"origin": [
+												-5,
+												0,
+												-4
+											],
+											"size": [
+												11,
+												14,
+												11
+											]
+										},
+										"key": "origin",
+										"is_minified": true,
+										"children": [
+											-5,
+											0,
+											-4
+										]
+									},
+									{
+										"open": {
+											"origin": [
+												-5,
+												0,
+												-4
+											],
+											"size": [
+												11,
+												14,
+												11
+											]
+										},
+										"key": "size",
+										"is_minified": true,
+										"children": [
+											11,
+											14,
+											11
+										]
+									}
+								]
+							},
+							{
+								"data": "false",
+								"key": "minecraft:entity_collision"
+							}
+						]
+					},
+					{
+						"key": "events",
+						"children": [
+							{
+								"open": {
+									"bonemeal": {
+										"randomize": [
+											{
+												"weight": 15,
+												"run_command": {
+													"command": [
+														"particle minecraft:villager_happy ~~~"
+													],
+													"target": "self"
+												}
+											},
+											{
+												"weight": 6,
+												"run_command": {
+													"command": [
+														"particle minecraft:villager_happy ~~~",
+														"structure load mystructure:mangrove2 ~-6 ~ ~-4",
+														"clear @s bone_meal 0 1"
+													],
+													"target": "self"
+												},
+												"set_block": {
+													"block_type": "minecraft:air"
+												}
+											},
+											{
+												"weight": 4,
+												"run_command": {
+													"command": [
+														"particle minecraft:villager_happy ~~~",
+														"structure load mystructure:mangrove1 ~-3 ~ ~-2"
+													],
+													"target": "self"
+												},
+												"set_block": {
+													"block_type": "minecraft:air"
+												}
+											},
+											{
+												"weight": 3,
+												"run_command": {
+													"command": [
+														"particle minecraft:villager_happy ~~~",
+														"structure load mystructure:mangrove3 ~-3 ~ ~-1",
+														"particle minecraft:villager_happy ~~~",
+														"particle minecraft:villager_happy ~~~"
+													],
+													"target": "self"
+												},
+												"set_block": {
+													"block_type": "minecraft:air"
+												}
+											}
+										]
+									}
+								},
+								"key": "bonemeal",
+								"children": [
+									{
+										"open": {
+											"randomize": [
+												{
+													"weight": 15,
+													"run_command": {
+														"command": [
+															"particle minecraft:villager_happy ~~~"
+														],
+														"target": "self"
+													}
+												},
+												{
+													"weight": 6,
+													"run_command": {
+														"command": [
+															"particle minecraft:villager_happy ~~~",
+															"structure load mystructure:mangrove2 ~-6 ~ ~-4",
+															"clear @s bone_meal 0 1"
+														],
+														"target": "self"
+													},
+													"set_block": {
+														"block_type": "minecraft:air"
+													}
+												},
+												{
+													"weight": 4,
+													"run_command": {
+														"command": [
+															"particle minecraft:villager_happy ~~~",
+															"structure load mystructure:mangrove1 ~-3 ~ ~-2"
+														],
+														"target": "self"
+													},
+													"set_block": {
+														"block_type": "minecraft:air"
+													}
+												},
+												{
+													"weight": 3,
+													"run_command": {
+														"command": [
+															"particle minecraft:villager_happy ~~~",
+															"structure load mystructure:mangrove3 ~-3 ~ ~-1",
+															"particle minecraft:villager_happy ~~~",
+															"particle minecraft:villager_happy ~~~"
+														],
+														"target": "self"
+													},
+													"set_block": {
+														"block_type": "minecraft:air"
+													}
+												}
+											]
+										},
+										"key": "randomize",
+										"children": [
+											{
+												"open": [
+													{
+														"weight": 15,
+														"run_command": {
+															"command": [
+																"particle minecraft:villager_happy ~~~"
+															],
+															"target": "self"
+														}
+													},
+													{
+														"weight": 6,
+														"run_command": {
+															"command": [
+																"particle minecraft:villager_happy ~~~",
+																"structure load mystructure:mangrove2 ~-6 ~ ~-4",
+																"clear @s bone_meal 0 1"
+															],
+															"target": "self"
+														},
+														"set_block": {
+															"block_type": "minecraft:air"
+														}
+													},
+													{
+														"weight": 4,
+														"run_command": {
+															"command": [
+																"particle minecraft:villager_happy ~~~",
+																"structure load mystructure:mangrove1 ~-3 ~ ~-2"
+															],
+															"target": "self"
+														},
+														"set_block": {
+															"block_type": "minecraft:air"
+														}
+													},
+													{
+														"weight": 3,
+														"run_command": {
+															"command": [
+																"particle minecraft:villager_happy ~~~",
+																"structure load mystructure:mangrove3 ~-3 ~ ~-1",
+																"particle minecraft:villager_happy ~~~",
+																"particle minecraft:villager_happy ~~~"
+															],
+															"target": "self"
+														},
+														"set_block": {
+															"block_type": "minecraft:air"
+														}
+													}
+												],
+												"children": [
+													{
+														"data": "15",
+														"key": "weight"
+													},
+													{
+														"open": {
+															"weight": 15,
+															"run_command": {
+																"command": [
+																	"particle minecraft:villager_happy ~~~"
+																],
+																"target": "self"
+															}
+														},
+														"key": "run_command",
+														"children": [
+															{
+																"open": {
+																	"command": [
+																		"particle minecraft:villager_happy ~~~"
+																	],
+																	"target": "self"
+																},
+																"key": "command",
+																"is_minified": true,
+																"children": [
+																	"particle minecraft:villager_happy ~~~"
+																]
+															},
+															{
+																"data": "self",
+																"key": "target"
+															}
+														]
+													}
+												]
+											},
+											{
+												"open": [
+													{
+														"weight": 15,
+														"run_command": {
+															"command": [
+																"particle minecraft:villager_happy ~~~"
+															],
+															"target": "self"
+														}
+													},
+													{
+														"weight": 6,
+														"run_command": {
+															"command": [
+																"particle minecraft:villager_happy ~~~",
+																"structure load mystructure:mangrove2 ~-6 ~ ~-4",
+																"clear @s bone_meal 0 1"
+															],
+															"target": "self"
+														},
+														"set_block": {
+															"block_type": "minecraft:air"
+														}
+													},
+													{
+														"weight": 4,
+														"run_command": {
+															"command": [
+																"particle minecraft:villager_happy ~~~",
+																"structure load mystructure:mangrove1 ~-3 ~ ~-2"
+															],
+															"target": "self"
+														},
+														"set_block": {
+															"block_type": "minecraft:air"
+														}
+													},
+													{
+														"weight": 3,
+														"run_command": {
+															"command": [
+																"particle minecraft:villager_happy ~~~",
+																"structure load mystructure:mangrove3 ~-3 ~ ~-1",
+																"particle minecraft:villager_happy ~~~",
+																"particle minecraft:villager_happy ~~~"
+															],
+															"target": "self"
+														},
+														"set_block": {
+															"block_type": "minecraft:air"
+														}
+													}
+												],
+												"children": [
+													{
+														"data": "6",
+														"key": "weight"
+													},
+													{
+														"key": "run_command",
+														"children": [
+															{
+																"open": {
+																	"command": [
+																		"particle minecraft:villager_happy ~~~",
+																		"structure load mystructure:mangrove2 ~-6 ~ ~-4",
+																		"clear @s bone_meal 0 1"
+																	],
+																	"target": "self"
+																},
+																"key": "command",
+																"is_minified": true,
+																"children": [
+																	"particle minecraft:villager_happy ~~~",
+																	"structure load mystructure:mangrove2 ~-6 ~ ~-4",
+																	"clear @s bone_meal 0 1"
+																]
+															},
+															{
+																"data": "self",
+																"key": "target"
+															}
+														]
+													},
+													{
+														"key": "set_block",
+														"is_minified": true,
+														"children": {
+															"block_type": "minecraft:air"
+														}
+													}
+												]
+											},
+											{
+												"open": [
+													{
+														"weight": 15,
+														"run_command": {
+															"command": [
+																"particle minecraft:villager_happy ~~~"
+															],
+															"target": "self"
+														}
+													},
+													{
+														"weight": 6,
+														"run_command": {
+															"command": [
+																"particle minecraft:villager_happy ~~~",
+																"structure load mystructure:mangrove2 ~-6 ~ ~-4",
+																"clear @s bone_meal 0 1"
+															],
+															"target": "self"
+														},
+														"set_block": {
+															"block_type": "minecraft:air"
+														}
+													},
+													{
+														"weight": 4,
+														"run_command": {
+															"command": [
+																"particle minecraft:villager_happy ~~~",
+																"structure load mystructure:mangrove1 ~-3 ~ ~-2"
+															],
+															"target": "self"
+														},
+														"set_block": {
+															"block_type": "minecraft:air"
+														}
+													},
+													{
+														"weight": 3,
+														"run_command": {
+															"command": [
+																"particle minecraft:villager_happy ~~~",
+																"structure load mystructure:mangrove3 ~-3 ~ ~-1",
+																"particle minecraft:villager_happy ~~~",
+																"particle minecraft:villager_happy ~~~"
+															],
+															"target": "self"
+														},
+														"set_block": {
+															"block_type": "minecraft:air"
+														}
+													}
+												],
+												"children": [
+													{
+														"data": "4",
+														"key": "weight"
+													},
+													{
+														"open": {
+															"weight": 4,
+															"run_command": {
+																"command": [
+																	"particle minecraft:villager_happy ~~~",
+																	"structure load mystructure:mangrove1 ~-3 ~ ~-2"
+																],
+																"target": "self"
+															},
+															"set_block": {
+																"block_type": "minecraft:air"
+															}
+														},
+														"key": "run_command",
+														"children": [
+															{
+																"open": {
+																	"command": [
+																		"particle minecraft:villager_happy ~~~",
+																		"structure load mystructure:mangrove1 ~-3 ~ ~-2"
+																	],
+																	"target": "self"
+																},
+																"key": "command",
+																"is_minified": true,
+																"children": [
+																	"particle minecraft:villager_happy ~~~",
+																	"structure load mystructure:mangrove1 ~-3 ~ ~-2"
+																]
+															},
+															{
+																"data": "self",
+																"key": "target"
+															}
+														]
+													},
+													{
+														"key": "set_block",
+														"is_minified": true,
+														"children": {
+															"block_type": "minecraft:air"
+														}
+													}
+												]
+											},
+											{
+												"open": [
+													{
+														"weight": 15,
+														"run_command": {
+															"command": [
+																"particle minecraft:villager_happy ~~~"
+															],
+															"target": "self"
+														}
+													},
+													{
+														"weight": 6,
+														"run_command": {
+															"command": [
+																"particle minecraft:villager_happy ~~~",
+																"structure load mystructure:mangrove2 ~-6 ~ ~-4",
+																"clear @s bone_meal 0 1"
+															],
+															"target": "self"
+														},
+														"set_block": {
+															"block_type": "minecraft:air"
+														}
+													},
+													{
+														"weight": 4,
+														"run_command": {
+															"command": [
+																"particle minecraft:villager_happy ~~~",
+																"structure load mystructure:mangrove1 ~-3 ~ ~-2"
+															],
+															"target": "self"
+														},
+														"set_block": {
+															"block_type": "minecraft:air"
+														}
+													},
+													{
+														"weight": 3,
+														"run_command": {
+															"command": [
+																"particle minecraft:villager_happy ~~~",
+																"structure load mystructure:mangrove3 ~-3 ~ ~-1",
+																"particle minecraft:villager_happy ~~~",
+																"particle minecraft:villager_happy ~~~"
+															],
+															"target": "self"
+														},
+														"set_block": {
+															"block_type": "minecraft:air"
+														}
+													}
+												],
+												"children": [
+													{
+														"data": "3",
+														"key": "weight"
+													},
+													{
+														"open": {
+															"weight": 3,
+															"run_command": {
+																"command": [
+																	"particle minecraft:villager_happy ~~~",
+																	"structure load mystructure:mangrove3 ~-3 ~ ~-1",
+																	"particle minecraft:villager_happy ~~~",
+																	"particle minecraft:villager_happy ~~~"
+																],
+																"target": "self"
+															},
+															"set_block": {
+																"block_type": "minecraft:air"
+															}
+														},
+														"key": "run_command",
+														"children": [
+															{
+																"open": {
+																	"command": [
+																		"particle minecraft:villager_happy ~~~",
+																		"structure load mystructure:mangrove3 ~-3 ~ ~-1",
+																		"particle minecraft:villager_happy ~~~",
+																		"particle minecraft:villager_happy ~~~"
+																	],
+																	"target": "self"
+																},
+																"key": "command",
+																"is_minified": true,
+																"children": [
+																	"particle minecraft:villager_happy ~~~",
+																	"structure load mystructure:mangrove3 ~-3 ~ ~-1",
+																	"particle minecraft:villager_happy ~~~",
+																	"particle minecraft:villager_happy ~~~"
+																]
+															},
+															{
+																"data": "self",
+																"key": "target"
+															}
+														]
+													},
+													{
+														"key": "set_block",
+														"is_minified": true,
+														"children": {
+															"block_type": "minecraft:air"
+														}
+													}
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

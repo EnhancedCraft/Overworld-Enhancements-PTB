@@ -1,0 +1,41 @@
+//bridge-file-version: #8
+{
+	"format_version": "1.13.0",
+	"minecraft:feature_rules": {
+		"description": {
+			"identifier": "overworld:small_glowing_mushroom_feature",
+			"places_feature": "overworld:small_glowing_mushroom"
+		},
+		"conditions": {
+			"placement_pass": "surface_pass",
+			"minecraft:biome_filter": {
+				"test": "has_biome_tag",
+				"operator": "==",
+				"value": "glowing_mushroom"
+			}
+		},
+		"distribution": {
+			"iterations": 1,
+			"x": {
+				"extent": [
+					0,
+					16
+				],
+				"distribution": "uniform"
+			},
+			"y": "query.heightmap(variable.worldx, variable.worldz)",
+			"z": {
+				"extent": [
+					0,
+					16
+				],
+				"distribution": "uniform"
+			},
+			"coordinate_eval_order": "zyx",
+			"scatter_chance": {
+				"numerator": 1,
+				"denominator": 3
+			}
+		}
+	}
+}

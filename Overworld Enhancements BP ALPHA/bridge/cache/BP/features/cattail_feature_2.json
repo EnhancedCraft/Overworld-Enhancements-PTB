@@ -1,0 +1,109 @@
+{
+	"file_path": "C:\\Users\\nicki\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Overworld Enhancements BP\\features\\cattail_feature_2.json",
+	"file_type": "feature",
+	"format_version": 1,
+	"file_uuid": "fe20cad5_3c72_4a7c_b948_c3b3f323c9f5",
+	"file_version": 1,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.13.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.13.0",
+					"minecraft:single_block_feature": {
+						"description": {
+							"identifier": "overworld:cattail_feature_2"
+						},
+						"places_block": {
+							"name": "overworld:cattail",
+							"states": {}
+						},
+						"enforce_survivability_rules": true,
+						"enforce_placement_rules": true,
+						"may_replace": [
+							"minecraft:air"
+						]
+					}
+				},
+				"key": "minecraft:single_block_feature",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "overworld:cattail_feature_2"
+							},
+							"places_block": {
+								"name": "overworld:cattail",
+								"states": {}
+							},
+							"enforce_survivability_rules": true,
+							"enforce_placement_rules": true,
+							"may_replace": [
+								"minecraft:air"
+							]
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "overworld:cattail_feature_2"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "overworld:cattail_feature_2"
+							},
+							"places_block": {
+								"name": "overworld:cattail",
+								"states": {}
+							},
+							"enforce_survivability_rules": true,
+							"enforce_placement_rules": true,
+							"may_replace": [
+								"minecraft:air"
+							]
+						},
+						"key": "places_block",
+						"is_minified": true,
+						"children": {
+							"name": "overworld:cattail",
+							"states": {}
+						}
+					},
+					{
+						"data": "true",
+						"key": "enforce_survivability_rules"
+					},
+					{
+						"data": "true",
+						"key": "enforce_placement_rules"
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "overworld:cattail_feature_2"
+							},
+							"places_block": {
+								"name": "overworld:cattail",
+								"states": {}
+							},
+							"enforce_survivability_rules": true,
+							"enforce_placement_rules": true,
+							"may_replace": [
+								"minecraft:air"
+							]
+						},
+						"key": "may_replace",
+						"is_minified": true,
+						"children": [
+							"minecraft:air"
+						]
+					}
+				]
+			}
+		]
+	}
+}

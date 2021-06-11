@@ -1,0 +1,396 @@
+{
+	"file_path": "C:\\Users\\nicki\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\Overworld Enhancements RP\\textures\\terrain_texture.json",
+	"file_type": "terrain_texture",
+	"format_version": 1,
+	"file_uuid": "c871c673_1204_4ee6_9fe0_a2c722422574",
+	"file_version": 21,
+	"cache_content": {
+		"children": [
+			{
+				"data": "bridgeRP",
+				"key": "resource_pack_name"
+			},
+			{
+				"data": "atlas.terrain",
+				"key": "texture_name"
+			},
+			{
+				"data": "8",
+				"key": "padding"
+			},
+			{
+				"data": "4",
+				"key": "num_mip_levels"
+			},
+			{
+				"open": {
+					"resource_pack_name": "bridgeRP",
+					"texture_name": "atlas.terrain",
+					"padding": 8,
+					"num_mip_levels": 4,
+					"texture_data": {
+						"palm_leaves": {
+							"textures": "textures/blocks/palm_leaves"
+						},
+						"cattail": {
+							"textures": "textures/blocks/cattail"
+						},
+						"pink_opal_lily": {
+							"textures": "textures/blocks/pink_opal_lily"
+						},
+						"green_mushroom": {
+							"textures": "textures/blocks/green_mushroom"
+						},
+						"mangrove_planks": {
+							"textures": [
+								"textures/blocks/mangrove_planks"
+							]
+						},
+						"mangrove_log": {
+							"textures": [
+								"textures/blocks/mangrove_log"
+							]
+						},
+						"canary_grass": {
+							"textures": "textures/blocks/canary_grass"
+						},
+						"wampi_plant": {
+							"textures": "textures/blocks/wampi_plant"
+						},
+						"palm_log": {
+							"textures": "textures/blocks/palm_log"
+						},
+						"mangrove_leaves": {
+							"textures": "textures/blocks/mangrove_leaves"
+						},
+						"peat": {
+							"textures": "textures/blocks/peat"
+						},
+						"mud": {
+							"textures": "textures/blocks/mud"
+						},
+						"wampi_plant_non": {
+							"textures": "textures/blocks/wampi_plant_non"
+						},
+						"root_dirt": {
+							"textures": "textures/blocks/root_dirt"
+						},
+						"toproot": {
+							"textures": "textures/blocks/toproot"
+						},
+						"yellow_mushroom": {
+							"textures": "textures/blocks/yellow_mushroom"
+						},
+						"peat_bricks": {
+							"textures": "textures/blocks/peat_bricks"
+						},
+						"palm_planks": {
+							"textures": "textures/blocks/palm_planks"
+						},
+						"cattail_skinned": {
+							"textures": "textures/blocks/cattail_skinned"
+						},
+						"mangrove_sapling": {
+							"textures": "textures/blocks/mangrove_sapling"
+						},
+						"spike_plant": {
+							"textures": "textures/blocks/spike_plant"
+						}
+					}
+				},
+				"key": "texture_data",
+				"children": [
+					{
+						"key": "palm_leaves",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/palm_leaves"
+						}
+					},
+					{
+						"key": "cattail",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/cattail"
+						}
+					},
+					{
+						"key": "pink_opal_lily",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/pink_opal_lily"
+						}
+					},
+					{
+						"key": "green_mushroom",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/green_mushroom"
+						}
+					},
+					{
+						"key": "mangrove_planks",
+						"is_minified": true,
+						"children": {
+							"textures": [
+								"textures/blocks/mangrove_planks"
+							]
+						}
+					},
+					{
+						"key": "mangrove_log",
+						"is_minified": true,
+						"children": {
+							"textures": [
+								"textures/blocks/mangrove_log"
+							]
+						}
+					},
+					{
+						"key": "canary_grass",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/canary_grass"
+						}
+					},
+					{
+						"key": "wampi_plant",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/wampi_plant"
+						}
+					},
+					{
+						"key": "palm_log",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/palm_log"
+						}
+					},
+					{
+						"key": "mangrove_leaves",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/mangrove_leaves"
+						}
+					},
+					{
+						"key": "peat",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/peat"
+						}
+					},
+					{
+						"key": "mud",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/mud"
+						}
+					},
+					{
+						"key": "wampi_plant_non",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/wampi_plant_non"
+						}
+					},
+					{
+						"key": "root_dirt",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/root_dirt"
+						}
+					},
+					{
+						"key": "toproot",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/toproot"
+						}
+					},
+					{
+						"key": "yellow_mushroom",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/yellow_mushroom"
+						}
+					},
+					{
+						"key": "peat_bricks",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/peat_bricks"
+						}
+					},
+					{
+						"key": "palm_planks",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/palm_planks"
+						}
+					},
+					{
+						"key": "cattail_skinned",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/cattail_skinned"
+						}
+					},
+					{
+						"open": {
+							"palm_leaves": {
+								"textures": "textures/blocks/palm_leaves"
+							},
+							"cattail": {
+								"textures": "textures/blocks/cattail"
+							},
+							"pink_opal_lily": {
+								"textures": "textures/blocks/pink_opal_lily"
+							},
+							"green_mushroom": {
+								"textures": "textures/blocks/green_mushroom"
+							},
+							"mangrove_planks": {
+								"textures": [
+									"textures/blocks/mangrove_planks"
+								]
+							},
+							"mangrove_log": {
+								"textures": [
+									"textures/blocks/mangrove_log"
+								]
+							},
+							"canary_grass": {
+								"textures": "textures/blocks/canary_grass"
+							},
+							"wampi_plant": {
+								"textures": "textures/blocks/wampi_plant"
+							},
+							"palm_log": {
+								"textures": "textures/blocks/palm_log"
+							},
+							"mangrove_leaves": {
+								"textures": "textures/blocks/mangrove_leaves"
+							},
+							"peat": {
+								"textures": "textures/blocks/peat"
+							},
+							"mud": {
+								"textures": "textures/blocks/mud"
+							},
+							"wampi_plant_non": {
+								"textures": "textures/blocks/wampi_plant_non"
+							},
+							"root_dirt": {
+								"textures": "textures/blocks/root_dirt"
+							},
+							"toproot": {
+								"textures": "textures/blocks/toproot"
+							},
+							"yellow_mushroom": {
+								"textures": "textures/blocks/yellow_mushroom"
+							},
+							"peat_bricks": {
+								"textures": "textures/blocks/peat_bricks"
+							},
+							"palm_planks": {
+								"textures": "textures/blocks/palm_planks"
+							},
+							"cattail_skinned": {
+								"textures": "textures/blocks/cattail_skinned"
+							},
+							"mangrove_sapling": {
+								"textures": "textures/blocks/mangrove_sapling"
+							},
+							"spike_plant": {
+								"textures": "textures/blocks/spike_plant"
+							}
+						},
+						"key": "mangrove_sapling",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/mangrove_sapling"
+						}
+					},
+					{
+						"open": {
+							"palm_leaves": {
+								"textures": "textures/blocks/palm_leaves"
+							},
+							"cattail": {
+								"textures": "textures/blocks/cattail"
+							},
+							"pink_opal_lily": {
+								"textures": "textures/blocks/pink_opal_lily"
+							},
+							"green_mushroom": {
+								"textures": "textures/blocks/green_mushroom"
+							},
+							"mangrove_planks": {
+								"textures": [
+									"textures/blocks/mangrove_planks"
+								]
+							},
+							"mangrove_log": {
+								"textures": [
+									"textures/blocks/mangrove_log"
+								]
+							},
+							"canary_grass": {
+								"textures": "textures/blocks/canary_grass"
+							},
+							"wampi_plant": {
+								"textures": "textures/blocks/wampi_plant"
+							},
+							"palm_log": {
+								"textures": "textures/blocks/palm_log"
+							},
+							"mangrove_leaves": {
+								"textures": "textures/blocks/mangrove_leaves"
+							},
+							"peat": {
+								"textures": "textures/blocks/peat"
+							},
+							"mud": {
+								"textures": "textures/blocks/mud"
+							},
+							"wampi_plant_non": {
+								"textures": "textures/blocks/wampi_plant_non"
+							},
+							"root_dirt": {
+								"textures": "textures/blocks/root_dirt"
+							},
+							"toproot": {
+								"textures": "textures/blocks/toproot"
+							},
+							"yellow_mushroom": {
+								"textures": "textures/blocks/yellow_mushroom"
+							},
+							"peat_bricks": {
+								"textures": "textures/blocks/peat_bricks"
+							},
+							"palm_planks": {
+								"textures": "textures/blocks/palm_planks"
+							},
+							"cattail_skinned": {
+								"textures": "textures/blocks/cattail_skinned"
+							},
+							"mangrove_sapling": {
+								"textures": "textures/blocks/mangrove_sapling"
+							},
+							"spike_plant": {
+								"textures": "textures/blocks/spike_plant"
+							}
+						},
+						"key": "spike_plant",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/spike_plant"
+						}
+					}
+				]
+			}
+		]
+	}
+}

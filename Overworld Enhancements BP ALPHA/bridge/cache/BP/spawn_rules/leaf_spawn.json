@@ -1,0 +1,306 @@
+{
+	"file_path": "C:\\Users\\nicki\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Overworld Enhancements BP\\spawn_rules\\leaf_spawn.json",
+	"file_type": "spawn_rule",
+	"format_version": 1,
+	"file_uuid": "032ebf34_8935_46a0_b35b_36912f1d097b",
+	"file_version": 6,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:spawn_rules": {
+						"description": {
+							"identifier": "overworld:leaf_spawn",
+							"population_control": "animal"
+						},
+						"conditions": [
+							{
+								"minecraft:weight": {
+									"default": 999
+								},
+								"minecraft:spawns_on_block_filter": [
+									"minecraft:leaves",
+									"minecraft:leaves2"
+								],
+								"minecraft:biome_filter": {
+									"any_of": [
+										{
+											"test": "has_biome_tag",
+											"operator": "==",
+											"value": "overworld_generation"
+										},
+										{
+											"test": "has_biome_tag",
+											"operator": "==",
+											"value": "overworld"
+										}
+									]
+								}
+							}
+						]
+					}
+				},
+				"key": "minecraft:spawn_rules",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "overworld:leaf_spawn",
+								"population_control": "animal"
+							},
+							"conditions": [
+								{
+									"minecraft:weight": {
+										"default": 999
+									},
+									"minecraft:spawns_on_block_filter": [
+										"minecraft:leaves",
+										"minecraft:leaves2"
+									],
+									"minecraft:biome_filter": {
+										"any_of": [
+											{
+												"test": "has_biome_tag",
+												"operator": "==",
+												"value": "overworld_generation"
+											},
+											{
+												"test": "has_biome_tag",
+												"operator": "==",
+												"value": "overworld"
+											}
+										]
+									}
+								}
+							]
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "overworld:leaf_spawn",
+							"population_control": "animal"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "overworld:leaf_spawn",
+								"population_control": "animal"
+							},
+							"conditions": [
+								{
+									"minecraft:weight": {
+										"default": 999
+									},
+									"minecraft:spawns_on_block_filter": [
+										"minecraft:leaves",
+										"minecraft:leaves2"
+									],
+									"minecraft:biome_filter": {
+										"any_of": [
+											{
+												"test": "has_biome_tag",
+												"operator": "==",
+												"value": "overworld_generation"
+											},
+											{
+												"test": "has_biome_tag",
+												"operator": "==",
+												"value": "overworld"
+											}
+										]
+									}
+								}
+							]
+						},
+						"key": "conditions",
+						"children": [
+							{
+								"open": [
+									{
+										"minecraft:weight": {
+											"default": 999
+										},
+										"minecraft:spawns_on_block_filter": [
+											"minecraft:leaves",
+											"minecraft:leaves2"
+										],
+										"minecraft:biome_filter": {
+											"any_of": [
+												{
+													"test": "has_biome_tag",
+													"operator": "==",
+													"value": "overworld_generation"
+												},
+												{
+													"test": "has_biome_tag",
+													"operator": "==",
+													"value": "overworld"
+												}
+											]
+										}
+									}
+								],
+								"children": [
+									{
+										"open": {
+											"minecraft:weight": {
+												"default": 999
+											},
+											"minecraft:spawns_on_block_filter": [
+												"minecraft:leaves",
+												"minecraft:leaves2"
+											],
+											"minecraft:biome_filter": {
+												"any_of": [
+													{
+														"test": "has_biome_tag",
+														"operator": "==",
+														"value": "overworld_generation"
+													},
+													{
+														"test": "has_biome_tag",
+														"operator": "==",
+														"value": "overworld"
+													}
+												]
+											}
+										},
+										"key": "minecraft:weight",
+										"is_minified": true,
+										"children": {
+											"default": 999
+										}
+									},
+									{
+										"open": {
+											"minecraft:weight": {
+												"default": 999
+											},
+											"minecraft:spawns_on_block_filter": [
+												"minecraft:leaves",
+												"minecraft:leaves2"
+											],
+											"minecraft:biome_filter": {
+												"any_of": [
+													{
+														"test": "has_biome_tag",
+														"operator": "==",
+														"value": "overworld_generation"
+													},
+													{
+														"test": "has_biome_tag",
+														"operator": "==",
+														"value": "overworld"
+													}
+												]
+											}
+										},
+										"key": "minecraft:spawns_on_block_filter",
+										"is_minified": true,
+										"children": [
+											"minecraft:leaves",
+											"minecraft:leaves2"
+										]
+									},
+									{
+										"open": {
+											"minecraft:weight": {
+												"default": 999
+											},
+											"minecraft:spawns_on_block_filter": [
+												"minecraft:leaves",
+												"minecraft:leaves2"
+											],
+											"minecraft:biome_filter": {
+												"any_of": [
+													{
+														"test": "has_biome_tag",
+														"operator": "==",
+														"value": "overworld_generation"
+													},
+													{
+														"test": "has_biome_tag",
+														"operator": "==",
+														"value": "overworld"
+													}
+												]
+											}
+										},
+										"key": "minecraft:biome_filter",
+										"children": [
+											{
+												"open": {
+													"any_of": [
+														{
+															"test": "has_biome_tag",
+															"operator": "==",
+															"value": "overworld_generation"
+														},
+														{
+															"test": "has_biome_tag",
+															"operator": "==",
+															"value": "overworld"
+														}
+													]
+												},
+												"key": "any_of",
+												"children": [
+													{
+														"open": [
+															{
+																"test": "has_biome_tag",
+																"operator": "==",
+																"value": "overworld_generation"
+															},
+															{
+																"test": "has_biome_tag",
+																"operator": "==",
+																"value": "overworld"
+															}
+														],
+														"is_minified": true,
+														"children": {
+															"test": "has_biome_tag",
+															"operator": "==",
+															"value": "overworld_generation"
+														}
+													},
+													{
+														"open": [
+															{
+																"test": "has_biome_tag",
+																"operator": "==",
+																"value": "overworld_generation"
+															},
+															{
+																"test": "has_biome_tag",
+																"operator": "==",
+																"value": "overworld"
+															}
+														],
+														"is_minified": true,
+														"children": {
+															"test": "has_biome_tag",
+															"operator": "==",
+															"value": "overworld"
+														}
+													}
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

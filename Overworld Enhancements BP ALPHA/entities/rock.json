@@ -1,0 +1,59 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:entity": {
+        "description": {
+            "identifier": "overworld:rock",
+            "is_spawnable": false,
+            "runtime_identifier": "minecraft:arrow",
+            "is_summonable": true
+        },
+        "components": {
+          "minecraft:collision_box": {
+            "width": 0.25,
+            "height": 0.25
+          },
+          "minecraft:projectile": {
+            "on_hit": {
+              "definition_event": {},
+              "impact_damage": {
+                "damage": [
+                  3,
+                  6
+                ],
+                "knockback": true,
+                "destroy_on_hit": true,
+                "semi_random_diff_damage": false
+              },
+              "remove_on_hit": {},
+              "particle_on_hit": {
+                "num_particles": 5,
+                "particle_type": "crit",
+                "on_entity_hit": false,
+                "on_other_hit": true 
+              }
+            },
+            "hit_sound": "dig.stone",
+            "hit_ground_sound": "dig.stone",
+            "crit_particle_on_hurt": true,
+            "power": 1,
+            "gravity": 0.03,
+            "anchor": 1,
+            "destroy_on_hurt": true,
+            "should_bounce": false,
+            "inertia": 0.5,
+            "offset": [
+              0,
+              -0.3,
+              0
+            ],
+            "multiple_targets": true
+          },
+            "minecraft:physics": {
+          },
+          "minecraft:pushable": {
+            "is_pushable": true,
+            "is_pushable_by_piston": true
+          }
+        }
+    }
+}

@@ -1,0 +1,218 @@
+{
+	"file_path": "C:\\Users\\nicki\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Overworld Enhancements BP\\items\\mangrove_sapling_item.json",
+	"file_type": "item",
+	"format_version": 1,
+	"file_uuid": "d60cc96b_5e9a_4aa8_8982_1b5b2f894416",
+	"file_version": 8,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:item": {
+						"description": {
+							"identifier": "overworld:mangrove_sapling_item",
+							"category": "nature"
+						},
+						"components": {
+							"minecraft:hand_equipped": false,
+							"minecraft:stacked_by_data": true,
+							"minecraft:block_placer": {
+								"block": "overworld:mangrove_sapling",
+								"use_block_description": true
+							},
+							"minecraft:icon": {
+								"texture": "mangrove_sapling"
+							},
+							"minecraft:display_name": {
+								"value": "Mangrove Sapling"
+							},
+							"minecraft:fuel": {
+								"duration": 50
+							},
+							"minecraft:fertilizer": {
+								"type": "rapid"
+							}
+						}
+					}
+				},
+				"key": "minecraft:item",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "overworld:mangrove_sapling_item",
+								"category": "nature"
+							},
+							"components": {
+								"minecraft:hand_equipped": false,
+								"minecraft:stacked_by_data": true,
+								"minecraft:block_placer": {
+									"block": "overworld:mangrove_sapling",
+									"use_block_description": true
+								},
+								"minecraft:icon": {
+									"texture": "mangrove_sapling"
+								},
+								"minecraft:display_name": {
+									"value": "Mangrove Sapling"
+								},
+								"minecraft:fuel": {
+									"duration": 50
+								},
+								"minecraft:fertilizer": {
+									"type": "rapid"
+								}
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "overworld:mangrove_sapling_item",
+							"category": "nature"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "overworld:mangrove_sapling_item",
+								"category": "nature"
+							},
+							"components": {
+								"minecraft:hand_equipped": false,
+								"minecraft:stacked_by_data": true,
+								"minecraft:block_placer": {
+									"block": "overworld:mangrove_sapling",
+									"use_block_description": true
+								},
+								"minecraft:icon": {
+									"texture": "mangrove_sapling"
+								},
+								"minecraft:display_name": {
+									"value": "Mangrove Sapling"
+								},
+								"minecraft:fuel": {
+									"duration": 50
+								},
+								"minecraft:fertilizer": {
+									"type": "rapid"
+								}
+							}
+						},
+						"key": "components",
+						"children": [
+							{
+								"data": "false",
+								"key": "minecraft:hand_equipped"
+							},
+							{
+								"data": "true",
+								"key": "minecraft:stacked_by_data"
+							},
+							{
+								"key": "minecraft:block_placer",
+								"is_minified": true,
+								"children": {
+									"block": "overworld:mangrove_sapling",
+									"use_block_description": true
+								}
+							},
+							{
+								"key": "minecraft:icon",
+								"is_minified": true,
+								"children": {
+									"texture": "mangrove_sapling"
+								}
+							},
+							{
+								"open": {
+									"minecraft:hand_equipped": false,
+									"minecraft:stacked_by_data": true,
+									"minecraft:block_placer": {
+										"block": "overworld:mangrove_sapling",
+										"use_block_description": true
+									},
+									"minecraft:icon": {
+										"texture": "mangrove_sapling"
+									},
+									"minecraft:display_name": {
+										"value": "Mangrove Sapling"
+									},
+									"minecraft:fuel": {
+										"duration": 50
+									},
+									"minecraft:fertilizer": {
+										"type": "rapid"
+									}
+								},
+								"key": "minecraft:display_name",
+								"is_minified": true,
+								"children": {
+									"value": "Mangrove Sapling"
+								}
+							},
+							{
+								"open": {
+									"minecraft:hand_equipped": false,
+									"minecraft:stacked_by_data": true,
+									"minecraft:block_placer": {
+										"block": "overworld:mangrove_sapling",
+										"use_block_description": true
+									},
+									"minecraft:icon": {
+										"texture": "mangrove_sapling"
+									},
+									"minecraft:display_name": {
+										"value": "Mangrove Sapling"
+									},
+									"minecraft:fuel": {
+										"duration": 50
+									},
+									"minecraft:fertilizer": {
+										"type": "rapid"
+									}
+								},
+								"key": "minecraft:fuel",
+								"is_minified": true,
+								"children": {
+									"duration": 50
+								}
+							},
+							{
+								"open": {
+									"minecraft:hand_equipped": false,
+									"minecraft:stacked_by_data": true,
+									"minecraft:block_placer": {
+										"block": "overworld:mangrove_sapling",
+										"use_block_description": true
+									},
+									"minecraft:icon": {
+										"texture": "mangrove_sapling"
+									},
+									"minecraft:display_name": {
+										"value": "Mangrove Sapling"
+									},
+									"minecraft:fuel": {
+										"duration": 50
+									},
+									"minecraft:fertilizer": {
+										"type": "rapid"
+									}
+								},
+								"key": "minecraft:fertilizer",
+								"is_minified": true,
+								"children": {
+									"type": "rapid"
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

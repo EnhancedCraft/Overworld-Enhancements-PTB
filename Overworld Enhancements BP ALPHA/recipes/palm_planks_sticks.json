@@ -1,0 +1,22 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "overworld:palm_planks_sticks"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "A",
+            "A"
+        ],
+        "key": {
+            "A": "overworld:palm_planks"
+        },
+        "result": {
+            "item": "minecraft:stick",
+            "count": 4
+        }
+    }
+}

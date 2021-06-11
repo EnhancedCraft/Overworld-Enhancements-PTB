@@ -1,0 +1,104 @@
+{
+	"resource_pack_name": "bridgeRP",
+	"texture_name": "atlas.items",
+	"texture_data": {
+		"cattail_item": {
+			"textures": [
+				"textures/items/cattail"
+			]
+		},
+		"lantern_on_stick": {
+			"textures": "textures/items/lantern_on_stick"
+		},
+		"lantern_on_stick_left": {
+			"textures": "textures/items/lantern_on_stick_left"
+		},
+		"lantern_on_stick_burnt": {
+			"textures": "textures/items/lantern_on_stick_burnt"
+		},
+		"wampi_fruit": {
+			"textures": "textures/items/wampi_fruit"
+		},
+		"wampi_plant_item": {
+			"textures": "textures/blocks/wampi_plant"
+		},
+		"canary_grass_item": {
+			"textures": "textures/blocks/canary_grass"
+		},
+		"peat_icon": {
+			"textures": "textures/blocks/peat_icon"
+		},
+		"cotton": {
+			"textures": "textures/items/cotton"
+		},
+		"catkins": {
+			"textures": "textures/items/catkins"
+		},
+		"roots": {
+			"textures": "textures/items/roots"
+		},
+		"mangrove_sapling": {
+			"textures": "textures/blocks/mangrove_sapling"
+		},
+		"raw_frog_leg": {
+			"textures": [
+				"textures/items/raw_frog_leg"
+			]
+		},
+		"cooked_frog_leg": {
+			"textures": [
+				"textures/items/cooked_frog_leg"
+			]
+		},
+		"raw_prickly_pear": {
+			"textures": [
+				"textures/items/raw_prickly_pear"
+			]
+		},
+		"cooked_prickly_pear": {
+			"textures": [
+				"textures/items/cooked_prickly_pear"
+			]
+		},
+		"corn": {
+			"textures": "textures/items/corn"
+		},
+		"corn_seeds": {
+			"textures": "textures/items/corn_seeds"
+		},
+		"pink_opal_lily": {
+			"textures": "textures/blocks/pink_opal_lily"
+		},
+		"dummy_spawn_egg": {
+			"textures": [
+				"textures/items/dummy"
+			]
+		},
+		"ember": {
+			"textures": [
+				"textures/items/ember"
+			]
+		},
+		"door_mangrove": {
+			"textures": "textures/items/door_mangrove"
+		},
+		"door_palm": {
+			"textures": "textures/items/door_palm"
+		},
+		"scarecrow_item": {
+			"textures": "textures/items/scarecrow_item"
+		},
+		"peat_clumps": {
+			"textures": "textures/items/peat_clumps"
+		},
+		"peat_brick": {
+			"textures": "textures/items/peat_brick"
+		},
+		"palm_sapling": {
+			"textures": "textures/blocks/palm_sapling"
+		},
+		"rock": {
+			"textures": "textures/items/rock"
+		}
+	}
+}

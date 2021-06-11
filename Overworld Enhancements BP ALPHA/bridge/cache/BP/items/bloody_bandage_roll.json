@@ -1,0 +1,407 @@
+{
+	"file_path": "C:\\Users\\nicki\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Overworld Enhancements BP\\items\\bloody_bandage.json",
+	"file_type": "item",
+	"format_version": 1,
+	"file_uuid": "aa1aeb70_dd8a_4487_8654_c73e1fe84b0c",
+	"file_version": 18,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:item": {
+						"description": {
+							"identifier": "overworld:bloody_bandage_roll"
+						},
+						"components": {
+							"minecraft:max_stack_size": 1,
+							"minecraft:stacked_by_data": true,
+							"minecraft:use_duration": 3,
+							"minecraft:use_animation": "bow",
+							"minecraft:cooldown": {
+								"category": "chorusfruit",
+								"duration": 0.5
+							},
+							"minecraft:icon": {
+								"texture": "bloody_bandage"
+							},
+							"minecraft:display_name": {
+								"value": "Bloody Bandage Roll"
+							},
+							"minecraft:food": {
+								"nutrition": 0,
+								"can_always_eat": true,
+								"saturation_modifier": "poor",
+								"on_consume": {
+									"event": "bandage",
+									"target": "self"
+								}
+							}
+						},
+						"events": {
+							"bandage": {
+								"sequence": [
+									{
+										"decrement_stack": {},
+										"add_mob_effect": {
+											"effect": "instant_health",
+											"target": "holder",
+											"duration": 1,
+											"amplifier": 4
+										}
+									}
+								]
+							}
+						}
+					}
+				},
+				"key": "minecraft:item",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "overworld:bloody_bandage_roll"
+							},
+							"components": {
+								"minecraft:max_stack_size": 1,
+								"minecraft:stacked_by_data": true,
+								"minecraft:use_duration": 3,
+								"minecraft:use_animation": "bow",
+								"minecraft:cooldown": {
+									"category": "chorusfruit",
+									"duration": 0.5
+								},
+								"minecraft:icon": {
+									"texture": "bloody_bandage"
+								},
+								"minecraft:display_name": {
+									"value": "Bloody Bandage Roll"
+								},
+								"minecraft:food": {
+									"nutrition": 0,
+									"can_always_eat": true,
+									"saturation_modifier": "poor",
+									"on_consume": {
+										"event": "bandage",
+										"target": "self"
+									}
+								}
+							},
+							"events": {
+								"bandage": {
+									"sequence": [
+										{
+											"decrement_stack": {},
+											"add_mob_effect": {
+												"effect": "instant_health",
+												"target": "holder",
+												"duration": 1,
+												"amplifier": 4
+											}
+										}
+									]
+								}
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "overworld:bloody_bandage_roll"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "overworld:bloody_bandage_roll"
+							},
+							"components": {
+								"minecraft:max_stack_size": 1,
+								"minecraft:stacked_by_data": true,
+								"minecraft:use_duration": 3,
+								"minecraft:use_animation": "bow",
+								"minecraft:cooldown": {
+									"category": "chorusfruit",
+									"duration": 0.5
+								},
+								"minecraft:icon": {
+									"texture": "bloody_bandage"
+								},
+								"minecraft:display_name": {
+									"value": "Bloody Bandage Roll"
+								},
+								"minecraft:food": {
+									"nutrition": 0,
+									"can_always_eat": true,
+									"saturation_modifier": "poor",
+									"on_consume": {
+										"event": "bandage",
+										"target": "self"
+									}
+								}
+							},
+							"events": {
+								"bandage": {
+									"sequence": [
+										{
+											"decrement_stack": {},
+											"add_mob_effect": {
+												"effect": "instant_health",
+												"target": "holder",
+												"duration": 1,
+												"amplifier": 4
+											}
+										}
+									]
+								}
+							}
+						},
+						"key": "components",
+						"children": [
+							{
+								"data": "1",
+								"key": "minecraft:max_stack_size"
+							},
+							{
+								"data": "true",
+								"key": "minecraft:stacked_by_data"
+							},
+							{
+								"data": "3",
+								"key": "minecraft:use_duration"
+							},
+							{
+								"data": "bow",
+								"key": "minecraft:use_animation"
+							},
+							{
+								"open": {
+									"minecraft:max_stack_size": 1,
+									"minecraft:stacked_by_data": true,
+									"minecraft:use_duration": 3,
+									"minecraft:use_animation": "bow",
+									"minecraft:cooldown": {
+										"category": "chorusfruit",
+										"duration": 0.5
+									},
+									"minecraft:icon": {
+										"texture": "bloody_bandage"
+									},
+									"minecraft:display_name": {
+										"value": "Bloody Bandage Roll"
+									},
+									"minecraft:food": {
+										"nutrition": 0,
+										"can_always_eat": true,
+										"saturation_modifier": "poor",
+										"on_consume": {
+											"event": "bandage",
+											"target": "self"
+										}
+									}
+								},
+								"key": "minecraft:cooldown",
+								"is_minified": true,
+								"children": {
+									"category": "chorusfruit",
+									"duration": 0.5
+								}
+							},
+							{
+								"key": "minecraft:icon",
+								"is_minified": true,
+								"children": {
+									"texture": "bloody_bandage"
+								}
+							},
+							{
+								"open": {
+									"minecraft:max_stack_size": 1,
+									"minecraft:stacked_by_data": true,
+									"minecraft:use_duration": 3,
+									"minecraft:use_animation": "bow",
+									"minecraft:cooldown": {
+										"category": "chorusfruit",
+										"duration": 0.5
+									},
+									"minecraft:icon": {
+										"texture": "bloody_bandage"
+									},
+									"minecraft:display_name": {
+										"value": "Bloody Bandage Roll"
+									},
+									"minecraft:food": {
+										"nutrition": 0,
+										"can_always_eat": true,
+										"saturation_modifier": "poor",
+										"on_consume": {
+											"event": "bandage",
+											"target": "self"
+										}
+									}
+								},
+								"key": "minecraft:display_name",
+								"is_minified": true,
+								"children": {
+									"value": "Bloody Bandage Roll"
+								}
+							},
+							{
+								"open": {
+									"minecraft:max_stack_size": 1,
+									"minecraft:stacked_by_data": true,
+									"minecraft:use_duration": 3,
+									"minecraft:use_animation": "bow",
+									"minecraft:cooldown": {
+										"category": "chorusfruit",
+										"duration": 0.5
+									},
+									"minecraft:icon": {
+										"texture": "bloody_bandage"
+									},
+									"minecraft:display_name": {
+										"value": "Bloody Bandage Roll"
+									},
+									"minecraft:food": {
+										"nutrition": 0,
+										"can_always_eat": true,
+										"saturation_modifier": "poor",
+										"on_consume": {
+											"event": "bandage",
+											"target": "self"
+										}
+									}
+								},
+								"key": "minecraft:food",
+								"is_minified": true,
+								"children": {
+									"nutrition": 0,
+									"can_always_eat": true,
+									"saturation_modifier": "poor",
+									"on_consume": {
+										"event": "bandage",
+										"target": "self"
+									}
+								}
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "overworld:bloody_bandage_roll"
+							},
+							"components": {
+								"minecraft:max_stack_size": 1,
+								"minecraft:stacked_by_data": true,
+								"minecraft:use_duration": 3,
+								"minecraft:use_animation": "bow",
+								"minecraft:cooldown": {
+									"category": "chorusfruit",
+									"duration": 0.5
+								},
+								"minecraft:icon": {
+									"texture": "bloody_bandage"
+								},
+								"minecraft:display_name": {
+									"value": "Bloody Bandage Roll"
+								},
+								"minecraft:food": {
+									"nutrition": 0,
+									"can_always_eat": true,
+									"saturation_modifier": "poor",
+									"on_consume": {
+										"event": "bandage",
+										"target": "self"
+									}
+								}
+							},
+							"events": {
+								"bandage": {
+									"sequence": [
+										{
+											"decrement_stack": {},
+											"add_mob_effect": {
+												"effect": "instant_health",
+												"target": "holder",
+												"duration": 1,
+												"amplifier": 4
+											}
+										}
+									]
+								}
+							}
+						},
+						"key": "events",
+						"children": [
+							{
+								"open": {
+									"bandage": {
+										"sequence": [
+											{
+												"decrement_stack": {},
+												"add_mob_effect": {
+													"effect": "instant_health",
+													"target": "holder",
+													"duration": 1,
+													"amplifier": 4
+												}
+											}
+										]
+									}
+								},
+								"key": "bandage",
+								"children": [
+									{
+										"open": {
+											"sequence": [
+												{
+													"decrement_stack": {},
+													"add_mob_effect": {
+														"effect": "instant_health",
+														"target": "holder",
+														"duration": 1,
+														"amplifier": 4
+													}
+												}
+											]
+										},
+										"key": "sequence",
+										"children": [
+											{
+												"open": [
+													{
+														"decrement_stack": {},
+														"add_mob_effect": {
+															"effect": "instant_health",
+															"target": "holder",
+															"duration": 1,
+															"amplifier": 4
+														}
+													}
+												],
+												"is_minified": true,
+												"children": {
+													"decrement_stack": {},
+													"add_mob_effect": {
+														"effect": "instant_health",
+														"target": "holder",
+														"duration": 1,
+														"amplifier": 4
+													}
+												}
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

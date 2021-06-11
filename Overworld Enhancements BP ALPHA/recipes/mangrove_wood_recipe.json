@@ -1,0 +1,25 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "overworld:mangrove_wood_recipe"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "AA",
+            "AA"
+        ],
+        "key": {
+            "A": {
+                "item": "overworld:mangrove_log"
+            }
+        },
+        "result": [
+            {
+                "item": "overworld:mangrove_wood"
+            }
+        ]
+    }
+}

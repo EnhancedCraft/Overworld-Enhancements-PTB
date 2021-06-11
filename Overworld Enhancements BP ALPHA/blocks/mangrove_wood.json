@@ -1,0 +1,136 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "overworld:mangrove_wood",
+			"properties": {
+				"minecraft:direction": {}
+			}
+		},
+		"components": {
+			"minecraft:destroy_time": 2,
+			"minecraft:block_light_absorption": 0,
+			"minecraft:explosion_resistance": 1,
+			"minecraft:flammable": {
+				"burn_odds": 30,
+				"flame_odds": 30
+			},
+			"minecraft:geometry": "geometry.block",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "mangrove_wood",
+					"render_method": "opaque"
+				}
+			},
+			"minecraft:on_player_placing": {
+				"event": "rotate",
+				"target": "self"
+			},
+			"minecraft:on_interact": {
+				"condition": "query.get_equipped_item_name=='wooden_axe'||query.get_equipped_item_name=='stone_axe'||query.get_equipped_item_name=='iron_axe'||query.get_equipped_item_name=='golden_axe'||query.get_equipped_item_name=='diamond_axe'||query.get_equipped_item_name=='netherite_axe'",
+				"event": "strip",
+				"target": "self"
+			}
+		},
+		"permutations": [
+			{
+				"condition": "query.block_property('minecraft:direction') == 0",
+				"components": {
+					"minecraft:rotation": [
+						0,
+						0,
+						0
+					]
+				}
+			},
+			{
+				"condition": "query.block_property('minecraft:direction') == 1",
+				"components": {
+					"minecraft:rotation": [
+						90,
+						0,
+						0
+					]
+				}
+			},
+			{
+				"condition": "query.block_property('minecraft:direction') == 2",
+				"components": {
+					"minecraft:rotation": [
+						0,
+						0,
+						90
+					]
+				}
+			}
+		],
+		"events": {
+			"rotate": {
+				"set_block_property": {
+					"minecraft:direction": "math.floor(query.block_face/2)"
+				}
+			},
+			"strip": {
+				"sequence": [
+					{
+						"condition": "query.block_property('minecraft:direction')==0",
+						"set_block": {
+							"block_type": {
+								"name": "overworld:stripped_mangrove_wood",
+								"states": {
+									"direction": 0
+								}
+							}
+						},
+						"damage": {
+							"type": "all",
+							"amount": 1,
+							"target": "item"
+						},
+						"run_command": {
+							"command": "playsound use.wood @a[r=6] ~ ~ ~"
+						}
+					},
+					{
+						"condition": "query.block_property('minecraft:direction')==1",
+						"set_block": {
+							"block_type": {
+								"name": "overworld:stripped_mangrove_wood",
+								"states": {
+									"direction": 1
+								}
+							}
+						},
+						"damage": {
+							"type": "all",
+							"amount": 1,
+							"target": "item"
+						},
+						"run_command": {
+							"command": "playsound use.wood @a[r=6] ~ ~ ~"
+						}
+					},
+					{
+						"condition": "query.block_property('minecraft:direction')==2",
+						"set_block": {
+							"block_type": {
+								"name": "overworld:stripped_mangrove_wood",
+								"states": {
+									"direction": 2
+								}
+							}
+						},
+						"damage": {
+							"type": "all",
+							"amount": 1,
+							"target": "item"
+						},
+						"run_command": {
+							"command": "playsound use.wood @a[r=6] ~ ~ ~"
+						}
+					}
+				]
+			}
+		}
+	}
+}

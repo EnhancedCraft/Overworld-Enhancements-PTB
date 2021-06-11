@@ -1,0 +1,368 @@
+{
+	"file_path": "C:\\Users\\nicki\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Overworld Enhancements BP\\feature_rules\\pink_opal_lily_gen.json",
+	"file_type": "feature_rule",
+	"format_version": 1,
+	"file_uuid": "2e79638d_ec17_43b6_ab1a_43c4cadefdce",
+	"file_version": 2,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:feature_rules": {
+						"description": {
+							"identifier": "overworld:pink_opal_lily_gen",
+							"places_feature": "overworld:pink_opal_lily_feature"
+						},
+						"conditions": {
+							"placement_pass": "after_sky_pass",
+							"minecraft:biome_filter": {
+								"any_of": [
+									{
+										"test": "has_biome_tag",
+										"operator": "==",
+										"value": "swamp"
+									}
+								]
+							}
+						},
+						"distribution": {
+							"iterations": 11,
+							"x": {
+								"extent": [
+									0,
+									16
+								],
+								"distribution": "gaussian"
+							},
+							"y": "query.heightmap(variable.worldx, variable.worldz) + 0",
+							"z": {
+								"extent": [
+									0,
+									16
+								],
+								"distribution": "gaussian"
+							},
+							"scatter_chance": {
+								"numerator": 1,
+								"denominator": 10
+							}
+						}
+					}
+				},
+				"key": "minecraft:feature_rules",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "overworld:pink_opal_lily_gen",
+								"places_feature": "overworld:pink_opal_lily_feature"
+							},
+							"conditions": {
+								"placement_pass": "after_sky_pass",
+								"minecraft:biome_filter": {
+									"any_of": [
+										{
+											"test": "has_biome_tag",
+											"operator": "==",
+											"value": "swamp"
+										}
+									]
+								}
+							},
+							"distribution": {
+								"iterations": 11,
+								"x": {
+									"extent": [
+										0,
+										16
+									],
+									"distribution": "gaussian"
+								},
+								"y": "query.heightmap(variable.worldx, variable.worldz) + 0",
+								"z": {
+									"extent": [
+										0,
+										16
+									],
+									"distribution": "gaussian"
+								},
+								"scatter_chance": {
+									"numerator": 1,
+									"denominator": 10
+								}
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "overworld:pink_opal_lily_gen",
+							"places_feature": "overworld:pink_opal_lily_feature"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "overworld:pink_opal_lily_gen",
+								"places_feature": "overworld:pink_opal_lily_feature"
+							},
+							"conditions": {
+								"placement_pass": "after_sky_pass",
+								"minecraft:biome_filter": {
+									"any_of": [
+										{
+											"test": "has_biome_tag",
+											"operator": "==",
+											"value": "swamp"
+										}
+									]
+								}
+							},
+							"distribution": {
+								"iterations": 11,
+								"x": {
+									"extent": [
+										0,
+										16
+									],
+									"distribution": "gaussian"
+								},
+								"y": "query.heightmap(variable.worldx, variable.worldz) + 0",
+								"z": {
+									"extent": [
+										0,
+										16
+									],
+									"distribution": "gaussian"
+								},
+								"scatter_chance": {
+									"numerator": 1,
+									"denominator": 10
+								}
+							}
+						},
+						"key": "conditions",
+						"children": [
+							{
+								"data": "after_sky_pass",
+								"key": "placement_pass"
+							},
+							{
+								"open": {
+									"placement_pass": "after_sky_pass",
+									"minecraft:biome_filter": {
+										"any_of": [
+											{
+												"test": "has_biome_tag",
+												"operator": "==",
+												"value": "swamp"
+											}
+										]
+									}
+								},
+								"key": "minecraft:biome_filter",
+								"children": [
+									{
+										"open": {
+											"any_of": [
+												{
+													"test": "has_biome_tag",
+													"operator": "==",
+													"value": "swamp"
+												}
+											]
+										},
+										"key": "any_of",
+										"children": [
+											{
+												"open": [
+													{
+														"test": "has_biome_tag",
+														"operator": "==",
+														"value": "swamp"
+													}
+												],
+												"is_minified": true,
+												"children": {
+													"test": "has_biome_tag",
+													"operator": "==",
+													"value": "swamp"
+												}
+											}
+										]
+									}
+								]
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "overworld:pink_opal_lily_gen",
+								"places_feature": "overworld:pink_opal_lily_feature"
+							},
+							"conditions": {
+								"placement_pass": "after_sky_pass",
+								"minecraft:biome_filter": {
+									"any_of": [
+										{
+											"test": "has_biome_tag",
+											"operator": "==",
+											"value": "swamp"
+										}
+									]
+								}
+							},
+							"distribution": {
+								"iterations": 11,
+								"x": {
+									"extent": [
+										0,
+										16
+									],
+									"distribution": "gaussian"
+								},
+								"y": "query.heightmap(variable.worldx, variable.worldz) + 0",
+								"z": {
+									"extent": [
+										0,
+										16
+									],
+									"distribution": "gaussian"
+								},
+								"scatter_chance": {
+									"numerator": 1,
+									"denominator": 10
+								}
+							}
+						},
+						"key": "distribution",
+						"children": [
+							{
+								"open": {
+									"iterations": 11,
+									"x": {
+										"extent": [
+											0,
+											16
+										],
+										"distribution": "gaussian"
+									},
+									"y": "query.heightmap(variable.worldx, variable.worldz) + 0",
+									"z": {
+										"extent": [
+											0,
+											16
+										],
+										"distribution": "gaussian"
+									},
+									"scatter_chance": {
+										"numerator": 1,
+										"denominator": 10
+									}
+								},
+								"data": "11",
+								"key": "iterations"
+							},
+							{
+								"open": {
+									"iterations": 11,
+									"x": {
+										"extent": [
+											0,
+											16
+										],
+										"distribution": "gaussian"
+									},
+									"y": "query.heightmap(variable.worldx, variable.worldz) + 0",
+									"z": {
+										"extent": [
+											0,
+											16
+										],
+										"distribution": "gaussian"
+									},
+									"scatter_chance": {
+										"numerator": 1,
+										"denominator": 10
+									}
+								},
+								"key": "x",
+								"is_minified": true,
+								"children": {
+									"extent": [
+										0,
+										16
+									],
+									"distribution": "gaussian"
+								}
+							},
+							{
+								"data": "query.heightmap(variable.worldx, variable.worldz) + 0",
+								"key": "y"
+							},
+							{
+								"key": "z",
+								"children": [
+									{
+										"open": {
+											"extent": [
+												0,
+												16
+											],
+											"distribution": "gaussian"
+										},
+										"key": "extent",
+										"is_minified": true,
+										"children": [
+											0,
+											16
+										]
+									},
+									{
+										"data": "gaussian",
+										"key": "distribution"
+									}
+								]
+							},
+							{
+								"open": {
+									"iterations": 11,
+									"x": {
+										"extent": [
+											0,
+											16
+										],
+										"distribution": "gaussian"
+									},
+									"y": "query.heightmap(variable.worldx, variable.worldz) + 0",
+									"z": {
+										"extent": [
+											0,
+											16
+										],
+										"distribution": "gaussian"
+									},
+									"scatter_chance": {
+										"numerator": 1,
+										"denominator": 10
+									}
+								},
+								"key": "scatter_chance",
+								"is_minified": true,
+								"children": {
+									"numerator": 1,
+									"denominator": 10
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

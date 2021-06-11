@@ -1,0 +1,231 @@
+{
+	"file_path": "C:\\Users\\nicki\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Overworld Enhancements BP\\recipes\\mangrove_planks_to_axe.json",
+	"file_type": "recipe",
+	"format_version": 1,
+	"file_uuid": "accd59b3_3400_432b_b360_5b71a213e4f7",
+	"file_version": 2,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": 1.16,
+					"minecraft:recipe_shaped": {
+						"description": {
+							"identifier": "overworld:mangrove_planks_to_axe"
+						},
+						"tags": [
+							"crafting_table"
+						],
+						"pattern": [
+							"AAA",
+							" B ",
+							" B "
+						],
+						"key": {
+							"A": {
+								"item": "overworld:mangrove_planks"
+							},
+							"B": {
+								"item": "stick"
+							}
+						},
+						"result": {
+							"item": "wooden_axe",
+							"count": 1
+						}
+					}
+				},
+				"key": "minecraft:recipe_shaped",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "overworld:mangrove_planks_to_axe"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"AAA",
+								" B ",
+								" B "
+							],
+							"key": {
+								"A": {
+									"item": "overworld:mangrove_planks"
+								},
+								"B": {
+									"item": "stick"
+								}
+							},
+							"result": {
+								"item": "wooden_axe",
+								"count": 1
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "overworld:mangrove_planks_to_axe"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "overworld:mangrove_planks_to_axe"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"AAA",
+								" B ",
+								" B "
+							],
+							"key": {
+								"A": {
+									"item": "overworld:mangrove_planks"
+								},
+								"B": {
+									"item": "stick"
+								}
+							},
+							"result": {
+								"item": "wooden_axe",
+								"count": 1
+							}
+						},
+						"key": "tags",
+						"is_minified": true,
+						"children": [
+							"crafting_table"
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "overworld:mangrove_planks_to_axe"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"AAA",
+								" B ",
+								" B "
+							],
+							"key": {
+								"A": {
+									"item": "overworld:mangrove_planks"
+								},
+								"B": {
+									"item": "stick"
+								}
+							},
+							"result": {
+								"item": "wooden_axe",
+								"count": 1
+							}
+						},
+						"key": "pattern",
+						"is_minified": true,
+						"children": [
+							"AAA",
+							" B ",
+							" B "
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "overworld:mangrove_planks_to_axe"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"AAA",
+								" B ",
+								" B "
+							],
+							"key": {
+								"A": {
+									"item": "overworld:mangrove_planks"
+								},
+								"B": {
+									"item": "stick"
+								}
+							},
+							"result": {
+								"item": "wooden_axe",
+								"count": 1
+							}
+						},
+						"key": "key",
+						"children": [
+							{
+								"open": {
+									"A": {
+										"item": "overworld:mangrove_planks"
+									},
+									"B": {
+										"item": "stick"
+									}
+								},
+								"key": "A",
+								"is_minified": true,
+								"children": {
+									"item": "overworld:mangrove_planks"
+								}
+							},
+							{
+								"key": "B",
+								"is_minified": true,
+								"children": {
+									"item": "stick"
+								}
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "overworld:mangrove_planks_to_axe"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"AAA",
+								" B ",
+								" B "
+							],
+							"key": {
+								"A": {
+									"item": "overworld:mangrove_planks"
+								},
+								"B": {
+									"item": "stick"
+								}
+							},
+							"result": {
+								"item": "wooden_axe",
+								"count": 1
+							}
+						},
+						"key": "result",
+						"is_minified": true,
+						"children": {
+							"item": "wooden_axe",
+							"count": 1
+						}
+					}
+				]
+			}
+		]
+	}
+}

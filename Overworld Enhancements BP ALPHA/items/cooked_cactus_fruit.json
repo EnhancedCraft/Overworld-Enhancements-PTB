@@ -1,0 +1,26 @@
+//bridge-file-version: #2
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "overworld:cooked_cactus_fruit"
+		},
+		"components": {
+			"minecraft:max_stack_size": 64,
+			"minecraft:icon": {
+				"texture": "cooked_prickly_pear"
+			},
+			"minecraft:display_name": {
+				"value": "Cooked Prickly Pear"
+			},
+			"minecraft:use_duration": 1.4,
+			"minecraft:use_animation": "eat",
+			"minecraft:food": {
+				"can_always_eat": false,
+				"saturation_modifier": "normal",
+				"nutrition": 5
+			}
+		},
+		"events": {}
+	}
+}

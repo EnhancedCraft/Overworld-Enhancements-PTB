@@ -1,0 +1,20 @@
+//bridge-file-version: #1
+{
+	"format_version": "1.16.100",
+	"sound_definitions": {
+		"mob.frog.ambient": {
+			"category": "neutral",
+			"min_distance": 12,
+			"sounds": [
+				"sounds/mob/frog/ambient"
+			]
+		},
+		"mob.empty": {
+			"category": "neutral",
+			"min_distance": 12,
+			"sounds": [
+				"sounds/mob/empty"
+			]
+		}
+	}
+}

@@ -1,0 +1,21 @@
+//bridge-file-version: #1
+{
+	"format_version": "1.16.100",
+	"minecraft:single_block_feature": {
+		"description": {
+			"identifier": "overworld:pink_opal_lily_feature"
+		},
+		"places_block": {
+			"name": "overworld:pink_opal_lily",
+			"states": {}
+		},
+		"enforce_survivability_rules": true,
+		"enforce_placement_rules": true,
+		"may_replace": [
+			{
+				"name": "minecraft:air",
+				"states": {}
+			}
+		]
+	}
+}

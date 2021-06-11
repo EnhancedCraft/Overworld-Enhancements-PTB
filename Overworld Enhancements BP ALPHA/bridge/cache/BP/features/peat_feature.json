@@ -1,0 +1,161 @@
+{
+	"file_path": "C:\\Users\\nicki\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Overworld Enhancements BP\\features\\peat_feature.json",
+	"file_type": "feature",
+	"format_version": 1,
+	"file_uuid": "68383be1_b058_48aa_a31b_25fe71f991d8",
+	"file_version": 1,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.13.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.13.0",
+					"minecraft:ore_feature": {
+						"description": {
+							"identifier": "overworld:peat_feature"
+						},
+						"count": 33,
+						"places_block": {
+							"name": "overworld:peat",
+							"states": {}
+						},
+						"may_replace": [
+							{
+								"name": "minecraft:dirt",
+								"states": {}
+							},
+							{
+								"name": "minecraft:grass",
+								"states": {}
+							}
+						]
+					}
+				},
+				"key": "minecraft:ore_feature",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "overworld:peat_feature"
+							},
+							"count": 33,
+							"places_block": {
+								"name": "overworld:peat",
+								"states": {}
+							},
+							"may_replace": [
+								{
+									"name": "minecraft:dirt",
+									"states": {}
+								},
+								{
+									"name": "minecraft:grass",
+									"states": {}
+								}
+							]
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "overworld:peat_feature"
+						}
+					},
+					{
+						"data": "33",
+						"key": "count"
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "overworld:peat_feature"
+							},
+							"count": 33,
+							"places_block": {
+								"name": "overworld:peat",
+								"states": {}
+							},
+							"may_replace": [
+								{
+									"name": "minecraft:dirt",
+									"states": {}
+								},
+								{
+									"name": "minecraft:grass",
+									"states": {}
+								}
+							]
+						},
+						"key": "places_block",
+						"is_minified": true,
+						"children": {
+							"name": "overworld:peat",
+							"states": {}
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "overworld:peat_feature"
+							},
+							"count": 33,
+							"places_block": {
+								"name": "overworld:peat",
+								"states": {}
+							},
+							"may_replace": [
+								{
+									"name": "minecraft:dirt",
+									"states": {}
+								},
+								{
+									"name": "minecraft:grass",
+									"states": {}
+								}
+							]
+						},
+						"key": "may_replace",
+						"children": [
+							{
+								"open": [
+									{
+										"name": "minecraft:dirt",
+										"states": {}
+									},
+									{
+										"name": "minecraft:grass",
+										"states": {}
+									}
+								],
+								"is_minified": true,
+								"children": {
+									"name": "minecraft:dirt",
+									"states": {}
+								}
+							},
+							{
+								"open": [
+									{
+										"name": "minecraft:dirt",
+										"states": {}
+									},
+									{
+										"name": "minecraft:grass",
+										"states": {}
+									}
+								],
+								"is_minified": true,
+								"children": {
+									"name": "minecraft:grass",
+									"states": {}
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

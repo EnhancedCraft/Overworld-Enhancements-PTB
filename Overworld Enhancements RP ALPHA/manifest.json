@@ -1,0 +1,30 @@
+//bridge-file-version: #3
+{
+	"format_version": 2,
+	"header": {
+		"name": "Overworld Enhancements RP Alpha 1.0",
+		"description": "Created by Team EnhancedCraft",
+		"uuid": "668be7b8-cacc-4d45-a7b9-edb551d2375e",
+		"version": [
+			1,
+			0,
+			0
+		],
+		"min_engine_version": [
+			1,
+			13,
+			0
+		]
+	},
+	"modules": [
+		{
+			"type": "resources",
+			"uuid": "0eb8c47a-608c-4d9f-a35d-3434cd344b4c",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	]
+}

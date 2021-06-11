@@ -1,0 +1,50 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:feature_rules": {
+        "description": {
+            "identifier": "overworld:scarecrow_placement_gen",
+            "places_feature": "overworld:scarecrow_placement"
+        },
+        "conditions": {
+            "placement_pass": "final_pass",
+            "minecraft:biome_filter": {
+				"any_of": [
+					{
+						"test": "has_biome_tag",
+						"operator": "==",
+						"value": "overworld"
+					},
+					{
+						"test": "has_biome_tag",
+						"operator": "==",
+						"value": "overworld_generation"
+					}
+				]
+			}
+        },
+        "distribution": {
+            "iterations": 55,
+            "x": {
+                "extent": [
+                    0,
+                    16
+                ],
+                "distribution": "uniform"
+            },
+            "y": {
+                "extent": [
+                    40,
+                    99
+                ],
+                "distribution": "uniform"
+            },
+            "z": {
+                "extent": [
+                    0,
+                    16
+                ],
+                "distribution": "uniform"
+            }
+        }
+    }
+}

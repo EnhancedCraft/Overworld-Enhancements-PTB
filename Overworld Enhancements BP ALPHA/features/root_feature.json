@@ -1,0 +1,24 @@
+//bridge-file-version: #5
+{
+	"format_version": "1.16.220",
+	"minecraft:ore_feature": {
+		"description": {
+			"identifier": "overworld:root_feature"
+		},
+		"count": 22,
+		"replace_rules": [
+			{
+				"places_block": {
+					"name": "overworld:root_block",
+					"states": {}
+				},
+				"may_replace": [
+					{
+						"name": "minecraft:dirt",
+						"states": {}
+					}
+				]
+			}
+		]
+	}
+}

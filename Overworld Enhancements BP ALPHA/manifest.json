@@ -1,0 +1,40 @@
+//bridge-file-version: #2
+{
+	"format_version": 2,
+	"header": {
+		"name": "Overworld Enhancements Alpha 1.0",
+		"description": "Created by Team EnhancedCraft",
+		"uuid": "3c41f0bc-0374-4e11-9be7-202769451481",
+		"version": [
+			1,
+			0,
+			0
+		],
+		"min_engine_version": [
+			1,
+			13,
+			0
+		]
+	},
+	"modules": [
+		{
+			"type": "data",
+			"uuid": "02d4b2ef-c045-4aba-b2c8-66200902f408",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	],
+	"dependencies": [
+		{
+			"version": [
+				1,
+				0,
+				0
+			],
+			"uuid": "05968389-6913-49ca-acd3-0f75911c1d3f"
+		}
+	]
+}

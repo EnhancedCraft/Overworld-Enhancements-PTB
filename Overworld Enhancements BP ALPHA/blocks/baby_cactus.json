@@ -1,0 +1,51 @@
+//bridge-file-version: #13
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "overworld:baby_cactus"
+		},
+		"components": {
+			"minecraft:destroy_time": 0.3,
+			"minecraft:block_light_absorption": 0,
+			"minecraft:breathability": "air",
+			"minecraft:loot": "loot_tables/empty.json",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "baby_cactus",
+					"render_method": "alpha_test",
+					"ambient_occlusion": false
+				}
+			},
+			"minecraft:geometry": "geometry.double_sided",
+			"minecraft:placement_filter": {
+				"conditions": [
+					{
+						"block_filter": [
+							"minecraft:sand"
+						],
+						"allowed_faces": [
+							"up",
+							"down"
+						]
+					}
+				]
+			},
+			"minecraft:entity_collision": false,
+			"minecraft:breakonpush": true,
+			"minecraft:pick_collision": {
+				"origin": [
+					-4,
+					0,
+					-4
+				],
+				"size": [
+					8,
+					14,
+					8
+				]
+			}
+		},
+		"events": {}
+	}
+}

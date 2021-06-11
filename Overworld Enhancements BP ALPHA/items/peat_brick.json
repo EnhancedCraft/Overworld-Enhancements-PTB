@@ -1,0 +1,19 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "overworld:peat_brick"
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "peat_brick"
+			},
+			"minecraft:fuel": {
+				"duration": 100
+			},
+			"minecraft:display_name": {
+				"value": "Peat Brick"
+			}
+		}
+	}
+}

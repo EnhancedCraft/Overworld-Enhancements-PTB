@@ -1,0 +1,905 @@
+{
+	"file_path": "C:\\Users\\nicki\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Overworld Enhancements BP\\animations\\player.json",
+	"file_type": "animation",
+	"format_version": 1,
+	"file_uuid": "678d92c8_d939_4420_911e_09d0843836b2",
+	"file_version": 11,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.8.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.8.0",
+					"animations": {
+						"animation.start": {
+							"loop": true,
+							"animation_length": 1,
+							"timeline": {
+								"0.25": [
+									"/function start"
+								]
+							}
+						},
+						"animation.torch": {
+							"loop": true,
+							"animation_length": 0.5,
+							"timeline": {
+								"0": [
+									"/tag @s add torch"
+								]
+							}
+						},
+						"animation.ntorch": {
+							"loop": true,
+							"animation_length": 0.5,
+							"timeline": {
+								"0": [
+									"/tag @s remove torch"
+								]
+							}
+						},
+						"animation.water": {
+							"loop": true,
+							"animation_length": 0.5,
+							"timeline": {
+								"0": [
+									"/tag @s add water"
+								]
+							}
+						},
+						"animation.nwater": {
+							"loop": true,
+							"animation_length": 0.5,
+							"timeline": {
+								"0": [
+									"/tag @s remove water"
+								]
+							}
+						},
+						"animation.lantern": {
+							"loop": true,
+							"animation_length": 0.5,
+							"timeline": {
+								"0": [
+									"/tag @s add lantern"
+								]
+							}
+						},
+						"animation.nlantern": {
+							"loop": true,
+							"animation_length": 0.5,
+							"timeline": {
+								"0": [
+									"/tag @s remove lantern"
+								]
+							}
+						},
+						"animation.offhand.lantern": {
+							"loop": true,
+							"animation_length": 0.5,
+							"timeline": {
+								"0": [
+									"/tag @s add offhand"
+								]
+							}
+						},
+						"animation.offhand.nlantern": {
+							"loop": true,
+							"animation_length": 0.5,
+							"timeline": {
+								"0": [
+									"/tag @s remove offhand"
+								]
+							}
+						},
+						"animation.helmet": {
+							"loop": true,
+							"animation_length": 0.5,
+							"timeline": {
+								"0": [
+									"/tag @s add helmet"
+								]
+							}
+						},
+						"animation.nhelmet": {
+							"loop": true,
+							"animation_length": 0.5,
+							"timeline": {
+								"0": [
+									"/tag @s remove helmet"
+								]
+							}
+						}
+					}
+				},
+				"key": "animations",
+				"children": [
+					{
+						"key": "animation.start",
+						"children": [
+							{
+								"data": "true",
+								"key": "loop"
+							},
+							{
+								"data": "1",
+								"key": "animation_length"
+							},
+							{
+								"open": {
+									"loop": true,
+									"animation_length": 1,
+									"timeline": {
+										"0.25": [
+											"/function start"
+										]
+									}
+								},
+								"key": "timeline",
+								"children": [
+									{
+										"open": {
+											"0.25": [
+												"/function start"
+											]
+										},
+										"key": "0.25",
+										"is_minified": true,
+										"children": [
+											"/function start"
+										]
+									}
+								]
+							}
+						]
+					},
+					{
+						"key": "animation.torch",
+						"children": [
+							{
+								"data": "true",
+								"key": "loop"
+							},
+							{
+								"data": "0.5",
+								"key": "animation_length"
+							},
+							{
+								"open": {
+									"loop": true,
+									"animation_length": 0.5,
+									"timeline": {
+										"0": [
+											"/tag @s add torch"
+										]
+									}
+								},
+								"key": "timeline",
+								"children": [
+									{
+										"open": {
+											"0": [
+												"/tag @s add torch"
+											]
+										},
+										"key": "0",
+										"is_minified": true,
+										"children": [
+											"/tag @s add torch"
+										]
+									}
+								]
+							}
+						]
+					},
+					{
+						"key": "animation.ntorch",
+						"children": [
+							{
+								"data": "true",
+								"key": "loop"
+							},
+							{
+								"data": "0.5",
+								"key": "animation_length"
+							},
+							{
+								"open": {
+									"loop": true,
+									"animation_length": 0.5,
+									"timeline": {
+										"0": [
+											"/tag @s remove torch"
+										]
+									}
+								},
+								"key": "timeline",
+								"children": [
+									{
+										"open": {
+											"0": [
+												"/tag @s remove torch"
+											]
+										},
+										"key": "0",
+										"is_minified": true,
+										"children": [
+											"/tag @s remove torch"
+										]
+									}
+								]
+							}
+						]
+					},
+					{
+						"key": "animation.water",
+						"is_minified": true,
+						"children": {
+							"loop": true,
+							"animation_length": 0.5,
+							"timeline": {
+								"0": [
+									"/tag @s add water"
+								]
+							}
+						}
+					},
+					{
+						"key": "animation.nwater",
+						"is_minified": true,
+						"children": {
+							"loop": true,
+							"animation_length": 0.5,
+							"timeline": {
+								"0": [
+									"/tag @s remove water"
+								]
+							}
+						}
+					},
+					{
+						"open": {
+							"animation.start": {
+								"loop": true,
+								"animation_length": 1,
+								"timeline": {
+									"0.25": [
+										"/function start"
+									]
+								}
+							},
+							"animation.torch": {
+								"loop": true,
+								"animation_length": 0.5,
+								"timeline": {
+									"0": [
+										"/tag @s add torch"
+									]
+								}
+							},
+							"animation.ntorch": {
+								"loop": true,
+								"animation_length": 0.5,
+								"timeline": {
+									"0": [
+										"/tag @s remove torch"
+									]
+								}
+							},
+							"animation.water": {
+								"loop": true,
+								"animation_length": 0.5,
+								"timeline": {
+									"0": [
+										"/tag @s add water"
+									]
+								}
+							},
+							"animation.nwater": {
+								"loop": true,
+								"animation_length": 0.5,
+								"timeline": {
+									"0": [
+										"/tag @s remove water"
+									]
+								}
+							},
+							"animation.lantern": {
+								"loop": true,
+								"animation_length": 0.5,
+								"timeline": {
+									"0": [
+										"/tag @s add lantern"
+									]
+								}
+							},
+							"animation.nlantern": {
+								"loop": true,
+								"animation_length": 0.5,
+								"timeline": {
+									"0": [
+										"/tag @s remove lantern"
+									]
+								}
+							},
+							"animation.offhand.lantern": {
+								"loop": true,
+								"animation_length": 0.5,
+								"timeline": {
+									"0": [
+										"/tag @s add offhand"
+									]
+								}
+							},
+							"animation.offhand.nlantern": {
+								"loop": true,
+								"animation_length": 0.5,
+								"timeline": {
+									"0": [
+										"/tag @s remove offhand"
+									]
+								}
+							},
+							"animation.helmet": {
+								"loop": true,
+								"animation_length": 0.5,
+								"timeline": {
+									"0": [
+										"/tag @s add helmet"
+									]
+								}
+							},
+							"animation.nhelmet": {
+								"loop": true,
+								"animation_length": 0.5,
+								"timeline": {
+									"0": [
+										"/tag @s remove helmet"
+									]
+								}
+							}
+						},
+						"key": "animation.lantern",
+						"children": [
+							{
+								"data": "true",
+								"key": "loop"
+							},
+							{
+								"data": "0.5",
+								"key": "animation_length"
+							},
+							{
+								"open": {
+									"loop": true,
+									"animation_length": 0.5,
+									"timeline": {
+										"0": [
+											"/tag @s add lantern"
+										]
+									}
+								},
+								"key": "timeline",
+								"children": [
+									{
+										"open": {
+											"0": [
+												"/tag @s add lantern"
+											]
+										},
+										"key": "0",
+										"is_minified": true,
+										"children": [
+											"/tag @s add lantern"
+										]
+									}
+								]
+							}
+						]
+					},
+					{
+						"open": {
+							"animation.start": {
+								"loop": true,
+								"animation_length": 1,
+								"timeline": {
+									"0.25": [
+										"/function start"
+									]
+								}
+							},
+							"animation.torch": {
+								"loop": true,
+								"animation_length": 0.5,
+								"timeline": {
+									"0": [
+										"/tag @s add torch"
+									]
+								}
+							},
+							"animation.ntorch": {
+								"loop": true,
+								"animation_length": 0.5,
+								"timeline": {
+									"0": [
+										"/tag @s remove torch"
+									]
+								}
+							},
+							"animation.water": {
+								"loop": true,
+								"animation_length": 0.5,
+								"timeline": {
+									"0": [
+										"/tag @s add water"
+									]
+								}
+							},
+							"animation.nwater": {
+								"loop": true,
+								"animation_length": 0.5,
+								"timeline": {
+									"0": [
+										"/tag @s remove water"
+									]
+								}
+							},
+							"animation.lantern": {
+								"loop": true,
+								"animation_length": 0.5,
+								"timeline": {
+									"0": [
+										"/tag @s add lantern"
+									]
+								}
+							},
+							"animation.nlantern": {
+								"loop": true,
+								"animation_length": 0.5,
+								"timeline": {
+									"0": [
+										"/tag @s remove lantern"
+									]
+								}
+							},
+							"animation.offhand.lantern": {
+								"loop": true,
+								"animation_length": 0.5,
+								"timeline": {
+									"0": [
+										"/tag @s add offhand"
+									]
+								}
+							},
+							"animation.offhand.nlantern": {
+								"loop": true,
+								"animation_length": 0.5,
+								"timeline": {
+									"0": [
+										"/tag @s remove offhand"
+									]
+								}
+							},
+							"animation.helmet": {
+								"loop": true,
+								"animation_length": 0.5,
+								"timeline": {
+									"0": [
+										"/tag @s add helmet"
+									]
+								}
+							},
+							"animation.nhelmet": {
+								"loop": true,
+								"animation_length": 0.5,
+								"timeline": {
+									"0": [
+										"/tag @s remove helmet"
+									]
+								}
+							}
+						},
+						"key": "animation.nlantern",
+						"children": [
+							{
+								"data": "true",
+								"key": "loop"
+							},
+							{
+								"data": "0.5",
+								"key": "animation_length"
+							},
+							{
+								"open": {
+									"loop": true,
+									"animation_length": 0.5,
+									"timeline": {
+										"0": [
+											"/tag @s remove lantern"
+										]
+									}
+								},
+								"key": "timeline",
+								"children": [
+									{
+										"open": {
+											"0": [
+												"/tag @s remove lantern"
+											]
+										},
+										"key": "0",
+										"is_minified": true,
+										"children": [
+											"/tag @s remove lantern"
+										]
+									}
+								]
+							}
+						]
+					},
+					{
+						"key": "animation.offhand.lantern",
+						"children": [
+							{
+								"data": "true",
+								"key": "loop"
+							},
+							{
+								"data": "0.5",
+								"key": "animation_length"
+							},
+							{
+								"open": {
+									"loop": true,
+									"animation_length": 0.5,
+									"timeline": {
+										"0": [
+											"/tag @s add offhand"
+										]
+									}
+								},
+								"key": "timeline",
+								"children": [
+									{
+										"open": {
+											"0": [
+												"/tag @s add offhand"
+											]
+										},
+										"key": "0",
+										"is_minified": true,
+										"children": [
+											"/tag @s add offhand"
+										]
+									}
+								]
+							}
+						]
+					},
+					{
+						"key": "animation.offhand.nlantern",
+						"children": [
+							{
+								"data": "true",
+								"key": "loop"
+							},
+							{
+								"data": "0.5",
+								"key": "animation_length"
+							},
+							{
+								"open": {
+									"loop": true,
+									"animation_length": 0.5,
+									"timeline": {
+										"0": [
+											"/tag @s remove offhand"
+										]
+									}
+								},
+								"key": "timeline",
+								"children": [
+									{
+										"open": {
+											"0": [
+												"/tag @s remove offhand"
+											]
+										},
+										"key": "0",
+										"is_minified": true,
+										"children": [
+											"/tag @s remove offhand"
+										]
+									}
+								]
+							}
+						]
+					},
+					{
+						"open": {
+							"animation.start": {
+								"loop": true,
+								"animation_length": 1,
+								"timeline": {
+									"0.25": [
+										"/function start"
+									]
+								}
+							},
+							"animation.torch": {
+								"loop": true,
+								"animation_length": 0.5,
+								"timeline": {
+									"0": [
+										"/tag @s add torch"
+									]
+								}
+							},
+							"animation.ntorch": {
+								"loop": true,
+								"animation_length": 0.5,
+								"timeline": {
+									"0": [
+										"/tag @s remove torch"
+									]
+								}
+							},
+							"animation.water": {
+								"loop": true,
+								"animation_length": 0.5,
+								"timeline": {
+									"0": [
+										"/tag @s add water"
+									]
+								}
+							},
+							"animation.nwater": {
+								"loop": true,
+								"animation_length": 0.5,
+								"timeline": {
+									"0": [
+										"/tag @s remove water"
+									]
+								}
+							},
+							"animation.lantern": {
+								"loop": true,
+								"animation_length": 0.5,
+								"timeline": {
+									"0": [
+										"/tag @s add lantern"
+									]
+								}
+							},
+							"animation.nlantern": {
+								"loop": true,
+								"animation_length": 0.5,
+								"timeline": {
+									"0": [
+										"/tag @s remove lantern"
+									]
+								}
+							},
+							"animation.offhand.lantern": {
+								"loop": true,
+								"animation_length": 0.5,
+								"timeline": {
+									"0": [
+										"/tag @s add offhand"
+									]
+								}
+							},
+							"animation.offhand.nlantern": {
+								"loop": true,
+								"animation_length": 0.5,
+								"timeline": {
+									"0": [
+										"/tag @s remove offhand"
+									]
+								}
+							},
+							"animation.helmet": {
+								"loop": true,
+								"animation_length": 0.5,
+								"timeline": {
+									"0": [
+										"/tag @s add helmet"
+									]
+								}
+							},
+							"animation.nhelmet": {
+								"loop": true,
+								"animation_length": 0.5,
+								"timeline": {
+									"0": [
+										"/tag @s remove helmet"
+									]
+								}
+							}
+						},
+						"key": "animation.helmet",
+						"children": [
+							{
+								"data": "true",
+								"key": "loop"
+							},
+							{
+								"data": "0.5",
+								"key": "animation_length"
+							},
+							{
+								"open": {
+									"loop": true,
+									"animation_length": 0.5,
+									"timeline": {
+										"0": [
+											"/tag @s add helmet"
+										]
+									}
+								},
+								"key": "timeline",
+								"children": [
+									{
+										"open": {
+											"0": [
+												"/tag @s add helmet"
+											]
+										},
+										"key": "0",
+										"is_minified": true,
+										"children": [
+											"/tag @s add helmet"
+										]
+									}
+								]
+							}
+						]
+					},
+					{
+						"open": {
+							"animation.start": {
+								"loop": true,
+								"animation_length": 1,
+								"timeline": {
+									"0.25": [
+										"/function start"
+									]
+								}
+							},
+							"animation.torch": {
+								"loop": true,
+								"animation_length": 0.5,
+								"timeline": {
+									"0": [
+										"/tag @s add torch"
+									]
+								}
+							},
+							"animation.ntorch": {
+								"loop": true,
+								"animation_length": 0.5,
+								"timeline": {
+									"0": [
+										"/tag @s remove torch"
+									]
+								}
+							},
+							"animation.water": {
+								"loop": true,
+								"animation_length": 0.5,
+								"timeline": {
+									"0": [
+										"/tag @s add water"
+									]
+								}
+							},
+							"animation.nwater": {
+								"loop": true,
+								"animation_length": 0.5,
+								"timeline": {
+									"0": [
+										"/tag @s remove water"
+									]
+								}
+							},
+							"animation.lantern": {
+								"loop": true,
+								"animation_length": 0.5,
+								"timeline": {
+									"0": [
+										"/tag @s add lantern"
+									]
+								}
+							},
+							"animation.nlantern": {
+								"loop": true,
+								"animation_length": 0.5,
+								"timeline": {
+									"0": [
+										"/tag @s remove lantern"
+									]
+								}
+							},
+							"animation.offhand.lantern": {
+								"loop": true,
+								"animation_length": 0.5,
+								"timeline": {
+									"0": [
+										"/tag @s add offhand"
+									]
+								}
+							},
+							"animation.offhand.nlantern": {
+								"loop": true,
+								"animation_length": 0.5,
+								"timeline": {
+									"0": [
+										"/tag @s remove offhand"
+									]
+								}
+							},
+							"animation.helmet": {
+								"loop": true,
+								"animation_length": 0.5,
+								"timeline": {
+									"0": [
+										"/tag @s add helmet"
+									]
+								}
+							},
+							"animation.nhelmet": {
+								"loop": true,
+								"animation_length": 0.5,
+								"timeline": {
+									"0": [
+										"/tag @s remove helmet"
+									]
+								}
+							}
+						},
+						"key": "animation.nhelmet",
+						"children": [
+							{
+								"data": "true",
+								"key": "loop"
+							},
+							{
+								"data": "0.5",
+								"key": "animation_length"
+							},
+							{
+								"open": {
+									"loop": true,
+									"animation_length": 0.5,
+									"timeline": {
+										"0": [
+											"/tag @s remove helmet"
+										]
+									}
+								},
+								"key": "timeline",
+								"children": [
+									{
+										"open": {
+											"0": [
+												"/tag @s remove helmet"
+											]
+										},
+										"key": "0",
+										"is_minified": true,
+										"children": [
+											"/tag @s remove helmet"
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

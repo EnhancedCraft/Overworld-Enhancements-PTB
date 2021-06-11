@@ -1,0 +1,23 @@
+//bridge-file-version: #0
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "item",
+					"name": "overworld:catkins",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 1,
+								"max": 3
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,25 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "overworld:wampi_plant_item",
+			"category": "nature"
+		},
+		"components": {
+			"minecraft:hand_equipped": false,
+			"minecraft:stacked_by_data": true,
+			"minecraft:block_placer": {
+				"block": "overworld:wampi_plant",
+				"use_block_description": true
+			},
+			"minecraft:icon": {
+				"texture": "wampi_plant_item"
+			},
+			"minecraft:display_name": {
+				"value": "Wampi Plant"
+			}
+		},
+		"events": {}
+	}
+}

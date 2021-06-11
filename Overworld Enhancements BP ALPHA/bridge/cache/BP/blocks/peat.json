@@ -1,0 +1,73 @@
+{
+	"file_path": "C:\\Users\\nicki\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Overworld Enhancements BP\\blocks\\peat.json",
+	"file_type": "block",
+	"format_version": 1,
+	"file_uuid": "ac5ca7ab_a4c4_4926_ab2d_eaf74c020c6a",
+	"file_version": 1,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:block": {
+						"description": {
+							"identifier": "overworld:peat"
+						},
+						"components": {
+							"minecraft:destroy_time": 3,
+							"minecraft:explosion_resistance": 1,
+							"minecraft:preventsjumping": true,
+							"minecraft:friction": 0.1
+						}
+					}
+				},
+				"key": "minecraft:block",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "overworld:peat"
+							},
+							"components": {
+								"minecraft:destroy_time": 3,
+								"minecraft:explosion_resistance": 1,
+								"minecraft:preventsjumping": true,
+								"minecraft:friction": 0.1
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "overworld:peat"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "overworld:peat"
+							},
+							"components": {
+								"minecraft:destroy_time": 3,
+								"minecraft:explosion_resistance": 1,
+								"minecraft:preventsjumping": true,
+								"minecraft:friction": 0.1
+							}
+						},
+						"key": "components",
+						"is_minified": true,
+						"children": {
+							"minecraft:destroy_time": 3,
+							"minecraft:explosion_resistance": 1,
+							"minecraft:preventsjumping": true,
+							"minecraft:friction": 0.1
+						}
+					}
+				]
+			}
+		]
+	}
+}

@@ -1,0 +1,153 @@
+{
+	"file_path": "C:\\Users\\nicki\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Overworld Enhancements BP\\items\\lantern_on_stick_burnt_out.json",
+	"file_type": "item",
+	"format_version": 1,
+	"file_uuid": "794c63a9_813e_466a_9449_a513a3f04b64",
+	"file_version": 18,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:item": {
+						"description": {
+							"identifier": "overworld:lantern_on_stick_burnt_out",
+							"category": "commands"
+						},
+						"components": {
+							"minecraft:max_stack_size": 1,
+							"minecraft:hand_equipped": true,
+							"minecraft:stacked_by_data": true,
+							"minecraft:allow_off_hand": true,
+							"minecraft:icon": {
+								"texture": "lantern_on_stick_burnt"
+							},
+							"minecraft:display_name": {
+								"value": "Burnt out Lantern on a Stick "
+							},
+							"minecraft:render_offsets": "fishing_rods"
+						}
+					}
+				},
+				"key": "minecraft:item",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "overworld:lantern_on_stick_burnt_out",
+								"category": "commands"
+							},
+							"components": {
+								"minecraft:max_stack_size": 1,
+								"minecraft:hand_equipped": true,
+								"minecraft:stacked_by_data": true,
+								"minecraft:allow_off_hand": true,
+								"minecraft:icon": {
+									"texture": "lantern_on_stick_burnt"
+								},
+								"minecraft:display_name": {
+									"value": "Burnt out Lantern on a Stick "
+								},
+								"minecraft:render_offsets": "fishing_rods"
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "overworld:lantern_on_stick_burnt_out",
+							"category": "commands"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "overworld:lantern_on_stick_burnt_out",
+								"category": "commands"
+							},
+							"components": {
+								"minecraft:max_stack_size": 1,
+								"minecraft:hand_equipped": true,
+								"minecraft:stacked_by_data": true,
+								"minecraft:allow_off_hand": true,
+								"minecraft:icon": {
+									"texture": "lantern_on_stick_burnt"
+								},
+								"minecraft:display_name": {
+									"value": "Burnt out Lantern on a Stick "
+								},
+								"minecraft:render_offsets": "fishing_rods"
+							}
+						},
+						"key": "components",
+						"children": [
+							{
+								"data": "1",
+								"key": "minecraft:max_stack_size"
+							},
+							{
+								"data": "true",
+								"key": "minecraft:hand_equipped"
+							},
+							{
+								"data": "true",
+								"key": "minecraft:stacked_by_data"
+							},
+							{
+								"data": "true",
+								"key": "minecraft:allow_off_hand"
+							},
+							{
+								"open": {
+									"minecraft:max_stack_size": 1,
+									"minecraft:hand_equipped": true,
+									"minecraft:stacked_by_data": true,
+									"minecraft:allow_off_hand": true,
+									"minecraft:icon": {
+										"texture": "lantern_on_stick_burnt"
+									},
+									"minecraft:display_name": {
+										"value": "Burnt out Lantern on a Stick "
+									},
+									"minecraft:render_offsets": "fishing_rods"
+								},
+								"key": "minecraft:icon",
+								"is_minified": true,
+								"children": {
+									"texture": "lantern_on_stick_burnt"
+								}
+							},
+							{
+								"open": {
+									"minecraft:max_stack_size": 1,
+									"minecraft:hand_equipped": true,
+									"minecraft:stacked_by_data": true,
+									"minecraft:allow_off_hand": true,
+									"minecraft:icon": {
+										"texture": "lantern_on_stick_burnt"
+									},
+									"minecraft:display_name": {
+										"value": "Burnt out Lantern on a Stick "
+									},
+									"minecraft:render_offsets": "fishing_rods"
+								},
+								"key": "minecraft:display_name",
+								"is_minified": true,
+								"children": {
+									"value": "Burnt out Lantern on a Stick "
+								}
+							},
+							{
+								"data": "fishing_rods",
+								"key": "minecraft:render_offsets"
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

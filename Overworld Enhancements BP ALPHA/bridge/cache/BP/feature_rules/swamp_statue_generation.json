@@ -1,0 +1,381 @@
+{
+	"file_path": "C:\\Users\\nicki\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Overworld Enhancements BP\\feature_rules\\swamp_statue_generation.json",
+	"file_type": "feature_rule",
+	"format_version": 1,
+	"file_uuid": "e133be71_6cbd_4f2c_8648_0fd63dc29c76",
+	"file_version": 2,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:feature_rules": {
+						"description": {
+							"identifier": "overworld:swamp_statue_generation",
+							"places_feature": "overworld:swamp_statue_structure"
+						},
+						"conditions": {
+							"placement_pass": "after_surface_pass",
+							"minecraft:biome_filter": {
+								"any_of": [
+									{
+										"test": "has_biome_tag",
+										"operator": "==",
+										"value": "swamp"
+									}
+								]
+							}
+						},
+						"distribution": {
+							"iterations": 1,
+							"x": {
+								"distribution": "gaussian",
+								"extent": [
+									0,
+									16
+								]
+							},
+							"y": "query.heightmap(variable.worldx, variable.worldz) - 13",
+							"z": {
+								"distribution": "gaussian",
+								"extent": [
+									0,
+									16
+								]
+							},
+							"scatter_chance": {
+								"numerator": 1,
+								"denominator": 600
+							}
+						}
+					}
+				},
+				"key": "minecraft:feature_rules",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "overworld:swamp_statue_generation",
+								"places_feature": "overworld:swamp_statue_structure"
+							},
+							"conditions": {
+								"placement_pass": "after_surface_pass",
+								"minecraft:biome_filter": {
+									"any_of": [
+										{
+											"test": "has_biome_tag",
+											"operator": "==",
+											"value": "swamp"
+										}
+									]
+								}
+							},
+							"distribution": {
+								"iterations": 1,
+								"x": {
+									"distribution": "gaussian",
+									"extent": [
+										0,
+										16
+									]
+								},
+								"y": "query.heightmap(variable.worldx, variable.worldz) - 13",
+								"z": {
+									"distribution": "gaussian",
+									"extent": [
+										0,
+										16
+									]
+								},
+								"scatter_chance": {
+									"numerator": 1,
+									"denominator": 600
+								}
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "overworld:swamp_statue_generation",
+							"places_feature": "overworld:swamp_statue_structure"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "overworld:swamp_statue_generation",
+								"places_feature": "overworld:swamp_statue_structure"
+							},
+							"conditions": {
+								"placement_pass": "after_surface_pass",
+								"minecraft:biome_filter": {
+									"any_of": [
+										{
+											"test": "has_biome_tag",
+											"operator": "==",
+											"value": "swamp"
+										}
+									]
+								}
+							},
+							"distribution": {
+								"iterations": 1,
+								"x": {
+									"distribution": "gaussian",
+									"extent": [
+										0,
+										16
+									]
+								},
+								"y": "query.heightmap(variable.worldx, variable.worldz) - 13",
+								"z": {
+									"distribution": "gaussian",
+									"extent": [
+										0,
+										16
+									]
+								},
+								"scatter_chance": {
+									"numerator": 1,
+									"denominator": 600
+								}
+							}
+						},
+						"key": "conditions",
+						"children": [
+							{
+								"data": "after_surface_pass",
+								"key": "placement_pass"
+							},
+							{
+								"open": {
+									"placement_pass": "after_surface_pass",
+									"minecraft:biome_filter": {
+										"any_of": [
+											{
+												"test": "has_biome_tag",
+												"operator": "==",
+												"value": "swamp"
+											}
+										]
+									}
+								},
+								"key": "minecraft:biome_filter",
+								"children": [
+									{
+										"open": {
+											"any_of": [
+												{
+													"test": "has_biome_tag",
+													"operator": "==",
+													"value": "swamp"
+												}
+											]
+										},
+										"key": "any_of",
+										"children": [
+											{
+												"open": [
+													{
+														"test": "has_biome_tag",
+														"operator": "==",
+														"value": "swamp"
+													}
+												],
+												"is_minified": true,
+												"children": {
+													"test": "has_biome_tag",
+													"operator": "==",
+													"value": "swamp"
+												}
+											}
+										]
+									}
+								]
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "overworld:swamp_statue_generation",
+								"places_feature": "overworld:swamp_statue_structure"
+							},
+							"conditions": {
+								"placement_pass": "after_surface_pass",
+								"minecraft:biome_filter": {
+									"any_of": [
+										{
+											"test": "has_biome_tag",
+											"operator": "==",
+											"value": "swamp"
+										}
+									]
+								}
+							},
+							"distribution": {
+								"iterations": 1,
+								"x": {
+									"distribution": "gaussian",
+									"extent": [
+										0,
+										16
+									]
+								},
+								"y": "query.heightmap(variable.worldx, variable.worldz) - 13",
+								"z": {
+									"distribution": "gaussian",
+									"extent": [
+										0,
+										16
+									]
+								},
+								"scatter_chance": {
+									"numerator": 1,
+									"denominator": 600
+								}
+							}
+						},
+						"key": "distribution",
+						"children": [
+							{
+								"data": "1",
+								"key": "iterations"
+							},
+							{
+								"open": {
+									"iterations": 1,
+									"x": {
+										"distribution": "gaussian",
+										"extent": [
+											0,
+											16
+										]
+									},
+									"y": "query.heightmap(variable.worldx, variable.worldz) - 13",
+									"z": {
+										"distribution": "gaussian",
+										"extent": [
+											0,
+											16
+										]
+									},
+									"scatter_chance": {
+										"numerator": 1,
+										"denominator": 600
+									}
+								},
+								"key": "x",
+								"children": [
+									{
+										"data": "gaussian",
+										"key": "distribution"
+									},
+									{
+										"open": {
+											"distribution": "gaussian",
+											"extent": [
+												0,
+												16
+											]
+										},
+										"key": "extent",
+										"is_minified": true,
+										"children": [
+											0,
+											16
+										]
+									}
+								]
+							},
+							{
+								"data": "query.heightmap(variable.worldx, variable.worldz) - 13",
+								"key": "y"
+							},
+							{
+								"open": {
+									"iterations": 1,
+									"x": {
+										"distribution": "gaussian",
+										"extent": [
+											0,
+											16
+										]
+									},
+									"y": "query.heightmap(variable.worldx, variable.worldz) - 13",
+									"z": {
+										"distribution": "gaussian",
+										"extent": [
+											0,
+											16
+										]
+									},
+									"scatter_chance": {
+										"numerator": 1,
+										"denominator": 600
+									}
+								},
+								"key": "z",
+								"children": [
+									{
+										"data": "gaussian",
+										"key": "distribution"
+									},
+									{
+										"open": {
+											"distribution": "gaussian",
+											"extent": [
+												0,
+												16
+											]
+										},
+										"key": "extent",
+										"is_minified": true,
+										"children": [
+											0,
+											16
+										]
+									}
+								]
+							},
+							{
+								"open": {
+									"iterations": 1,
+									"x": {
+										"distribution": "gaussian",
+										"extent": [
+											0,
+											16
+										]
+									},
+									"y": "query.heightmap(variable.worldx, variable.worldz) - 13",
+									"z": {
+										"distribution": "gaussian",
+										"extent": [
+											0,
+											16
+										]
+									},
+									"scatter_chance": {
+										"numerator": 1,
+										"denominator": 600
+									}
+								},
+								"key": "scatter_chance",
+								"is_minified": true,
+								"children": {
+									"numerator": 1,
+									"denominator": 600
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

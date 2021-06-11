@@ -1,0 +1,27 @@
+//bridge-file-version: #3
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "overworld:pink_opal_lily_item",
+			"category": "nature"
+		},
+		"components": {
+			"minecraft:stacked_by_data": true,
+			"minecraft:block_placer": {
+				"use_block_description": true,
+				"block": "overworld:pink_opal_lily",
+				"use_on": [
+					"minecraft:water"
+				]
+			},
+			"minecraft:icon": {
+				"texture": "pink_opal_lily"
+			},
+			"minecraft:display_name": {
+				"value": "Pink Opal Lily"
+			}
+		},
+		"events": {}
+	}
+}

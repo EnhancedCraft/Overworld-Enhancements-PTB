@@ -1,0 +1,82 @@
+{
+	"file_path": "C:\\Users\\nicki\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Overworld Enhancements BP\\features\\witch_house_feature.json",
+	"file_type": "feature",
+	"format_version": 1,
+	"file_uuid": "f37d186b_73a9_49aa_9908_c51c61c8f74f",
+	"file_version": 2,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.13.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.13.0",
+					"minecraft:structure_template_feature": {
+						"description": {
+							"identifier": "overworld:witch_house_feature"
+						},
+						"structure_name": "mystructure:witch_house",
+						"adjustment_radius": 8,
+						"facing_direction": "random",
+						"constraints": {
+							"grounded": {}
+						}
+					}
+				},
+				"key": "minecraft:structure_template_feature",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "overworld:witch_house_feature"
+							},
+							"structure_name": "mystructure:witch_house",
+							"adjustment_radius": 8,
+							"facing_direction": "random",
+							"constraints": {
+								"grounded": {}
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "overworld:witch_house_feature"
+						}
+					},
+					{
+						"data": "mystructure:witch_house",
+						"key": "structure_name"
+					},
+					{
+						"data": "8",
+						"key": "adjustment_radius"
+					},
+					{
+						"data": "random",
+						"key": "facing_direction"
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "overworld:witch_house_feature"
+							},
+							"structure_name": "mystructure:witch_house",
+							"adjustment_radius": 8,
+							"facing_direction": "random",
+							"constraints": {
+								"grounded": {}
+							}
+						},
+						"key": "constraints",
+						"is_minified": true,
+						"children": {
+							"grounded": {}
+						}
+					}
+				]
+			}
+		]
+	}
+}

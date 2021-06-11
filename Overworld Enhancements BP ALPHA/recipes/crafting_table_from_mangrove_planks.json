@@ -1,0 +1,23 @@
+{
+    "format_version": "1.12.0",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "crafting_table_from_mangrove_planks"
+        },
+        "key": {
+            "X": {
+                "item": "overworld:mangrove_planks"
+            }
+        },
+        "pattern": [
+            "XX",
+            "XX"
+        ],
+        "tags": [
+            "crafting_table"
+        ],
+        "result": {
+            "item": "minecraft:crafting_table"
+        }
+    }
+}

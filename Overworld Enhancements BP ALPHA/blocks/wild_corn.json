@@ -1,0 +1,90 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:block": {
+        "description": {
+            "identifier": "overworld:wild_corn",
+            "properties": {
+                "minecraft:direction": {}
+            }
+        },
+        "components": {
+            "minecraft:destroy_time": 0,
+            "minecraft:block_light_absorption": 0,
+            "minecraft:breathability": "air",
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "corn_stage_3",
+                    "render_method": "alpha_test"
+                }
+            },
+            "minecraft:geometry": "geometry.corn",
+            "minecraft:loot": "loot_tables/blocks/wild_corn_loot.json",
+            "minecraft:random_ticking": {
+                "on_tick": {
+                    "event": "grow",
+                    "target": "self",
+                    "condition": "!query.block_property('minecraft:direction')"
+                }
+            },
+            "minecraft:placement_filter": {
+                "conditions": [
+                    {
+                        "block_filter": [
+                            "minecraft:grass",
+                            "minecraft:dirt"
+                        ],
+                        "allowed_faces": [
+                            "down",
+                            "up"
+                        ]
+                    }
+                ]
+            },
+            "minecraft:entity_collision": false,
+            "minecraft:pick_collision": {
+				"origin": [
+					-3,
+					0,
+					-3
+				],
+				"size": [
+					6,
+					4,
+					6
+				]
+			}
+        },
+        "permutations": [
+            {
+                "condition": "query.block_property('minecraft:direction') == 1",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "wild_corn",
+                            "render_method": "alpha_test"
+                        }
+                    },
+                    "minecraft:pick_collision": {
+                        "origin": [
+                            -3,
+                            0,
+                            -3
+                        ],
+                        "size": [
+                            6,
+                            16,
+                            6
+                        ]
+                    }
+                }
+            }
+        ],
+        "events": {
+            "grow": {
+                "set_block_property": {
+                    "minecraft:direction": 1
+                }
+            }
+        }
+    }
+}

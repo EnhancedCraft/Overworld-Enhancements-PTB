@@ -1,0 +1,24 @@
+//bridge-file-version: #18
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "overworld:lantern_on_stick_burnt_out",
+			"category": "commands"
+		},
+		"components": {
+			"minecraft:max_stack_size": 1,
+			"minecraft:hand_equipped": true,
+			"minecraft:stacked_by_data": true,
+			"minecraft:allow_off_hand": true,
+			"minecraft:icon": {
+				"texture": "lantern_on_stick_burnt"
+			},
+			"minecraft:display_name": {
+				"value": "Burnt out Lantern on a Stick "
+			},
+			"minecraft:render_offsets": "fishing_rods"
+		},
+		"events": {}
+	}
+}

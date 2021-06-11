@@ -1,0 +1,47 @@
+//bridge-file-version: #10
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "overworld:corn_seeds",
+			"category": "nature"
+		},
+		"components": {
+			"minecraft:stacked_by_data": true,
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.seed"
+			},
+			"minecraft:icon": {
+				"texture": "corn_seeds"
+			},
+			"minecraft:display_name": {
+				"value": "Corn Seeds"
+			},
+			"minecraft:on_use_on": {
+				"on_use_on": {
+					"event": "play_sound",
+					"target": "self"
+				}
+			},
+			"minecraft:block_placer": {
+				"block": "overworld:corn",
+				"use_block_description": true
+			}
+		},
+		"events": {
+			"play_sound": {
+				"run_command": {
+					"command": [
+						"stopsound @s dig.stone",
+						"playsound dig.grass @a ~ ~ ~",
+						"stopsound @s step.stone",
+						"stopsound @s hit.stone",
+						"stopsound @s jump.stand",
+						"stopsound @s land.stone",
+						"stopsound @s use.stone"
+					]
+				}
+			}
+		}
+	}
+}

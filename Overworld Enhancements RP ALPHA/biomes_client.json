@@ -1,0 +1,25 @@
+//bridge-file-version: #13
+{
+	"biomes": {
+		"default": {
+			"water_surface_color": "#44AFF5",
+			"water_surface_transparency": 0.65,
+			"water_fog_color": "#44AFF5",
+			"water_fog_distance": 15
+		},
+		"tropical_desert": {
+			"water_surface_color": "#3ac2b2",
+			"water_surface_transparency": 1
+		},
+		"dunes": {
+			"water_surface_color": "#32A598",
+			"water_fog_color": "#32A598"
+		},
+		"mangrove_forest": {
+			"water_surface_color": "#4c6559",
+			"water_fog_color": "#4c6559",
+			"water_fog_distance": 8,
+			"water_surface_transparency": 1
+		}
+	}
+}

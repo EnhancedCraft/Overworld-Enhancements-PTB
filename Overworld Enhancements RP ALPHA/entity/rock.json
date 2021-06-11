@@ -1,0 +1,26 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+      "description": {
+        "identifier": "overworld:rock",
+        "materials": {
+          "default": "snowball"
+        },
+        "textures": {
+          "default": "textures/blocks/rock"
+        },
+        "geometry": {
+          "default": "geometry.rock"
+        },
+        "render_controllers": [ "controller.render.dummy" ],
+        "animations": {
+          "flying": "animation.actor.billboard"
+        },
+        "scripts": {
+          "animate": [
+            "flying"
+          ]
+        }
+      }
+    }
+  } 

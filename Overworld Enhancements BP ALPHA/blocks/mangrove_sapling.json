@@ -1,0 +1,110 @@
+//bridge-file-version: #37
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "overworld:mangrove_sapling"
+		},
+		"components": {
+			"minecraft:destroy_time": 0.3,
+			"minecraft:block_light_absorption": 0,
+			"minecraft:explosion_resistance": 0,
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "mangrove_sapling",
+					"render_method": "alpha_test"
+				}
+			},
+			"minecraft:geometry": "geometry.sapling",
+			"minecraft:placement_filter": {
+				"conditions": [
+					{
+						"block_filter": [
+							"minecraft:grass",
+							"minecraft:dirt"
+						],
+						"allowed_faces": [
+							"up"
+						]
+					}
+				]
+			},
+			"minecraft:on_interact": {
+				"condition": "query.get_equipped_item_name == 'bone_meal'",
+				"target": "self",
+				"event": "bonemeal"
+			},
+			"minecraft:loot": "loot_tables/sapling_break.json",
+			"minecraft:pick_collision": {
+				"origin": [
+					-5,
+					0,
+					-4
+				],
+				"size": [
+					11,
+					14,
+					11
+				]
+			},
+			"minecraft:entity_collision": false
+		},
+		"events": {
+			"bonemeal": {
+				"randomize": [
+					{
+						"weight": 15,
+						"run_command": {
+							"command": [
+								"particle minecraft:villager_happy ~~~"
+							],
+							"target": "self"
+						}
+					},
+					{
+						"weight": 6,
+						"run_command": {
+							"command": [
+								"particle minecraft:villager_happy ~~~",
+								"structure load mystructure:mangrove2 ~-6 ~ ~-4",
+								"clear @s bone_meal 0 1"
+							],
+							"target": "self"
+						},
+						"set_block": {
+							"block_type": "minecraft:air"
+						}
+					},
+					{
+						"weight": 4,
+						"run_command": {
+							"command": [
+								"particle minecraft:villager_happy ~~~",
+								"structure load mystructure:mangrove1 ~-3 ~ ~-2"
+							],
+							"target": "self"
+						},
+						"set_block": {
+							"block_type": "minecraft:air"
+						}
+					},
+					{
+						"weight": 3,
+						"run_command": {
+							"command": [
+								"particle minecraft:villager_happy ~~~",
+								"structure load mystructure:mangrove3 ~-3 ~ ~-1",
+								"particle minecraft:villager_happy ~~~",
+								"particle minecraft:villager_happy ~~~"
+							],
+							"target": "self"
+						},
+						"set_block": {
+							"block_type": "minecraft:air"
+						}
+					}
+				]
+			}
+		}
+	}
+}

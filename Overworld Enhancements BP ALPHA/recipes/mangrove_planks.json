@@ -1,0 +1,27 @@
+//bridge-file-version: #0
+{
+	"format_version": 1.12,
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "overworld:mangrove_planks"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"group": "planks",
+		"pattern": [
+			"#"
+		],
+		"key": {
+			"#": {
+				"item": "overworld:mangrove_log"
+			}
+		},
+		"result": [
+			{
+				"item": "overworld:mangrove_planks",
+				"count": 4
+			}
+		]
+	}
+}

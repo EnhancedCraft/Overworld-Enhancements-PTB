@@ -1,0 +1,31 @@
+//bridge-file-version: #10
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "overworld:mangrove_sapling_item",
+			"category": "nature"
+		},
+		"components": {
+			"minecraft:hand_equipped": false,
+			"minecraft:stacked_by_data": true,
+			"minecraft:block_placer": {
+				"block": "overworld:mangrove_sapling",
+				"use_block_description": true
+			},
+			"minecraft:icon": {
+				"texture": "mangrove_sapling"
+			},
+			"minecraft:display_name": {
+				"value": "Mangrove Sapling"
+			},
+			"minecraft:fuel": {
+				"duration": 50
+			},
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.sapling"
+			}
+		},
+		"events": {}
+	}
+}

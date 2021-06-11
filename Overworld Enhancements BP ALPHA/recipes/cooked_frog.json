@@ -1,0 +1,17 @@
+//bridge-file-version: #1
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_furnace": {
+		"description": {
+			"identifier": "overworld:cooked_frog"
+		},
+		"tags": [
+			"campfire",
+			"smoker",
+			"furnace",
+			"soul_campfire"
+		],
+		"input": "overworld:raw_frog_leg",
+		"output": "overworld:cooked_frog_leg"
+	}
+}

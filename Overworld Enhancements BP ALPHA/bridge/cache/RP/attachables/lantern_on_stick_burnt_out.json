@@ -1,0 +1,300 @@
+{
+	"file_path": "C:\\Users\\nicki\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\Overworld Enhancements RP\\attachables\\lantern_on_stick_burnt_out.json",
+	"file_type": "attachable",
+	"format_version": 1,
+	"file_uuid": "e6f93544_c99b_4a86_ac74_cbb7849aed6a",
+	"file_version": 37,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:attachable": {
+						"description": {
+							"materials": {
+								"default": "entity_alphatest",
+								"offhand": "entity_alphatest"
+							},
+							"textures": {
+								"default": "textures/models/armor/lantern_on_a_stick_burnt",
+								"offhand": "textures/models/armor/lantern_on_a_stick_burnt"
+							},
+							"geometry": {
+								"default": "geometry.lantern_on_a_stick",
+								"offhand": "geometry.lantern_on_a_stick_offhand"
+							},
+							"render_controllers": [
+								{
+									"controller.render.default": "query.get_equipped_item_name('main_hand')=='lantern_on_stick_burnt_out'"
+								},
+								{
+									"controller.render.offhand": "query.get_equipped_item_name('off_hand')=='lantern_on_stick_burnt_out'"
+								}
+							],
+							"animations": {
+								"first_person_offset": "animation.lantern_on_a_stick.first_person_offset",
+								"move": "animation.lantern_on_a_stick.move"
+							},
+							"scripts": {
+								"animate": [
+									{
+										"first_person_offset": "c.is_first_person"
+									},
+									{
+										"move": "query.modified_move_speed"
+									}
+								]
+							},
+							"identifier": "overworld:lantern_on_stick_burnt_out"
+						}
+					}
+				},
+				"key": "minecraft:attachable",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"materials": {
+									"default": "entity_alphatest",
+									"offhand": "entity_alphatest"
+								},
+								"textures": {
+									"default": "textures/models/armor/lantern_on_a_stick_burnt",
+									"offhand": "textures/models/armor/lantern_on_a_stick_burnt"
+								},
+								"geometry": {
+									"default": "geometry.lantern_on_a_stick",
+									"offhand": "geometry.lantern_on_a_stick_offhand"
+								},
+								"render_controllers": [
+									{
+										"controller.render.default": "query.get_equipped_item_name('main_hand')=='lantern_on_stick_burnt_out'"
+									},
+									{
+										"controller.render.offhand": "query.get_equipped_item_name('off_hand')=='lantern_on_stick_burnt_out'"
+									}
+								],
+								"animations": {
+									"first_person_offset": "animation.lantern_on_a_stick.first_person_offset",
+									"move": "animation.lantern_on_a_stick.move"
+								},
+								"scripts": {
+									"animate": [
+										{
+											"first_person_offset": "c.is_first_person"
+										},
+										{
+											"move": "query.modified_move_speed"
+										}
+									]
+								},
+								"identifier": "overworld:lantern_on_stick_burnt_out"
+							}
+						},
+						"key": "description",
+						"children": [
+							{
+								"key": "materials",
+								"is_minified": true,
+								"children": {
+									"default": "entity_alphatest",
+									"offhand": "entity_alphatest"
+								}
+							},
+							{
+								"open": {
+									"materials": {
+										"default": "entity_alphatest",
+										"offhand": "entity_alphatest"
+									},
+									"textures": {
+										"default": "textures/models/armor/lantern_on_a_stick_burnt",
+										"offhand": "textures/models/armor/lantern_on_a_stick_burnt"
+									},
+									"geometry": {
+										"default": "geometry.lantern_on_a_stick",
+										"offhand": "geometry.lantern_on_a_stick_offhand"
+									},
+									"render_controllers": [
+										{
+											"controller.render.default": "query.get_equipped_item_name('main_hand')=='lantern_on_stick_burnt_out'"
+										},
+										{
+											"controller.render.offhand": "query.get_equipped_item_name('off_hand')=='lantern_on_stick_burnt_out'"
+										}
+									],
+									"animations": {
+										"first_person_offset": "animation.lantern_on_a_stick.first_person_offset",
+										"move": "animation.lantern_on_a_stick.move"
+									},
+									"scripts": {
+										"animate": [
+											{
+												"first_person_offset": "c.is_first_person"
+											},
+											{
+												"move": "query.modified_move_speed"
+											}
+										]
+									},
+									"identifier": "overworld:lantern_on_stick_burnt_out"
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": {
+									"default": "textures/models/armor/lantern_on_a_stick_burnt",
+									"offhand": "textures/models/armor/lantern_on_a_stick_burnt"
+								}
+							},
+							{
+								"open": {
+									"materials": {
+										"default": "entity_alphatest",
+										"offhand": "entity_alphatest"
+									},
+									"textures": {
+										"default": "textures/models/armor/lantern_on_a_stick_burnt",
+										"offhand": "textures/models/armor/lantern_on_a_stick_burnt"
+									},
+									"geometry": {
+										"default": "geometry.lantern_on_a_stick",
+										"offhand": "geometry.lantern_on_a_stick_offhand"
+									},
+									"render_controllers": [
+										{
+											"controller.render.default": "query.get_equipped_item_name('main_hand')=='lantern_on_stick_burnt_out'"
+										},
+										{
+											"controller.render.offhand": "query.get_equipped_item_name('off_hand')=='lantern_on_stick_burnt_out'"
+										}
+									],
+									"animations": {
+										"first_person_offset": "animation.lantern_on_a_stick.first_person_offset",
+										"move": "animation.lantern_on_a_stick.move"
+									},
+									"scripts": {
+										"animate": [
+											{
+												"first_person_offset": "c.is_first_person"
+											},
+											{
+												"move": "query.modified_move_speed"
+											}
+										]
+									},
+									"identifier": "overworld:lantern_on_stick_burnt_out"
+								},
+								"key": "geometry",
+								"is_minified": true,
+								"children": {
+									"default": "geometry.lantern_on_a_stick",
+									"offhand": "geometry.lantern_on_a_stick_offhand"
+								}
+							},
+							{
+								"open": {
+									"materials": {
+										"default": "entity_alphatest",
+										"offhand": "entity_alphatest"
+									},
+									"textures": {
+										"default": "textures/models/armor/lantern_on_a_stick_burnt",
+										"offhand": "textures/models/armor/lantern_on_a_stick_burnt"
+									},
+									"geometry": {
+										"default": "geometry.lantern_on_a_stick",
+										"offhand": "geometry.lantern_on_a_stick_offhand"
+									},
+									"render_controllers": [
+										{
+											"controller.render.default": "query.get_equipped_item_name('main_hand')=='lantern_on_stick_burnt_out'"
+										},
+										{
+											"controller.render.offhand": "query.get_equipped_item_name('off_hand')=='lantern_on_stick_burnt_out'"
+										}
+									],
+									"animations": {
+										"first_person_offset": "animation.lantern_on_a_stick.first_person_offset",
+										"move": "animation.lantern_on_a_stick.move"
+									},
+									"scripts": {
+										"animate": [
+											{
+												"first_person_offset": "c.is_first_person"
+											},
+											{
+												"move": "query.modified_move_speed"
+											}
+										]
+									},
+									"identifier": "overworld:lantern_on_stick_burnt_out"
+								},
+								"key": "render_controllers",
+								"children": [
+									{
+										"open": [
+											{
+												"controller.render.default": "query.get_equipped_item_name('main_hand')=='lantern_on_stick_burnt_out'"
+											},
+											{
+												"controller.render.offhand": "query.get_equipped_item_name('off_hand')=='lantern_on_stick_burnt_out'"
+											}
+										],
+										"is_minified": true,
+										"children": {
+											"controller.render.default": "query.get_equipped_item_name('main_hand')=='lantern_on_stick_burnt_out'"
+										}
+									},
+									{
+										"open": [
+											{
+												"controller.render.default": "query.get_equipped_item_name('main_hand')=='lantern_on_stick_burnt_out'"
+											},
+											{
+												"controller.render.offhand": "query.get_equipped_item_name('off_hand')=='lantern_on_stick_burnt_out'"
+											}
+										],
+										"is_minified": true,
+										"children": {
+											"controller.render.offhand": "query.get_equipped_item_name('off_hand')=='lantern_on_stick_burnt_out'"
+										}
+									}
+								]
+							},
+							{
+								"key": "animations",
+								"is_minified": true,
+								"children": {
+									"first_person_offset": "animation.lantern_on_a_stick.first_person_offset",
+									"move": "animation.lantern_on_a_stick.move"
+								}
+							},
+							{
+								"key": "scripts",
+								"is_minified": true,
+								"children": {
+									"animate": [
+										{
+											"first_person_offset": "c.is_first_person"
+										},
+										{
+											"move": "query.modified_move_speed"
+										}
+									]
+								}
+							},
+							{
+								"data": "overworld:lantern_on_stick_burnt_out",
+								"key": "identifier"
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

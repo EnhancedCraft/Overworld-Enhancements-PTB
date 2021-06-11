@@ -1,0 +1,249 @@
+{
+	"file_path": "C:\\Users\\nicki\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Overworld Enhancements BP\\animation_controllers\\start.json",
+	"file_type": "animation_controller",
+	"format_version": 1,
+	"file_uuid": "8640311b_f966_4c91_8b0e_ab3f0cf86a3f",
+	"file_version": 6,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.10.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.10.0",
+					"animation_controllers": {
+						"controller.animation.start": {
+							"states": {
+								"default": {
+									"transitions": [
+										{
+											"zooming": "(1.0)"
+										}
+									],
+									"on_entry": [
+										"/function start"
+									]
+								},
+								"zooming": {
+									"transitions": [
+										{
+											"default": "(1.0)"
+										}
+									],
+									"on_entry": [
+										"/function start"
+									]
+								}
+							}
+						}
+					}
+				},
+				"key": "animation_controllers",
+				"children": [
+					{
+						"open": {
+							"controller.animation.start": {
+								"states": {
+									"default": {
+										"transitions": [
+											{
+												"zooming": "(1.0)"
+											}
+										],
+										"on_entry": [
+											"/function start"
+										]
+									},
+									"zooming": {
+										"transitions": [
+											{
+												"default": "(1.0)"
+											}
+										],
+										"on_entry": [
+											"/function start"
+										]
+									}
+								}
+							}
+						},
+						"key": "controller.animation.start",
+						"children": [
+							{
+								"open": {
+									"states": {
+										"default": {
+											"transitions": [
+												{
+													"zooming": "(1.0)"
+												}
+											],
+											"on_entry": [
+												"/function start"
+											]
+										},
+										"zooming": {
+											"transitions": [
+												{
+													"default": "(1.0)"
+												}
+											],
+											"on_entry": [
+												"/function start"
+											]
+										}
+									}
+								},
+								"key": "states",
+								"children": [
+									{
+										"open": {
+											"default": {
+												"transitions": [
+													{
+														"zooming": "(1.0)"
+													}
+												],
+												"on_entry": [
+													"/function start"
+												]
+											},
+											"zooming": {
+												"transitions": [
+													{
+														"default": "(1.0)"
+													}
+												],
+												"on_entry": [
+													"/function start"
+												]
+											}
+										},
+										"key": "default",
+										"children": [
+											{
+												"open": {
+													"transitions": [
+														{
+															"zooming": "(1.0)"
+														}
+													],
+													"on_entry": [
+														"/function start"
+													]
+												},
+												"key": "transitions",
+												"children": [
+													{
+														"open": [
+															{
+																"zooming": "(1.0)"
+															}
+														],
+														"is_minified": true,
+														"children": {
+															"zooming": "(1.0)"
+														}
+													}
+												]
+											},
+											{
+												"open": {
+													"transitions": [
+														{
+															"zooming": "(1.0)"
+														}
+													],
+													"on_entry": [
+														"/function start"
+													]
+												},
+												"key": "on_entry",
+												"is_minified": true,
+												"children": [
+													"/function start"
+												]
+											}
+										]
+									},
+									{
+										"open": {
+											"default": {
+												"transitions": [
+													{
+														"zooming": "(1.0)"
+													}
+												],
+												"on_entry": [
+													"/function start"
+												]
+											},
+											"zooming": {
+												"transitions": [
+													{
+														"default": "(1.0)"
+													}
+												],
+												"on_entry": [
+													"/function start"
+												]
+											}
+										},
+										"key": "zooming",
+										"children": [
+											{
+												"open": {
+													"transitions": [
+														{
+															"default": "(1.0)"
+														}
+													],
+													"on_entry": [
+														"/function start"
+													]
+												},
+												"key": "transitions",
+												"children": [
+													{
+														"open": [
+															{
+																"default": "(1.0)"
+															}
+														],
+														"is_minified": true,
+														"children": {
+															"default": "(1.0)"
+														}
+													}
+												]
+											},
+											{
+												"open": {
+													"transitions": [
+														{
+															"default": "(1.0)"
+														}
+													],
+													"on_entry": [
+														"/function start"
+													]
+												},
+												"key": "on_entry",
+												"is_minified": true,
+												"children": [
+													"/function start"
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

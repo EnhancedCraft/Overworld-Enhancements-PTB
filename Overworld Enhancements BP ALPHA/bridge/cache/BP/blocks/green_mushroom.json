@@ -1,0 +1,78 @@
+{
+	"file_path": "C:\\Users\\PC\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Overworld Enhancements BP\\blocks\\green_mushroom.json",
+	"file_type": "block",
+	"format_version": 1,
+	"file_uuid": "ee77a03f_c95c_4c23_b6b2_57e2458601c6",
+	"file_version": 10,
+	"cache_content": {
+		"is_minified": true,
+		"children": {
+			"format_version": "1.16.100",
+			"minecraft:block": {
+				"description": {
+					"identifier": "overworld:green_mushroom"
+				},
+				"components": {
+					"minecraft:destroy_time": 1,
+					"minecraft:block_light_emission": 0.3,
+					"minecraft:block_light_absorption": 0,
+					"minecraft:material_instances": {
+						"*": {
+							"texture": "green_mushroom",
+							"render_method": "alpha_test"
+						}
+					},
+					"minecraft:placement_filter": {
+						"conditions": [
+							{
+								"block_filter": [
+									"minecraft:grass",
+									"minecraft:stone"
+								],
+								"allowed_faces": [
+									"up"
+								]
+							}
+						]
+					},
+					"minecraft:geometry": "geometry.double_sided",
+					"minecraft:entity_collision": false,
+					"minecraft:pick_collision": {
+						"origin": [
+							-3,
+							0,
+							-3
+						],
+						"size": [
+							6,
+							6,
+							6
+						]
+					},
+					"minecraft:loot": "loot_tables/blocks/green_mushroom_loot.json",
+					"minecraft:ticking": {
+						"looping": true,
+						"range": [
+							1,
+							5
+						],
+						"on_tick": {
+							"event": "summon_spores",
+							"target": "self"
+						}
+					}
+				},
+				"events": {
+					"summon_spores": {
+						"run_command": {
+							"command": [
+								"particle overworld:green_spore ~ ~ ~"
+							],
+							"target": "self"
+						}
+					}
+				}
+			}
+		}
+	}
+}

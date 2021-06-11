@@ -1,0 +1,124 @@
+{
+	"file_path": "C:\\Users\\nicki\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Overworld Enhancements BP\\features\\root_feature.json",
+	"file_type": "feature",
+	"format_version": 1,
+	"file_uuid": "23818981_1317_4a83_afbe_e347f7d26665",
+	"file_version": 3,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.13.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.13.0",
+					"minecraft:ore_feature": {
+						"description": {
+							"identifier": "overworld:root_feature"
+						},
+						"count": 22,
+						"places_block": {
+							"name": "overworld:root_block",
+							"states": {}
+						},
+						"may_replace": [
+							{
+								"name": "minecraft:dirt",
+								"states": {}
+							}
+						]
+					}
+				},
+				"key": "minecraft:ore_feature",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "overworld:root_feature"
+							},
+							"count": 22,
+							"places_block": {
+								"name": "overworld:root_block",
+								"states": {}
+							},
+							"may_replace": [
+								{
+									"name": "minecraft:dirt",
+									"states": {}
+								}
+							]
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "overworld:root_feature"
+						}
+					},
+					{
+						"data": "22",
+						"key": "count"
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "overworld:root_feature"
+							},
+							"count": 22,
+							"places_block": {
+								"name": "overworld:root_block",
+								"states": {}
+							},
+							"may_replace": [
+								{
+									"name": "minecraft:dirt",
+									"states": {}
+								}
+							]
+						},
+						"key": "places_block",
+						"is_minified": true,
+						"children": {
+							"name": "overworld:root_block",
+							"states": {}
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "overworld:root_feature"
+							},
+							"count": 22,
+							"places_block": {
+								"name": "overworld:root_block",
+								"states": {}
+							},
+							"may_replace": [
+								{
+									"name": "minecraft:dirt",
+									"states": {}
+								}
+							]
+						},
+						"key": "may_replace",
+						"children": [
+							{
+								"open": [
+									{
+										"name": "minecraft:dirt",
+										"states": {}
+									}
+								],
+								"is_minified": true,
+								"children": {
+									"name": "minecraft:dirt",
+									"states": {}
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

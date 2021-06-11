@@ -1,0 +1,210 @@
+{
+	"file_path": "C:\\Users\\nicki\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Overworld Enhancements BP\\items\\canary_grass_item.json",
+	"file_type": "item",
+	"format_version": 1,
+	"file_uuid": "f69f97f9_ef24_414d_a57e_8befb688d09e",
+	"file_version": 2,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:item": {
+						"description": {
+							"identifier": "overworld:canary_grass_item",
+							"category": "nature"
+						},
+						"components": {
+							"minecraft:hand_equipped": false,
+							"minecraft:stacked_by_data": true,
+							"minecraft:block_placer": {
+								"block": "overworld:canary_grass",
+								"use_block_description": true
+							},
+							"minecraft:icon": {
+								"texture": "canary_grass_item"
+							},
+							"minecraft:display_name": {
+								"value": "Canary Grass"
+							},
+							"minecraft:creative_category": {
+								"parent": "itemGroup.name.groundCover"
+							}
+						}
+					}
+				},
+				"key": "minecraft:item",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "overworld:canary_grass_item",
+								"category": "nature"
+							},
+							"components": {
+								"minecraft:hand_equipped": false,
+								"minecraft:stacked_by_data": true,
+								"minecraft:block_placer": {
+									"block": "overworld:canary_grass",
+									"use_block_description": true
+								},
+								"minecraft:icon": {
+									"texture": "canary_grass_item"
+								},
+								"minecraft:display_name": {
+									"value": "Canary Grass"
+								},
+								"minecraft:creative_category": {
+									"parent": "itemGroup.name.groundCover"
+								}
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "overworld:canary_grass_item",
+							"category": "nature"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "overworld:canary_grass_item",
+								"category": "nature"
+							},
+							"components": {
+								"minecraft:hand_equipped": false,
+								"minecraft:stacked_by_data": true,
+								"minecraft:block_placer": {
+									"block": "overworld:canary_grass",
+									"use_block_description": true
+								},
+								"minecraft:icon": {
+									"texture": "canary_grass_item"
+								},
+								"minecraft:display_name": {
+									"value": "Canary Grass"
+								},
+								"minecraft:creative_category": {
+									"parent": "itemGroup.name.groundCover"
+								}
+							}
+						},
+						"key": "components",
+						"children": [
+							{
+								"data": "false",
+								"key": "minecraft:hand_equipped"
+							},
+							{
+								"data": "true",
+								"key": "minecraft:stacked_by_data"
+							},
+							{
+								"open": {
+									"minecraft:hand_equipped": false,
+									"minecraft:stacked_by_data": true,
+									"minecraft:block_placer": {
+										"block": "overworld:canary_grass",
+										"use_block_description": true
+									},
+									"minecraft:icon": {
+										"texture": "canary_grass_item"
+									},
+									"minecraft:display_name": {
+										"value": "Canary Grass"
+									},
+									"minecraft:creative_category": {
+										"parent": "itemGroup.name.groundCover"
+									}
+								},
+								"key": "minecraft:block_placer",
+								"is_minified": true,
+								"children": {
+									"block": "overworld:canary_grass",
+									"use_block_description": true
+								}
+							},
+							{
+								"open": {
+									"minecraft:hand_equipped": false,
+									"minecraft:stacked_by_data": true,
+									"minecraft:block_placer": {
+										"block": "overworld:canary_grass",
+										"use_block_description": true
+									},
+									"minecraft:icon": {
+										"texture": "canary_grass_item"
+									},
+									"minecraft:display_name": {
+										"value": "Canary Grass"
+									},
+									"minecraft:creative_category": {
+										"parent": "itemGroup.name.groundCover"
+									}
+								},
+								"key": "minecraft:icon",
+								"is_minified": true,
+								"children": {
+									"texture": "canary_grass_item"
+								}
+							},
+							{
+								"open": {
+									"minecraft:hand_equipped": false,
+									"minecraft:stacked_by_data": true,
+									"minecraft:block_placer": {
+										"block": "overworld:canary_grass",
+										"use_block_description": true
+									},
+									"minecraft:icon": {
+										"texture": "canary_grass_item"
+									},
+									"minecraft:display_name": {
+										"value": "Canary Grass"
+									},
+									"minecraft:creative_category": {
+										"parent": "itemGroup.name.groundCover"
+									}
+								},
+								"key": "minecraft:display_name",
+								"is_minified": true,
+								"children": {
+									"value": "Canary Grass"
+								}
+							},
+							{
+								"open": {
+									"minecraft:hand_equipped": false,
+									"minecraft:stacked_by_data": true,
+									"minecraft:block_placer": {
+										"block": "overworld:canary_grass",
+										"use_block_description": true
+									},
+									"minecraft:icon": {
+										"texture": "canary_grass_item"
+									},
+									"minecraft:display_name": {
+										"value": "Canary Grass"
+									},
+									"minecraft:creative_category": {
+										"parent": "itemGroup.name.groundCover"
+									}
+								},
+								"key": "minecraft:creative_category",
+								"is_minified": true,
+								"children": {
+									"parent": "itemGroup.name.groundCover"
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

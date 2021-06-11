@@ -1,0 +1,118 @@
+{
+	"file_path": "C:\\Users\\nicki\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\Overworld Enhancements RP\\attachables\\lantern_in_a_stick.json",
+	"file_type": "attachable",
+	"format_version": 1,
+	"file_uuid": "e2ad050b_5a9a_4d2f_9ecd_89c0a74823a7",
+	"file_version": 5,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:attachable": {
+						"description": {
+							"identifier": "overworld:lantern_on_stick",
+							"materials": {
+								"default": "entity_alphatest"
+							},
+							"textures": {
+								"default": "textures/models/armor/lantern_on_a_stick"
+							},
+							"geometry": {
+								"default": "geometry.lantern_on_a_stick"
+							},
+							"scripts": {
+								"animate": [
+									{
+										"first_person_offset": "c.is_first_person"
+									},
+									{
+										"move": "query.modified_move_speed"
+									}
+								]
+							},
+							"render_controllers": [
+								"controller.render.default"
+							],
+							"animations": {
+								"first_person_offset": "animation.lantern_on_a_stick.first_person_offset",
+								"move": "animation.lantern_on_a_stick.move"
+							}
+						}
+					}
+				},
+				"key": "minecraft:attachable",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "overworld:lantern_on_stick",
+								"materials": {
+									"default": "entity_alphatest"
+								},
+								"textures": {
+									"default": "textures/models/armor/lantern_on_a_stick"
+								},
+								"geometry": {
+									"default": "geometry.lantern_on_a_stick"
+								},
+								"scripts": {
+									"animate": [
+										{
+											"first_person_offset": "c.is_first_person"
+										},
+										{
+											"move": "query.modified_move_speed"
+										}
+									]
+								},
+								"render_controllers": [
+									"controller.render.default"
+								],
+								"animations": {
+									"first_person_offset": "animation.lantern_on_a_stick.first_person_offset",
+									"move": "animation.lantern_on_a_stick.move"
+								}
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "overworld:lantern_on_stick",
+							"materials": {
+								"default": "entity_alphatest"
+							},
+							"textures": {
+								"default": "textures/models/armor/lantern_on_a_stick"
+							},
+							"geometry": {
+								"default": "geometry.lantern_on_a_stick"
+							},
+							"scripts": {
+								"animate": [
+									{
+										"first_person_offset": "c.is_first_person"
+									},
+									{
+										"move": "query.modified_move_speed"
+									}
+								]
+							},
+							"render_controllers": [
+								"controller.render.default"
+							],
+							"animations": {
+								"first_person_offset": "animation.lantern_on_a_stick.first_person_offset",
+								"move": "animation.lantern_on_a_stick.move"
+							}
+						}
+					}
+				]
+			}
+		]
+	}
+}

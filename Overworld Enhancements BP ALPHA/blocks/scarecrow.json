@@ -1,0 +1,191 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "overworld:scarecrow",
+			"properties": {
+				"overworld:rotation": [
+					2,
+					3,
+					4,
+					5
+				]
+			}
+		},
+		"components": {
+			"minecraft:destroy_time": 1,
+			"minecraft:block_light_absorption": 0,
+			"minecraft:explosion_resistance": 0.6,
+			"minecraft:loot": "loot_tables/blocks/scarecrow_loot.json",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "scarecrow",
+					"render_method": "alpha_test",
+					"ambient_occlusion": false
+				}
+			},
+			"minecraft:geometry": "geometry.scarecrow",
+			"minecraft:pick_collision": {
+				"origin": [
+					-3,
+					0,
+					-3
+				],
+				"size": [
+					6,
+					16,
+					6
+				]
+			},
+			"minecraft:entity_collision": {
+				"origin": [
+					-3,
+					0,
+					-3
+				],
+				"size": [
+					6,
+					16,
+					6
+				]
+			},
+			"minecraft:flammable": {
+				"burn_odds": 30,
+				"flame_odds": 60
+			},
+			"minecraft:breakonpush": true,
+			"minecraft:on_player_placing": {
+				"event": "update_rotation",
+				"target": "self"
+			},
+			"minecraft:preventsjumping": true,
+			"minecraft:placement_filter": {
+				"conditions": [
+					{
+						"allowed_faces": [
+							"up"
+						]
+					}
+				]
+			},
+			"minecraft:breathability": "air",
+			"minecraft:on_interact": {
+				"event": "rub",
+				"target": "self",
+				"condition": "query.get_equipped_item_name == 'lapis_lazuli'"
+			}
+		},
+		"permutations": [
+			{
+				"condition": "query.block_property('overworld:rotation') == 2",
+				"components": {
+					"minecraft:rotation": [
+						0,
+						180,
+						0
+					]
+				}
+			},
+			{
+				"condition": "query.block_property('overworld:rotation') == 3",
+				"components": {
+					"minecraft:rotation": [
+						0,
+						0,
+						0
+					]
+				}
+			},
+			{
+				"condition": "query.block_property('overworld:rotation') == 4",
+				"components": {
+					"minecraft:rotation": [
+						0,
+						270,
+						0
+					]
+				}
+			},
+			{
+				"condition": "query.block_property('overworld:rotation') == 5",
+				"components": {
+					"minecraft:rotation": [
+						0,
+						90,
+						0
+					]
+				}
+			}
+		],
+		"events": {
+			"update_rotation": {
+				"set_block_property": {
+					"overworld:rotation": "query.cardinal_facing_2d"
+				}
+			},
+			"rub": {
+				"sequence": [
+					{
+						"condition": "query.block_property('overworld:rotation') == 2",
+						"run_command": {
+							"command": [
+								"particle overworld:apply_lapis ~0.3 ~1 ~0.5"
+							]
+						},
+						"set_block": {
+							"block_type": {
+								"name": "overworld:imbued_scarecrow",
+								"states": {
+									"direction": 1
+								}
+							}
+						}
+					},
+					{
+						"condition": "query.block_property('overworld:rotation') == 3",
+						"run_command": {
+							"command": [
+								"particle overworld:apply_lapis ~-0.3 ~1 ~-0.3"
+							]
+						},
+						"set_block": {
+							"block_type": {
+								"name": "overworld:imbued_scarecrow",
+								"states": {
+									"direction": 2
+								}
+							}
+						}
+					},
+					{
+						"condition": "query.block_property('overworld:rotation') == 4",
+						"run_command": {
+							"command": [
+								"particle overworld:apply_lapis ~0.6 ~1 ~-0.4"
+							]
+						},
+						"set_block": {
+							"block_type": {
+								"name": "overworld:imbued_scarecrow",
+								"states": {
+									"direction": 3
+								}
+							}
+						}
+					},
+					{
+						"condition": "query.block_property('overworld:rotation') == 5",
+						"run_command": {
+							"command": [
+								"particle overworld:apply_lapis ~-0.2 ~1 ~0.4"
+							]
+						},
+						"set_block": {
+							"block_type": "overworld:imbued_scarecrow_2"
+						}
+					}
+				]
+			}
+		}
+	}
+}

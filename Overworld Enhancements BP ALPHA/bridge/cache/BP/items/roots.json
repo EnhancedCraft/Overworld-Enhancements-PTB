@@ -1,0 +1,116 @@
+{
+	"file_path": "C:\\Users\\nicki\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Overworld Enhancements BP\\items\\roots.json",
+	"file_type": "item",
+	"format_version": 1,
+	"file_uuid": "80434723_5db5_4856_9531_3be9ab6db633",
+	"file_version": 4,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:item": {
+						"description": {
+							"identifier": "overworld:roots",
+							"category": "nature"
+						},
+						"components": {
+							"minecraft:hand_equipped": false,
+							"minecraft:stacked_by_data": true,
+							"minecraft:icon": {
+								"texture": "roots"
+							},
+							"minecraft:display_name": {
+								"value": "Roots"
+							}
+						}
+					}
+				},
+				"key": "minecraft:item",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "overworld:roots",
+								"category": "nature"
+							},
+							"components": {
+								"minecraft:hand_equipped": false,
+								"minecraft:stacked_by_data": true,
+								"minecraft:icon": {
+									"texture": "roots"
+								},
+								"minecraft:display_name": {
+									"value": "Roots"
+								}
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "overworld:roots",
+							"category": "nature"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "overworld:roots",
+								"category": "nature"
+							},
+							"components": {
+								"minecraft:hand_equipped": false,
+								"minecraft:stacked_by_data": true,
+								"minecraft:icon": {
+									"texture": "roots"
+								},
+								"minecraft:display_name": {
+									"value": "Roots"
+								}
+							}
+						},
+						"key": "components",
+						"children": [
+							{
+								"data": "false",
+								"key": "minecraft:hand_equipped"
+							},
+							{
+								"data": "true",
+								"key": "minecraft:stacked_by_data"
+							},
+							{
+								"key": "minecraft:icon",
+								"is_minified": true,
+								"children": {
+									"texture": "roots"
+								}
+							},
+							{
+								"open": {
+									"minecraft:hand_equipped": false,
+									"minecraft:stacked_by_data": true,
+									"minecraft:icon": {
+										"texture": "roots"
+									},
+									"minecraft:display_name": {
+										"value": "Roots"
+									}
+								},
+								"key": "minecraft:display_name",
+								"is_minified": true,
+								"children": {
+									"value": "Roots"
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

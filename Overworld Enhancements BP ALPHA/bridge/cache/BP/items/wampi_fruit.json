@@ -1,0 +1,393 @@
+{
+	"file_path": "C:\\Users\\nicki\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Overworld Enhancements BP\\items\\wampi_fruit.json",
+	"file_type": "item",
+	"format_version": 1,
+	"file_uuid": "46c98720_bc6e_4a95_b935_b3ace05ab8db",
+	"file_version": 5,
+	"cache_content": {
+		"children": [
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:item": {
+						"description": {
+							"identifier": "overworld:wampi_fruit",
+							"category": "nature"
+						},
+						"components": {
+							"minecraft:max_stack_size": 32,
+							"minecraft:use_duration": 1,
+							"minecraft:hand_equipped": false,
+							"minecraft:stacked_by_data": true,
+							"minecraft:icon": {
+								"texture": "wampi_fruit"
+							},
+							"minecraft:use_animation": "eat",
+							"minecraft:food": {
+								"nutrition": 2,
+								"can_always_eat": true,
+								"saturation_modifier": "max",
+								"on_consume": {
+									"event": "eat",
+									"target": "self"
+								}
+							},
+							"minecraft:display_name": {
+								"value": "Wampi Berries"
+							}
+						},
+						"events": {
+							"eat": {
+								"add_mob_effect": {
+									"effect": "water_breathing",
+									"duration": 15,
+									"amplifier": 1
+								}
+							}
+						}
+					}
+				},
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:item": {
+						"description": {
+							"identifier": "overworld:wampi_fruit",
+							"category": "nature"
+						},
+						"components": {
+							"minecraft:max_stack_size": 32,
+							"minecraft:use_duration": 1,
+							"minecraft:hand_equipped": false,
+							"minecraft:stacked_by_data": true,
+							"minecraft:icon": {
+								"texture": "wampi_fruit"
+							},
+							"minecraft:use_animation": "eat",
+							"minecraft:food": {
+								"nutrition": 2,
+								"can_always_eat": true,
+								"saturation_modifier": "max",
+								"on_consume": {
+									"event": "eat",
+									"target": "self"
+								}
+							},
+							"minecraft:display_name": {
+								"value": "Wampi Berries"
+							}
+						},
+						"events": {
+							"eat": {
+								"add_mob_effect": {
+									"effect": "water_breathing",
+									"duration": 15,
+									"amplifier": 1
+								}
+							}
+						}
+					}
+				},
+				"key": "minecraft:item",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "overworld:wampi_fruit",
+								"category": "nature"
+							},
+							"components": {
+								"minecraft:max_stack_size": 32,
+								"minecraft:use_duration": 1,
+								"minecraft:hand_equipped": false,
+								"minecraft:stacked_by_data": true,
+								"minecraft:icon": {
+									"texture": "wampi_fruit"
+								},
+								"minecraft:use_animation": "eat",
+								"minecraft:food": {
+									"nutrition": 2,
+									"can_always_eat": true,
+									"saturation_modifier": "max",
+									"on_consume": {
+										"event": "eat",
+										"target": "self"
+									}
+								},
+								"minecraft:display_name": {
+									"value": "Wampi Berries"
+								}
+							},
+							"events": {
+								"eat": {
+									"add_mob_effect": {
+										"effect": "water_breathing",
+										"duration": 15,
+										"amplifier": 1
+									}
+								}
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "overworld:wampi_fruit",
+							"category": "nature"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "overworld:wampi_fruit",
+								"category": "nature"
+							},
+							"components": {
+								"minecraft:max_stack_size": 32,
+								"minecraft:use_duration": 1,
+								"minecraft:hand_equipped": false,
+								"minecraft:stacked_by_data": true,
+								"minecraft:icon": {
+									"texture": "wampi_fruit"
+								},
+								"minecraft:use_animation": "eat",
+								"minecraft:food": {
+									"nutrition": 2,
+									"can_always_eat": true,
+									"saturation_modifier": "max",
+									"on_consume": {
+										"event": "eat",
+										"target": "self"
+									}
+								},
+								"minecraft:display_name": {
+									"value": "Wampi Berries"
+								}
+							},
+							"events": {
+								"eat": {
+									"add_mob_effect": {
+										"effect": "water_breathing",
+										"duration": 15,
+										"amplifier": 1
+									}
+								}
+							}
+						},
+						"key": "components",
+						"children": [
+							{
+								"data": "32",
+								"key": "minecraft:max_stack_size"
+							},
+							{
+								"data": "1.0",
+								"key": "minecraft:use_duration"
+							},
+							{
+								"data": "false",
+								"key": "minecraft:hand_equipped"
+							},
+							{
+								"data": "true",
+								"key": "minecraft:stacked_by_data"
+							},
+							{
+								"open": {
+									"minecraft:max_stack_size": 32,
+									"minecraft:use_duration": 1,
+									"minecraft:hand_equipped": false,
+									"minecraft:stacked_by_data": true,
+									"minecraft:icon": {
+										"texture": "wampi_fruit"
+									},
+									"minecraft:use_animation": "eat",
+									"minecraft:food": {
+										"nutrition": 2,
+										"can_always_eat": true,
+										"saturation_modifier": "max",
+										"on_consume": {
+											"event": "eat",
+											"target": "self"
+										}
+									},
+									"minecraft:display_name": {
+										"value": "Wampi Berries"
+									}
+								},
+								"key": "minecraft:icon",
+								"is_minified": true,
+								"children": {
+									"texture": "wampi_fruit"
+								}
+							},
+							{
+								"data": "eat",
+								"key": "minecraft:use_animation"
+							},
+							{
+								"open": {
+									"minecraft:max_stack_size": 32,
+									"minecraft:use_duration": 1,
+									"minecraft:hand_equipped": false,
+									"minecraft:stacked_by_data": true,
+									"minecraft:icon": {
+										"texture": "wampi_fruit"
+									},
+									"minecraft:use_animation": "eat",
+									"minecraft:food": {
+										"nutrition": 2,
+										"can_always_eat": true,
+										"saturation_modifier": "max",
+										"on_consume": {
+											"event": "eat",
+											"target": "self"
+										}
+									},
+									"minecraft:display_name": {
+										"value": "Wampi Berries"
+									}
+								},
+								"key": "minecraft:food",
+								"children": [
+									{
+										"data": "2",
+										"key": "nutrition"
+									},
+									{
+										"data": "true",
+										"key": "can_always_eat"
+									},
+									{
+										"data": "max",
+										"key": "saturation_modifier"
+									},
+									{
+										"open": {
+											"nutrition": 2,
+											"can_always_eat": true,
+											"saturation_modifier": "max",
+											"on_consume": {
+												"event": "eat",
+												"target": "self"
+											}
+										},
+										"key": "on_consume",
+										"is_minified": true,
+										"children": {
+											"event": "eat",
+											"target": "self"
+										}
+									}
+								]
+							},
+							{
+								"open": {
+									"minecraft:max_stack_size": 32,
+									"minecraft:use_duration": 1,
+									"minecraft:hand_equipped": false,
+									"minecraft:stacked_by_data": true,
+									"minecraft:icon": {
+										"texture": "wampi_fruit"
+									},
+									"minecraft:use_animation": "eat",
+									"minecraft:food": {
+										"nutrition": 2,
+										"can_always_eat": true,
+										"saturation_modifier": "max",
+										"on_consume": {
+											"event": "eat",
+											"target": "self"
+										}
+									},
+									"minecraft:display_name": {
+										"value": "Wampi Berries"
+									}
+								},
+								"key": "minecraft:display_name",
+								"is_minified": true,
+								"children": {
+									"value": "Wampi Berries"
+								}
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "overworld:wampi_fruit",
+								"category": "nature"
+							},
+							"components": {
+								"minecraft:max_stack_size": 32,
+								"minecraft:use_duration": 1,
+								"minecraft:hand_equipped": false,
+								"minecraft:stacked_by_data": true,
+								"minecraft:icon": {
+									"texture": "wampi_fruit"
+								},
+								"minecraft:use_animation": "eat",
+								"minecraft:food": {
+									"nutrition": 2,
+									"can_always_eat": true,
+									"saturation_modifier": "max",
+									"on_consume": {
+										"event": "eat",
+										"target": "self"
+									}
+								},
+								"minecraft:display_name": {
+									"value": "Wampi Berries"
+								}
+							},
+							"events": {
+								"eat": {
+									"add_mob_effect": {
+										"effect": "water_breathing",
+										"duration": 15,
+										"amplifier": 1
+									}
+								}
+							}
+						},
+						"key": "events",
+						"children": [
+							{
+								"open": {
+									"eat": {
+										"add_mob_effect": {
+											"effect": "water_breathing",
+											"duration": 15,
+											"amplifier": 1
+										}
+									}
+								},
+								"key": "eat",
+								"children": [
+									{
+										"open": {
+											"add_mob_effect": {
+												"effect": "water_breathing",
+												"duration": 15,
+												"amplifier": 1
+											}
+										},
+										"key": "add_mob_effect",
+										"is_minified": true,
+										"children": {
+											"effect": "water_breathing",
+											"duration": 15,
+											"amplifier": 1
+										}
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

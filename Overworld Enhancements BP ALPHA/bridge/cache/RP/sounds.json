@@ -1,0 +1,124 @@
+{
+	"file_path": "C:\\Users\\kerri\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\Overworld Enhancements RP\\sounds.json",
+	"file_type": "client_sound",
+	"format_version": 1,
+	"file_uuid": "74048ecc_8421_464c_8684_c5dfbdb88537",
+	"file_version": 1,
+	"cache_content": {
+		"is_minified": true,
+		"children": {
+			"individual_event_sounds": {
+				"events": {}
+			},
+			"block_sounds": {},
+			"entity_sounds": {
+				"defaults": {
+					"volume": 1,
+					"pitch": [
+						0.8,
+						1.2
+					],
+					"events": {
+						"fall.big": {
+							"sound": "damage.fallbig",
+							"volume": 0.75,
+							"pitch": 1
+						},
+						"fall.small": {
+							"sound": "damage.fallsmall",
+							"volume": 0.75,
+							"pitch": 1
+						},
+						"splash": {
+							"sound": "random.splash",
+							"pitch": [
+								0.6,
+								1.4
+							]
+						},
+						"swim": {
+							"sound": "random.swim",
+							"pitch": [
+								0.6,
+								1.4
+							]
+						},
+						"fizz": {
+							"sound": "random.fizz",
+							"volume": 0.7,
+							"pitch": [
+								1.2,
+								2
+							]
+						},
+						"drink": {
+							"sound": "random.drink",
+							"volume": 0.5,
+							"pitch": [
+								0.9,
+								1
+							]
+						},
+						"eat": {
+							"sound": "random.eat",
+							"volume": [
+								0.5,
+								1.5
+							],
+							"pitch": [
+								0.8,
+								1.2
+							]
+						},
+						"ambient": {},
+						"flop": {},
+						"hurt": "game.player.hurt",
+						"death": "game.player.die",
+						"ambient.in.water": {},
+						"hurt.in.water": {},
+						"death.in.water": {},
+						"ambient.in.raid": {}
+					}
+				},
+				"entities": {
+					"overworld:frog": {
+						"volume": 1,
+						"events": {
+							"hurt": {
+								"sound": "mob.frog.ambient",
+								"pitch": 1.3
+							},
+							"death": {
+								"sound": "mob.frog.ambient",
+								"pitch": 0.5
+							},
+							"ambient": {
+								"sound": "mob.frog.ambient",
+								"pitch": [
+									0.8,
+									1.1
+								]
+							}
+						}
+					},
+					"overworld:scorcher": {
+						"events": {
+							"death": "mob.creeper.death",
+							"fuse": {
+								"pitch": 0.5,
+								"sound": "random.fuse",
+								"volume": 1
+							},
+							"hurt": "mob.creeper.say"
+						},
+						"pitch": [
+							0.8,
+							1.2
+						],
+						"volume": 1
+					}
+				}
+			}
+		}
+	}
+}

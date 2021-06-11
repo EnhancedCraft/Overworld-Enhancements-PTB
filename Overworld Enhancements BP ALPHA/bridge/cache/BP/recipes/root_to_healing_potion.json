@@ -1,0 +1,82 @@
+{
+	"file_path": "C:\\Users\\nicki\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Overworld Enhancements BP\\recipes\\root_to_healing_potion.json",
+	"file_type": "recipe",
+	"format_version": 1,
+	"file_uuid": "6d157b0f_c8bf_44f3_b6be_db18fc17cd39",
+	"file_version": 2,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.0",
+					"minecraft:recipe_brewing_mix": {
+						"description": {
+							"identifier": "overworld:root_to_healing_potion"
+						},
+						"tags": [
+							"brewing_stand"
+						],
+						"input": "minecraft:potion_type:awkward",
+						"reagent": "overworld:roots",
+						"output": "minecraft:potion_type:healing"
+					}
+				},
+				"key": "minecraft:recipe_brewing_mix",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "overworld:root_to_healing_potion"
+							},
+							"tags": [
+								"brewing_stand"
+							],
+							"input": "minecraft:potion_type:awkward",
+							"reagent": "overworld:roots",
+							"output": "minecraft:potion_type:healing"
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "overworld:root_to_healing_potion"
+						}
+					},
+					{
+						"key": "tags",
+						"is_minified": true,
+						"children": [
+							"brewing_stand"
+						]
+					},
+					{
+						"data": "minecraft:potion_type:awkward",
+						"key": "input"
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "overworld:root_to_healing_potion"
+							},
+							"tags": [
+								"brewing_stand"
+							],
+							"input": "minecraft:potion_type:awkward",
+							"reagent": "overworld:roots",
+							"output": "minecraft:potion_type:healing"
+						},
+						"data": "overworld:roots",
+						"key": "reagent"
+					},
+					{
+						"data": "minecraft:potion_type:healing",
+						"key": "output"
+					}
+				]
+			}
+		]
+	}
+}

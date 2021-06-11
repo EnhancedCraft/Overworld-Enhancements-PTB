@@ -1,0 +1,77 @@
+{
+	"file_path": "C:\\Users\\nicki\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Overworld Enhancements BP\\blocks\\peat_bricks.json",
+	"file_type": "block",
+	"format_version": 1,
+	"file_uuid": "189f376d_72db_49ca_a65f_34585f0092ed",
+	"file_version": 0,
+	"cache_content": {
+		"children": [
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:block": {
+						"description": {
+							"identifier": "overworld:peat_bricks"
+						},
+						"components": {
+							"minecraft:destroy_time": 8,
+							"minecraft:explosion_resistance": 3
+						}
+					}
+				},
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:block": {
+						"description": {
+							"identifier": "overworld:peat_bricks"
+						},
+						"components": {
+							"minecraft:destroy_time": 8,
+							"minecraft:explosion_resistance": 3
+						}
+					}
+				},
+				"key": "minecraft:block",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "overworld:peat_bricks"
+							},
+							"components": {
+								"minecraft:destroy_time": 8,
+								"minecraft:explosion_resistance": 3
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "overworld:peat_bricks"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "overworld:peat_bricks"
+							},
+							"components": {
+								"minecraft:destroy_time": 8,
+								"minecraft:explosion_resistance": 3
+							}
+						},
+						"key": "components",
+						"is_minified": true,
+						"children": {
+							"minecraft:destroy_time": 8,
+							"minecraft:explosion_resistance": 3
+						}
+					}
+				]
+			}
+		]
+	}
+}

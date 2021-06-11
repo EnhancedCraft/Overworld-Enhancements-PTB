@@ -1,0 +1,48 @@
+//bridge-file-version: #3
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "overworld:prickly_pear"
+		},
+		"components": {
+			"minecraft:destroy_time": 0,
+			"minecraft:block_light_absorption": 0,
+			"minecraft:geometry": "geometry.prickly_pear",
+			"minecraft:placement_filter": {
+				"conditions": [
+					{
+						"block_filter": [
+							"minecraft:cactus"
+						],
+						"allowed_faces": [
+							"up",
+							"down"
+						]
+					}
+				]
+			},
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "prickly_pear",
+					"render_method": "alpha_test"
+				}
+			},
+			"minecraft:entity_collision": false,
+			"minecraft:pick_collision": {
+				"origin": [
+					-8,
+					0,
+					-8
+				],
+				"size": [
+					16,
+					6,
+					16
+				]
+			},
+			"minecraft:loot": "loot_tables/blocks/prickly_pear.json"
+		},
+		"events": {}
+	}
+}

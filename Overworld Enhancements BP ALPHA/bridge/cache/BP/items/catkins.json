@@ -1,0 +1,135 @@
+{
+	"file_path": "C:\\Users\\nicki\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Overworld Enhancements BP\\items\\catkins.json",
+	"file_type": "item",
+	"format_version": 1,
+	"file_uuid": "c4d926af_3884_459f_aea0_34defa22eeda",
+	"file_version": 0,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:item": {
+						"description": {
+							"identifier": "overworld:catkins",
+							"category": "nature"
+						},
+						"components": {
+							"minecraft:max_stack_size": 16,
+							"minecraft:hand_equipped": false,
+							"minecraft:stacked_by_data": true,
+							"minecraft:icon": {
+								"texture": "catkins"
+							},
+							"minecraft:display_name": {
+								"value": "Catkins"
+							}
+						}
+					}
+				},
+				"key": "minecraft:item",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "overworld:catkins",
+								"category": "nature"
+							},
+							"components": {
+								"minecraft:max_stack_size": 16,
+								"minecraft:hand_equipped": false,
+								"minecraft:stacked_by_data": true,
+								"minecraft:icon": {
+									"texture": "catkins"
+								},
+								"minecraft:display_name": {
+									"value": "Catkins"
+								}
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "overworld:catkins",
+							"category": "nature"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "overworld:catkins",
+								"category": "nature"
+							},
+							"components": {
+								"minecraft:max_stack_size": 16,
+								"minecraft:hand_equipped": false,
+								"minecraft:stacked_by_data": true,
+								"minecraft:icon": {
+									"texture": "catkins"
+								},
+								"minecraft:display_name": {
+									"value": "Catkins"
+								}
+							}
+						},
+						"key": "components",
+						"children": [
+							{
+								"data": "16",
+								"key": "minecraft:max_stack_size"
+							},
+							{
+								"data": "false",
+								"key": "minecraft:hand_equipped"
+							},
+							{
+								"data": "true",
+								"key": "minecraft:stacked_by_data"
+							},
+							{
+								"open": {
+									"minecraft:max_stack_size": 16,
+									"minecraft:hand_equipped": false,
+									"minecraft:stacked_by_data": true,
+									"minecraft:icon": {
+										"texture": "catkins"
+									},
+									"minecraft:display_name": {
+										"value": "Catkins"
+									}
+								},
+								"key": "minecraft:icon",
+								"is_minified": true,
+								"children": {
+									"texture": "catkins"
+								}
+							},
+							{
+								"open": {
+									"minecraft:max_stack_size": 16,
+									"minecraft:hand_equipped": false,
+									"minecraft:stacked_by_data": true,
+									"minecraft:icon": {
+										"texture": "catkins"
+									},
+									"minecraft:display_name": {
+										"value": "Catkins"
+									}
+								},
+								"key": "minecraft:display_name",
+								"is_minified": true,
+								"children": {
+									"value": "Catkins"
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

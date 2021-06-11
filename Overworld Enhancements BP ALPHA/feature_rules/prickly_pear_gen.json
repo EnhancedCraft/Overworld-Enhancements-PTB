@@ -1,0 +1,46 @@
+//bridge-file-version: #6
+{
+	"format_version": "1.16.100",
+	"minecraft:feature_rules": {
+		"description": {
+			"identifier": "overworld:prickly_pear_gen",
+			"places_feature": "overworld:prickly_pear_feature"
+		},
+		"conditions": {
+			"placement_pass": "after_surface_pass",
+			"minecraft:biome_filter": {
+				"any_of": [
+					{
+						"test": "has_biome_tag",
+						"operator": "==",
+						"value": "desert"
+					}
+				]
+			}
+		},
+		"distribution": {
+			"iterations": 230,
+			"x": {
+				"distribution": "gaussian",
+				"extent": [
+					0,
+					16
+				]
+			},
+			"y": {
+				"distribution": "gaussian",
+				"extent": [
+					50,
+					88
+				]
+			},
+			"z": {
+				"distribution": "gaussian",
+				"extent": [
+					0,
+					16
+				]
+			}
+		}
+	}
+}

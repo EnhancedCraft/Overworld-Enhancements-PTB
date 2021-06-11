@@ -1,0 +1,840 @@
+{
+	"file_path": "C:\\Users\\nicki\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Overworld Enhancements BP\\blocks\\cattail.json",
+	"file_type": "block",
+	"format_version": 1,
+	"file_uuid": "1fbe7157_c5f4_4ee9_b5fb_ba218607dd55",
+	"file_version": 10,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:block": {
+						"description": {
+							"identifier": "overworld:cattail",
+							"properties": {
+								"overworld:skinned": [
+									0,
+									1
+								]
+							}
+						},
+						"components": {
+							"minecraft:destroy_time": 0.3,
+							"minecraft:block_light_absorption": 0,
+							"minecraft:material_instances": {
+								"*": {
+									"texture": "cattail",
+									"render_method": "alpha_test"
+								}
+							},
+							"minecraft:geometry": "geometry.cattail",
+							"minecraft:placement_filter": {
+								"conditions": [
+									{
+										"block_filter": [
+											"minecraft:grass"
+										],
+										"allowed_faces": [
+											"up"
+										]
+									}
+								]
+							},
+							"minecraft:entity_collision": false,
+							"minecraft:on_player_destroyed": {
+								"event": "drop_loot",
+								"target": "self",
+								"condition": "query.get_equipped_item_name=='shears' && query.block_property('overworld:skinned') == 0"
+							},
+							"minecraft:loot": "loot_tables/blank.json",
+							"minecraft:on_interact": {
+								"condition": "query.get_equipped_item_name=='shears' && query.block_property('overworld:skinned') == 0",
+								"event": "skin",
+								"target": "self"
+							}
+						},
+						"events": {
+							"drop_loot": {
+								"spawn_loot": {
+									"table": "loot_tables/blocks/cattail_loot.json"
+								}
+							},
+							"skin": {
+								"spawn_loot": {
+									"table": "loot_tables/blocks/skin_cattail.json"
+								},
+								"set_block_property": {
+									"overworld:skinned": 1
+								}
+							},
+							"grow": {
+								"set_block_property": {
+									"overworld:skinned": 0
+								}
+							}
+						},
+						"permutations": [
+							{
+								"components": {
+									"minecraft:material_instances": {
+										"*": {
+											"texture": "cattail_skinned",
+											"render_method": "alpha_test"
+										}
+									},
+									"minecraft:ticking": {
+										"looping": false,
+										"range": [
+											24000,
+											26400
+										],
+										"on_tick": {
+											"event": "grow",
+											"target": "self",
+											"condition": "query.block_property('overworld:skinned') == 1"
+										}
+									}
+								},
+								"condition": "query.block_property('overworld:skinned') == 1"
+							}
+						]
+					}
+				},
+				"key": "minecraft:block",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "overworld:cattail",
+								"properties": {
+									"overworld:skinned": [
+										0,
+										1
+									]
+								}
+							},
+							"components": {
+								"minecraft:destroy_time": 0.3,
+								"minecraft:block_light_absorption": 0,
+								"minecraft:material_instances": {
+									"*": {
+										"texture": "cattail",
+										"render_method": "alpha_test"
+									}
+								},
+								"minecraft:geometry": "geometry.cattail",
+								"minecraft:placement_filter": {
+									"conditions": [
+										{
+											"block_filter": [
+												"minecraft:grass"
+											],
+											"allowed_faces": [
+												"up"
+											]
+										}
+									]
+								},
+								"minecraft:entity_collision": false,
+								"minecraft:on_player_destroyed": {
+									"event": "drop_loot",
+									"target": "self",
+									"condition": "query.get_equipped_item_name=='shears' && query.block_property('overworld:skinned') == 0"
+								},
+								"minecraft:loot": "loot_tables/blank.json",
+								"minecraft:on_interact": {
+									"condition": "query.get_equipped_item_name=='shears' && query.block_property('overworld:skinned') == 0",
+									"event": "skin",
+									"target": "self"
+								}
+							},
+							"events": {
+								"drop_loot": {
+									"spawn_loot": {
+										"table": "loot_tables/blocks/cattail_loot.json"
+									}
+								},
+								"skin": {
+									"spawn_loot": {
+										"table": "loot_tables/blocks/skin_cattail.json"
+									},
+									"set_block_property": {
+										"overworld:skinned": 1
+									}
+								},
+								"grow": {
+									"set_block_property": {
+										"overworld:skinned": 0
+									}
+								}
+							},
+							"permutations": [
+								{
+									"components": {
+										"minecraft:material_instances": {
+											"*": {
+												"texture": "cattail_skinned",
+												"render_method": "alpha_test"
+											}
+										},
+										"minecraft:ticking": {
+											"looping": false,
+											"range": [
+												24000,
+												26400
+											],
+											"on_tick": {
+												"event": "grow",
+												"target": "self",
+												"condition": "query.block_property('overworld:skinned') == 1"
+											}
+										}
+									},
+									"condition": "query.block_property('overworld:skinned') == 1"
+								}
+							]
+						},
+						"key": "description",
+						"children": [
+							{
+								"data": "overworld:cattail",
+								"key": "identifier"
+							},
+							{
+								"open": {
+									"identifier": "overworld:cattail",
+									"properties": {
+										"overworld:skinned": [
+											0,
+											1
+										]
+									}
+								},
+								"key": "properties",
+								"children": [
+									{
+										"open": {
+											"overworld:skinned": [
+												0,
+												1
+											]
+										},
+										"key": "overworld:skinned",
+										"is_minified": true,
+										"children": [
+											0,
+											1
+										]
+									}
+								]
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "overworld:cattail",
+								"properties": {
+									"overworld:skinned": [
+										0,
+										1
+									]
+								}
+							},
+							"components": {
+								"minecraft:destroy_time": 0.3,
+								"minecraft:block_light_absorption": 0,
+								"minecraft:material_instances": {
+									"*": {
+										"texture": "cattail",
+										"render_method": "alpha_test"
+									}
+								},
+								"minecraft:geometry": "geometry.cattail",
+								"minecraft:placement_filter": {
+									"conditions": [
+										{
+											"block_filter": [
+												"minecraft:grass"
+											],
+											"allowed_faces": [
+												"up"
+											]
+										}
+									]
+								},
+								"minecraft:entity_collision": false,
+								"minecraft:on_player_destroyed": {
+									"event": "drop_loot",
+									"target": "self",
+									"condition": "query.get_equipped_item_name=='shears' && query.block_property('overworld:skinned') == 0"
+								},
+								"minecraft:loot": "loot_tables/blank.json",
+								"minecraft:on_interact": {
+									"condition": "query.get_equipped_item_name=='shears' && query.block_property('overworld:skinned') == 0",
+									"event": "skin",
+									"target": "self"
+								}
+							},
+							"events": {
+								"drop_loot": {
+									"spawn_loot": {
+										"table": "loot_tables/blocks/cattail_loot.json"
+									}
+								},
+								"skin": {
+									"spawn_loot": {
+										"table": "loot_tables/blocks/skin_cattail.json"
+									},
+									"set_block_property": {
+										"overworld:skinned": 1
+									}
+								},
+								"grow": {
+									"set_block_property": {
+										"overworld:skinned": 0
+									}
+								}
+							},
+							"permutations": [
+								{
+									"components": {
+										"minecraft:material_instances": {
+											"*": {
+												"texture": "cattail_skinned",
+												"render_method": "alpha_test"
+											}
+										},
+										"minecraft:ticking": {
+											"looping": false,
+											"range": [
+												24000,
+												26400
+											],
+											"on_tick": {
+												"event": "grow",
+												"target": "self",
+												"condition": "query.block_property('overworld:skinned') == 1"
+											}
+										}
+									},
+									"condition": "query.block_property('overworld:skinned') == 1"
+								}
+							]
+						},
+						"key": "components",
+						"children": [
+							{
+								"data": "0.3",
+								"key": "minecraft:destroy_time"
+							},
+							{
+								"data": "0",
+								"key": "minecraft:block_light_absorption"
+							},
+							{
+								"key": "minecraft:material_instances",
+								"is_minified": true,
+								"children": {
+									"*": {
+										"texture": "cattail",
+										"render_method": "alpha_test"
+									}
+								}
+							},
+							{
+								"data": "geometry.cattail",
+								"key": "minecraft:geometry"
+							},
+							{
+								"key": "minecraft:placement_filter",
+								"is_minified": true,
+								"children": {
+									"conditions": [
+										{
+											"block_filter": [
+												"minecraft:grass"
+											],
+											"allowed_faces": [
+												"up"
+											]
+										}
+									]
+								}
+							},
+							{
+								"data": "false",
+								"key": "minecraft:entity_collision"
+							},
+							{
+								"open": {
+									"minecraft:destroy_time": 0.3,
+									"minecraft:block_light_absorption": 0,
+									"minecraft:material_instances": {
+										"*": {
+											"texture": "cattail",
+											"render_method": "alpha_test"
+										}
+									},
+									"minecraft:geometry": "geometry.cattail",
+									"minecraft:placement_filter": {
+										"conditions": [
+											{
+												"block_filter": [
+													"minecraft:grass"
+												],
+												"allowed_faces": [
+													"up"
+												]
+											}
+										]
+									},
+									"minecraft:entity_collision": false,
+									"minecraft:on_player_destroyed": {
+										"event": "drop_loot",
+										"target": "self",
+										"condition": "query.get_equipped_item_name=='shears' && query.block_property('overworld:skinned') == 0"
+									},
+									"minecraft:loot": "loot_tables/blank.json",
+									"minecraft:on_interact": {
+										"condition": "query.get_equipped_item_name=='shears' && query.block_property('overworld:skinned') == 0",
+										"event": "skin",
+										"target": "self"
+									}
+								},
+								"key": "minecraft:on_player_destroyed",
+								"is_minified": true,
+								"children": {
+									"event": "drop_loot",
+									"target": "self",
+									"condition": "query.get_equipped_item_name=='shears' && query.block_property('overworld:skinned') == 0"
+								}
+							},
+							{
+								"data": "loot_tables/blank.json",
+								"key": "minecraft:loot"
+							},
+							{
+								"open": {
+									"minecraft:destroy_time": 0.3,
+									"minecraft:block_light_absorption": 0,
+									"minecraft:material_instances": {
+										"*": {
+											"texture": "cattail",
+											"render_method": "alpha_test"
+										}
+									},
+									"minecraft:geometry": "geometry.cattail",
+									"minecraft:placement_filter": {
+										"conditions": [
+											{
+												"block_filter": [
+													"minecraft:grass"
+												],
+												"allowed_faces": [
+													"up"
+												]
+											}
+										]
+									},
+									"minecraft:entity_collision": false,
+									"minecraft:on_player_destroyed": {
+										"event": "drop_loot",
+										"target": "self",
+										"condition": "query.get_equipped_item_name=='shears' && query.block_property('overworld:skinned') == 0"
+									},
+									"minecraft:loot": "loot_tables/blank.json",
+									"minecraft:on_interact": {
+										"condition": "query.get_equipped_item_name=='shears' && query.block_property('overworld:skinned') == 0",
+										"event": "skin",
+										"target": "self"
+									}
+								},
+								"key": "minecraft:on_interact",
+								"is_minified": true,
+								"children": {
+									"condition": "query.get_equipped_item_name=='shears' && query.block_property('overworld:skinned') == 0",
+									"event": "skin",
+									"target": "self"
+								}
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "overworld:cattail",
+								"properties": {
+									"overworld:skinned": [
+										0,
+										1
+									]
+								}
+							},
+							"components": {
+								"minecraft:destroy_time": 0.3,
+								"minecraft:block_light_absorption": 0,
+								"minecraft:material_instances": {
+									"*": {
+										"texture": "cattail",
+										"render_method": "alpha_test"
+									}
+								},
+								"minecraft:geometry": "geometry.cattail",
+								"minecraft:placement_filter": {
+									"conditions": [
+										{
+											"block_filter": [
+												"minecraft:grass"
+											],
+											"allowed_faces": [
+												"up"
+											]
+										}
+									]
+								},
+								"minecraft:entity_collision": false,
+								"minecraft:on_player_destroyed": {
+									"event": "drop_loot",
+									"target": "self",
+									"condition": "query.get_equipped_item_name=='shears' && query.block_property('overworld:skinned') == 0"
+								},
+								"minecraft:loot": "loot_tables/blank.json",
+								"minecraft:on_interact": {
+									"condition": "query.get_equipped_item_name=='shears' && query.block_property('overworld:skinned') == 0",
+									"event": "skin",
+									"target": "self"
+								}
+							},
+							"events": {
+								"drop_loot": {
+									"spawn_loot": {
+										"table": "loot_tables/blocks/cattail_loot.json"
+									}
+								},
+								"skin": {
+									"spawn_loot": {
+										"table": "loot_tables/blocks/skin_cattail.json"
+									},
+									"set_block_property": {
+										"overworld:skinned": 1
+									}
+								},
+								"grow": {
+									"set_block_property": {
+										"overworld:skinned": 0
+									}
+								}
+							},
+							"permutations": [
+								{
+									"components": {
+										"minecraft:material_instances": {
+											"*": {
+												"texture": "cattail_skinned",
+												"render_method": "alpha_test"
+											}
+										},
+										"minecraft:ticking": {
+											"looping": false,
+											"range": [
+												24000,
+												26400
+											],
+											"on_tick": {
+												"event": "grow",
+												"target": "self",
+												"condition": "query.block_property('overworld:skinned') == 1"
+											}
+										}
+									},
+									"condition": "query.block_property('overworld:skinned') == 1"
+								}
+							]
+						},
+						"key": "events",
+						"children": [
+							{
+								"key": "drop_loot",
+								"children": [
+									{
+										"open": {
+											"spawn_loot": {
+												"table": "loot_tables/blocks/cattail_loot.json"
+											}
+										},
+										"key": "spawn_loot",
+										"is_minified": true,
+										"children": {
+											"table": "loot_tables/blocks/cattail_loot.json"
+										}
+									}
+								]
+							},
+							{
+								"open": {
+									"drop_loot": {
+										"spawn_loot": {
+											"table": "loot_tables/blocks/cattail_loot.json"
+										}
+									},
+									"skin": {
+										"spawn_loot": {
+											"table": "loot_tables/blocks/skin_cattail.json"
+										},
+										"set_block_property": {
+											"overworld:skinned": 1
+										}
+									},
+									"grow": {
+										"set_block_property": {
+											"overworld:skinned": 0
+										}
+									}
+								},
+								"key": "skin",
+								"is_minified": true,
+								"children": {
+									"spawn_loot": {
+										"table": "loot_tables/blocks/skin_cattail.json"
+									},
+									"set_block_property": {
+										"overworld:skinned": 1
+									}
+								}
+							},
+							{
+								"key": "grow",
+								"is_minified": true,
+								"children": {
+									"set_block_property": {
+										"overworld:skinned": 0
+									}
+								}
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "overworld:cattail",
+								"properties": {
+									"overworld:skinned": [
+										0,
+										1
+									]
+								}
+							},
+							"components": {
+								"minecraft:destroy_time": 0.3,
+								"minecraft:block_light_absorption": 0,
+								"minecraft:material_instances": {
+									"*": {
+										"texture": "cattail",
+										"render_method": "alpha_test"
+									}
+								},
+								"minecraft:geometry": "geometry.cattail",
+								"minecraft:placement_filter": {
+									"conditions": [
+										{
+											"block_filter": [
+												"minecraft:grass"
+											],
+											"allowed_faces": [
+												"up"
+											]
+										}
+									]
+								},
+								"minecraft:entity_collision": false,
+								"minecraft:on_player_destroyed": {
+									"event": "drop_loot",
+									"target": "self",
+									"condition": "query.get_equipped_item_name=='shears' && query.block_property('overworld:skinned') == 0"
+								},
+								"minecraft:loot": "loot_tables/blank.json",
+								"minecraft:on_interact": {
+									"condition": "query.get_equipped_item_name=='shears' && query.block_property('overworld:skinned') == 0",
+									"event": "skin",
+									"target": "self"
+								}
+							},
+							"events": {
+								"drop_loot": {
+									"spawn_loot": {
+										"table": "loot_tables/blocks/cattail_loot.json"
+									}
+								},
+								"skin": {
+									"spawn_loot": {
+										"table": "loot_tables/blocks/skin_cattail.json"
+									},
+									"set_block_property": {
+										"overworld:skinned": 1
+									}
+								},
+								"grow": {
+									"set_block_property": {
+										"overworld:skinned": 0
+									}
+								}
+							},
+							"permutations": [
+								{
+									"components": {
+										"minecraft:material_instances": {
+											"*": {
+												"texture": "cattail_skinned",
+												"render_method": "alpha_test"
+											}
+										},
+										"minecraft:ticking": {
+											"looping": false,
+											"range": [
+												24000,
+												26400
+											],
+											"on_tick": {
+												"event": "grow",
+												"target": "self",
+												"condition": "query.block_property('overworld:skinned') == 1"
+											}
+										}
+									},
+									"condition": "query.block_property('overworld:skinned') == 1"
+								}
+							]
+						},
+						"key": "permutations",
+						"children": [
+							{
+								"open": [
+									{
+										"components": {
+											"minecraft:material_instances": {
+												"*": {
+													"texture": "cattail_skinned",
+													"render_method": "alpha_test"
+												}
+											},
+											"minecraft:ticking": {
+												"looping": false,
+												"range": [
+													24000,
+													26400
+												],
+												"on_tick": {
+													"event": "grow",
+													"target": "self",
+													"condition": "query.block_property('overworld:skinned') == 1"
+												}
+											}
+										},
+										"condition": "query.block_property('overworld:skinned') == 1"
+									}
+								],
+								"children": [
+									{
+										"open": {
+											"components": {
+												"minecraft:material_instances": {
+													"*": {
+														"texture": "cattail_skinned",
+														"render_method": "alpha_test"
+													}
+												},
+												"minecraft:ticking": {
+													"looping": false,
+													"range": [
+														24000,
+														26400
+													],
+													"on_tick": {
+														"event": "grow",
+														"target": "self",
+														"condition": "query.block_property('overworld:skinned') == 1"
+													}
+												}
+											},
+											"condition": "query.block_property('overworld:skinned') == 1"
+										},
+										"key": "components",
+										"children": [
+											{
+												"key": "minecraft:material_instances",
+												"children": [
+													{
+														"open": {
+															"*": {
+																"texture": "cattail_skinned",
+																"render_method": "alpha_test"
+															}
+														},
+														"key": "*",
+														"is_minified": true,
+														"children": {
+															"texture": "cattail_skinned",
+															"render_method": "alpha_test"
+														}
+													}
+												]
+											},
+											{
+												"key": "minecraft:ticking",
+												"children": [
+													{
+														"data": "false",
+														"key": "looping"
+													},
+													{
+														"key": "range",
+														"is_minified": true,
+														"children": [
+															24000,
+															26400
+														]
+													},
+													{
+														"open": {
+															"looping": false,
+															"range": [
+																24000,
+																26400
+															],
+															"on_tick": {
+																"event": "grow",
+																"target": "self",
+																"condition": "query.block_property('overworld:skinned') == 1"
+															}
+														},
+														"key": "on_tick",
+														"is_minified": true,
+														"children": {
+															"event": "grow",
+															"target": "self",
+															"condition": "query.block_property('overworld:skinned') == 1"
+														}
+													}
+												]
+											}
+										]
+									},
+									{
+										"data": "query.block_property('overworld:skinned') == 1",
+										"key": "condition"
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

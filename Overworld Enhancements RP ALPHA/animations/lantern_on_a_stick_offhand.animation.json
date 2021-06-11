@@ -1,0 +1,45 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.lantern_on_a_stick.first_person_offset_offhand": {
+			"loop": "hold_on_last_frame",
+			"bones": {
+				"leftItem": {
+					"rotation": {
+						"0": 35,
+						"1": 57.5,
+						"2": -22.5
+					}
+				},
+				"handle": {
+					"rotation": {
+						"0": 22.5,
+						"1": 0,
+						"2": 0
+					},
+					"position": {
+						"0": 0,
+						"1": 10,
+						"2": 0
+					}
+				},
+				"lantern": {
+					"rotation": {
+						"0": 40,
+						"1": 0,
+						"2": 0
+					}
+				}
+			}
+		},
+		"animation.lantern_on_a_stick_offhand.first_person_offset": {
+			"loop": "hold_on_last_frame",
+			"bones": {
+				"leftItem": {
+					"rotation": [67.5, 22.5, 0],
+					"position": [-10, 0, 0]
+				}
+			}
+		}
+	}
+}

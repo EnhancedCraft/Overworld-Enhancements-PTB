@@ -1,0 +1,49 @@
+//bridge-file-version: #3
+{
+	"format_version": "1.16.100",
+	"minecraft:feature_rules": {
+		"description": {
+			"identifier": "overworld:pink_opal_lily_gen",
+			"places_feature": "overworld:pink_opal_lily_feature"
+		},
+		"conditions": {
+			"placement_pass": "after_sky_pass",
+			"minecraft:biome_filter": {
+				"any_of": [
+					{
+						"test": "has_biome_tag",
+						"operator": "==",
+						"value": "swamp"
+					},
+					{
+						"test": "has_biome_tag",
+						"operator": "==",
+						"value": "mangrove"
+					}
+				]
+			}
+		},
+		"distribution": {
+			"iterations": 11,
+			"x": {
+				"extent": [
+					0,
+					16
+				],
+				"distribution": "gaussian"
+			},
+			"y": "query.heightmap(variable.worldx, variable.worldz) + 0",
+			"z": {
+				"extent": [
+					0,
+					16
+				],
+				"distribution": "gaussian"
+			},
+			"scatter_chance": {
+				"numerator": 1,
+				"denominator": 10
+			}
+		}
+	}
+}

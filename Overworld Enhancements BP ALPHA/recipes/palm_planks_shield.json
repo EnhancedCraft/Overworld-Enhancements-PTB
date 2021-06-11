@@ -1,0 +1,27 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "overworld:palm_planks_shield"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "WIW",
+            "WWW",
+            " W "
+        ],
+        "key": {
+            "W": {
+                "item": "overworld:palm_planks"
+            },
+            "I": {
+                "item": "minecraft:iron_ingot"
+            }
+        },
+        "result": {
+            "item": "minecraft:shield"
+        }
+    }
+}

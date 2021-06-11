@@ -1,0 +1,29 @@
+
+{
+	"format_version": 1.16,
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "overworld:mangrove_planks_to_axe"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"XX",
+      		"X#",
+      		" #"
+		],
+		"key": {
+			"X": {
+				"item": "overworld:mangrove_planks"
+			},
+			"#": {
+				"item": "stick"
+			}
+		},
+		"result": {
+			"item": "wooden_axe",
+			"count": 1
+		}
+	}
+}

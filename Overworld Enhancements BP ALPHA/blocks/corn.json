@@ -1,0 +1,251 @@
+//bridge-file-version: #34
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "overworld:corn",
+			"properties": {
+				"overworld:corn": [
+					0,
+					1,
+					2,
+					3
+				]
+			}
+		},
+		"components": {
+			"minecraft:destroy_time": 0.1,
+			"minecraft:block_light_absorption": 0,
+			"minecraft:explosion_resistance": 0.1,
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "corn_stage_1",
+					"render_method": "alpha_test"
+				}
+			},
+			"minecraft:geometry": "geometry.corn",
+			"minecraft:entity_collision": false,
+			"minecraft:pick_collision": {
+				"origin": [
+					-3,
+					0,
+					-3
+				],
+				"size": [
+					6,
+					4,
+					6
+				]
+			},
+			"minecraft:placement_filter": {
+				"conditions": [
+					{
+						"block_filter": [
+							"minecraft:farmland"
+						],
+						"allowed_faces": [
+							"up",
+							"down"
+						]
+					}
+				]
+			},
+			"minecraft:random_ticking": {
+				"on_tick": {
+					"event": "grow",
+					"target": "self",
+					"condition": "query.has_block_property('overworld:corn') == 0 || query.has_block_property('overworld:corn') == 1 || query.has_block_property('overworld:corn') == 2"
+				}
+			},
+			"minecraft:on_interact": {
+				"event": "bonemeal_1",
+				"target": "self",
+				"condition": "query.get_equipped_item_name == 'bone_meal' "
+			},
+			"minecraft:loot": "loot_tables/blocks/corn_loot.json"
+		},
+		"permutations": [
+			{
+				"condition": "query.block_property('overworld:corn') == 1",
+				"components": {
+					"minecraft:material_instances": {
+						"*": {
+							"texture": "corn_stage_2",
+							"render_method": "alpha_test"
+						}
+					},
+					"minecraft:pick_collision": {
+						"origin": [
+							-3,
+							0,
+							-3
+						],
+						"size": [
+							6,
+							16,
+							6
+						]
+					},
+					"minecraft:on_interact": {
+						"event": "bonemeal_2",
+						"target": "self",
+						"condition": "query.get_equipped_item_name == 'bone_meal'"
+					}
+				}
+			},
+			{
+				"condition": "query.block_property('overworld:corn') == 2",
+				"components": {
+					"minecraft:material_instances": {
+						"*": {
+							"texture": "corn_stage_3",
+							"render_method": "alpha_test",
+							"ambient_occlusion": false
+						}
+					},
+					"minecraft:geometry": "geometry.corn",
+					"minecraft:preventsjumping": true,
+					"minecraft:pick_collision": {
+						"origin": [
+							-3,
+							0,
+							-3
+						],
+						"size": [
+							6,
+							16,
+							6
+						]
+					},
+					"minecraft:on_interact": {
+						"event": "bonemeal_3",
+						"target": "self",
+						"condition": "query.get_equipped_item_name == 'bone_meal'"
+					}
+				}
+			},
+			{
+				"condition": "query.block_property('overworld:corn') == 3",
+				"components": {
+					"minecraft:material_instances": {
+						"*": {
+							"texture": "corn_stage_4",
+							"render_method": "alpha_test",
+							"ambient_occlusion": false
+						}
+					},
+					"minecraft:geometry": "geometry.corn",
+					"minecraft:pick_collision": {
+						"origin": [
+							-3,
+							0,
+							-3
+						],
+						"size": [
+							6,
+							16,
+							6
+						]
+					},
+					"minecraft:on_interact": {
+						"event": "harvest",
+						"target": "self"
+					},
+					"minecraft:loot": "loot_tables/blocks/corn_loot_2.json"
+				}
+			}
+		],
+		"events": {
+			"bonemeal_1": {
+				"randomize": [
+					{
+						"weight": 2,
+						"run_command": {
+							"command": [
+								"particle minecraft:crop_growth_emitter ~~~"
+							]
+						}
+					},
+					{
+						"weight": 1,
+						"set_block_property": {
+							"overworld:corn": 1
+						},
+						"run_command": {
+							"command": [
+								"particle minecraft:crop_growth_emitter ~~~"
+							]
+						}
+					}
+				]
+			},
+			"bonemeal_2": {
+				"randomize": [
+					{
+						"weight": 2,
+						"run_command": {
+							"command": [
+								"particle minecraft:crop_growth_emitter ~~~"
+							]
+						}
+					},
+					{
+						"weight": 1,
+						"set_block_property": {
+							"overworld:corn": 2
+						},
+						"run_command": {
+							"command": [
+								"particle minecraft:crop_growth_emitter ~~~"
+							]
+						}
+					}
+				]
+			},
+			"bonemeal_3": {
+				"randomize": [
+					{
+						"weight": 2,
+						"run_command": {
+							"command": [
+								"particle minecraft:crop_growth_emitter ~~~"
+							]
+						}
+					},
+					{
+						"weight": 1,
+						"set_block_property": {
+							"overworld:corn": 3
+						},
+						"run_command": {
+							"command": [
+								"particle minecraft:crop_growth_emitter ~~~"
+							]
+						}
+					}
+				]
+			},
+			"grow": {
+				"randomize": [
+					{
+						"weight": 2
+					},
+					{
+						"weight": 1,
+						"set_block_property": {
+							"overworld:corn": "(query.block_property('overworld:corn')<3) ? query.block_property('overworld:corn') + 1 : 3"
+						}
+					}
+				]
+			},
+			"harvest": {
+				"spawn_loot": {
+					"table": "loot_tables/blocks/corn_harvest.json"
+				},
+				"set_block_property": {
+					"overworld:corn": 2
+				}
+			}
+		}
+	}
+}

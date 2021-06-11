@@ -1,0 +1,8 @@
+{
+	"file_path": "C:\\Users\\kerri\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\Overworld Enhancements RP\\texts\\en_US.lang",
+	"file_type": "client_lang",
+	"format_version": 0,
+	"file_uuid": "4e8c1158_baa6_415e_96dd_e076af97dc3b",
+	"file_version": 12,
+	"cache_content": "pack.name=Overworld Enhancements RP\r\npack.description=Created By Warhead.\r\n\r\nitem.overworld:green_mushroom.item=Green Mushroom\r\ntile.overworld:mangrove_leaves.name=Mangrove Leaves\r\ntile.overworld:mangrove_planks.name=Mangrove Planks\r\ntile.overworld:mangrove_log.name=Mangrove Log\r\nitem.overworld:cattail.item=Cattail\r\ntile.overworld:peat.name=Peat\r\ntile.overworld:canary_grass.name=Canary Grass\r\ntile.overworld:wampi_plant.name=Wampi Plant\r\ntile.overworld:root_block.name=Root Block\r\ntile.overworld:yellow_mushroom.name=Yellow Mushroom\r\ntile.overworld:peat_bricks.name=Peat Bricks\r\ntile.overworld:palm_log.name=Palm Log\r\ntile.overworld:palm_planks.name=Palm Planks\r\ntile.overworld:desert_spike_bush.name=Desert Spike Bush\r\nentity.overworld:scorcher.name=Scorcher\r\nitem.spawn_egg.entity.overworld:scorcher.name=Spawn Scorcher"
+}

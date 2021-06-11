@@ -1,0 +1,47 @@
+//bridge-file-version: #19
+{
+	"format_version": "1.13.0",
+	"minecraft:feature_rules": {
+		"description": {
+			"identifier": "overworld:dead_bush_dunes_gen",
+			"places_feature": "overworld:dead_bush_dunes_feature"
+		},
+		"conditions": {
+			"placement_pass": "first_pass",
+			"minecraft:biome_filter": {
+				"any_of": [
+					{
+						"test": "has_biome_tag",
+						"operator": "==",
+						"value": "dunes"
+					}
+				]
+			}
+		},
+		"distribution": {
+			"iterations": 100,
+			"x": {
+				"distribution": "uniform",
+				"extent": [
+					0,
+					16
+				]
+			},
+			"y": {
+				"distribution": "uniform",
+				"extent": [
+					0,
+					100
+				]
+			},
+			"z": {
+				"distribution": "uniform",
+				"extent": [
+					0,
+					16
+				]
+			},
+			"scatter_chance": 70
+		}
+	}
+}

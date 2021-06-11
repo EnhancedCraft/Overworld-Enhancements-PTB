@@ -1,0 +1,26 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "overworld:peat_bricks"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"BB",
+			"BB"
+		],
+		"key": {
+			"B": {
+				"item": "overworld:dried_peat_brick"
+			}
+		},
+		"result": [
+			{
+				"item": "overworld:peat_bricks",
+				"count": 1
+			}
+		]
+	}
+}

@@ -1,0 +1,715 @@
+{
+	"file_path": "C:\\Users\\nicki\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Overworld Enhancements BP\\items\\bandage_roll_2.json",
+	"file_type": "item",
+	"format_version": 1,
+	"file_uuid": "76b494e8_bb3f_44c3_b666_51b09f09d087",
+	"file_version": 20,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:item": {
+						"description": {
+							"identifier": "overworld:bandage_roll_2",
+							"category": "commands"
+						},
+						"components": {
+							"minecraft:max_stack_size": 1,
+							"minecraft:stacked_by_data": true,
+							"minecraft:use_duration": 2.3,
+							"minecraft:use_animation": "bow",
+							"minecraft:cooldown": {
+								"category": "chorusfruit",
+								"duration": 0.6
+							},
+							"minecraft:icon": {
+								"texture": "bandage"
+							},
+							"minecraft:display_name": {
+								"value": "Bandage Roll §42 Uses Remain"
+							},
+							"minecraft:food": {
+								"nutrition": 0,
+								"can_always_eat": true,
+								"saturation_modifier": "poor",
+								"on_consume": {
+									"event": "bandage",
+									"target": "self"
+								}
+							}
+						},
+						"events": {
+							"bandage": {
+								"sequence": [
+									{
+										"condition": "query.health == 10 || query.health == 9 || query.health == 8 || query.health == 7 || query.health == 6 || query.health == 5 || query.health == 4 || query.health == 3 || query.health == 2 || query.health == 1 ",
+										"decrement_stack": {},
+										"run_command": {
+											"command": [
+												"give @s overworld:bloody_bandage_roll"
+											]
+										},
+										"add_mob_effect": {
+											"effect": "instant_health",
+											"target": "holder",
+											"duration": 1,
+											"amplifier": 6
+										}
+									},
+									{
+										"condition": "query.health == 20 || query.health == 19 || query.health == 18 || query.health == 17 || query.health == 16 || query.health == 15 || query.health == 14 || query.health == 13 || query.health == 12 || query.health == 11",
+										"decrement_stack": {},
+										"add_mob_effect": {
+											"effect": "instant_health",
+											"target": "holder",
+											"duration": 1,
+											"amplifier": 6
+										},
+										"run_command": {
+											"command": [
+												"give @s overworld:bandage_roll_3"
+											]
+										}
+									}
+								]
+							}
+						}
+					}
+				},
+				"key": "minecraft:item",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "overworld:bandage_roll_2",
+								"category": "commands"
+							},
+							"components": {
+								"minecraft:max_stack_size": 1,
+								"minecraft:stacked_by_data": true,
+								"minecraft:use_duration": 2.3,
+								"minecraft:use_animation": "bow",
+								"minecraft:cooldown": {
+									"category": "chorusfruit",
+									"duration": 0.6
+								},
+								"minecraft:icon": {
+									"texture": "bandage"
+								},
+								"minecraft:display_name": {
+									"value": "Bandage Roll §42 Uses Remain"
+								},
+								"minecraft:food": {
+									"nutrition": 0,
+									"can_always_eat": true,
+									"saturation_modifier": "poor",
+									"on_consume": {
+										"event": "bandage",
+										"target": "self"
+									}
+								}
+							},
+							"events": {
+								"bandage": {
+									"sequence": [
+										{
+											"condition": "query.health == 10 || query.health == 9 || query.health == 8 || query.health == 7 || query.health == 6 || query.health == 5 || query.health == 4 || query.health == 3 || query.health == 2 || query.health == 1 ",
+											"decrement_stack": {},
+											"run_command": {
+												"command": [
+													"give @s overworld:bloody_bandage_roll"
+												]
+											},
+											"add_mob_effect": {
+												"effect": "instant_health",
+												"target": "holder",
+												"duration": 1,
+												"amplifier": 6
+											}
+										},
+										{
+											"condition": "query.health == 20 || query.health == 19 || query.health == 18 || query.health == 17 || query.health == 16 || query.health == 15 || query.health == 14 || query.health == 13 || query.health == 12 || query.health == 11",
+											"decrement_stack": {},
+											"add_mob_effect": {
+												"effect": "instant_health",
+												"target": "holder",
+												"duration": 1,
+												"amplifier": 6
+											},
+											"run_command": {
+												"command": [
+													"give @s overworld:bandage_roll_3"
+												]
+											}
+										}
+									]
+								}
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "overworld:bandage_roll_2",
+							"category": "commands"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "overworld:bandage_roll_2",
+								"category": "commands"
+							},
+							"components": {
+								"minecraft:max_stack_size": 1,
+								"minecraft:stacked_by_data": true,
+								"minecraft:use_duration": 2.3,
+								"minecraft:use_animation": "bow",
+								"minecraft:cooldown": {
+									"category": "chorusfruit",
+									"duration": 0.6
+								},
+								"minecraft:icon": {
+									"texture": "bandage"
+								},
+								"minecraft:display_name": {
+									"value": "Bandage Roll §42 Uses Remain"
+								},
+								"minecraft:food": {
+									"nutrition": 0,
+									"can_always_eat": true,
+									"saturation_modifier": "poor",
+									"on_consume": {
+										"event": "bandage",
+										"target": "self"
+									}
+								}
+							},
+							"events": {
+								"bandage": {
+									"sequence": [
+										{
+											"condition": "query.health == 10 || query.health == 9 || query.health == 8 || query.health == 7 || query.health == 6 || query.health == 5 || query.health == 4 || query.health == 3 || query.health == 2 || query.health == 1 ",
+											"decrement_stack": {},
+											"run_command": {
+												"command": [
+													"give @s overworld:bloody_bandage_roll"
+												]
+											},
+											"add_mob_effect": {
+												"effect": "instant_health",
+												"target": "holder",
+												"duration": 1,
+												"amplifier": 6
+											}
+										},
+										{
+											"condition": "query.health == 20 || query.health == 19 || query.health == 18 || query.health == 17 || query.health == 16 || query.health == 15 || query.health == 14 || query.health == 13 || query.health == 12 || query.health == 11",
+											"decrement_stack": {},
+											"add_mob_effect": {
+												"effect": "instant_health",
+												"target": "holder",
+												"duration": 1,
+												"amplifier": 6
+											},
+											"run_command": {
+												"command": [
+													"give @s overworld:bandage_roll_3"
+												]
+											}
+										}
+									]
+								}
+							}
+						},
+						"key": "components",
+						"children": [
+							{
+								"data": "1",
+								"key": "minecraft:max_stack_size"
+							},
+							{
+								"data": "true",
+								"key": "minecraft:stacked_by_data"
+							},
+							{
+								"data": "2.3",
+								"key": "minecraft:use_duration"
+							},
+							{
+								"data": "bow",
+								"key": "minecraft:use_animation"
+							},
+							{
+								"key": "minecraft:cooldown",
+								"is_minified": true,
+								"children": {
+									"category": "chorusfruit",
+									"duration": 0.6
+								}
+							},
+							{
+								"key": "minecraft:icon",
+								"is_minified": true,
+								"children": {
+									"texture": "bandage"
+								}
+							},
+							{
+								"open": {
+									"minecraft:max_stack_size": 1,
+									"minecraft:stacked_by_data": true,
+									"minecraft:use_duration": 2.3,
+									"minecraft:use_animation": "bow",
+									"minecraft:cooldown": {
+										"category": "chorusfruit",
+										"duration": 0.6
+									},
+									"minecraft:icon": {
+										"texture": "bandage"
+									},
+									"minecraft:display_name": {
+										"value": "Bandage Roll §42 Uses Remain"
+									},
+									"minecraft:food": {
+										"nutrition": 0,
+										"can_always_eat": true,
+										"saturation_modifier": "poor",
+										"on_consume": {
+											"event": "bandage",
+											"target": "self"
+										}
+									}
+								},
+								"key": "minecraft:display_name",
+								"is_minified": true,
+								"children": {
+									"value": "Bandage Roll §42 Uses Remain"
+								}
+							},
+							{
+								"open": {
+									"minecraft:max_stack_size": 1,
+									"minecraft:stacked_by_data": true,
+									"minecraft:use_duration": 2.3,
+									"minecraft:use_animation": "bow",
+									"minecraft:cooldown": {
+										"category": "chorusfruit",
+										"duration": 0.6
+									},
+									"minecraft:icon": {
+										"texture": "bandage"
+									},
+									"minecraft:display_name": {
+										"value": "Bandage Roll §42 Uses Remain"
+									},
+									"minecraft:food": {
+										"nutrition": 0,
+										"can_always_eat": true,
+										"saturation_modifier": "poor",
+										"on_consume": {
+											"event": "bandage",
+											"target": "self"
+										}
+									}
+								},
+								"key": "minecraft:food",
+								"children": [
+									{
+										"data": "0",
+										"key": "nutrition"
+									},
+									{
+										"data": "true",
+										"key": "can_always_eat"
+									},
+									{
+										"data": "poor",
+										"key": "saturation_modifier"
+									},
+									{
+										"open": {
+											"nutrition": 0,
+											"can_always_eat": true,
+											"saturation_modifier": "poor",
+											"on_consume": {
+												"event": "bandage",
+												"target": "self"
+											}
+										},
+										"key": "on_consume",
+										"is_minified": true,
+										"children": {
+											"event": "bandage",
+											"target": "self"
+										}
+									}
+								]
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "overworld:bandage_roll_2",
+								"category": "commands"
+							},
+							"components": {
+								"minecraft:max_stack_size": 1,
+								"minecraft:stacked_by_data": true,
+								"minecraft:use_duration": 2.3,
+								"minecraft:use_animation": "bow",
+								"minecraft:cooldown": {
+									"category": "chorusfruit",
+									"duration": 0.6
+								},
+								"minecraft:icon": {
+									"texture": "bandage"
+								},
+								"minecraft:display_name": {
+									"value": "Bandage Roll §42 Uses Remain"
+								},
+								"minecraft:food": {
+									"nutrition": 0,
+									"can_always_eat": true,
+									"saturation_modifier": "poor",
+									"on_consume": {
+										"event": "bandage",
+										"target": "self"
+									}
+								}
+							},
+							"events": {
+								"bandage": {
+									"sequence": [
+										{
+											"condition": "query.health == 10 || query.health == 9 || query.health == 8 || query.health == 7 || query.health == 6 || query.health == 5 || query.health == 4 || query.health == 3 || query.health == 2 || query.health == 1 ",
+											"decrement_stack": {},
+											"run_command": {
+												"command": [
+													"give @s overworld:bloody_bandage_roll"
+												]
+											},
+											"add_mob_effect": {
+												"effect": "instant_health",
+												"target": "holder",
+												"duration": 1,
+												"amplifier": 6
+											}
+										},
+										{
+											"condition": "query.health == 20 || query.health == 19 || query.health == 18 || query.health == 17 || query.health == 16 || query.health == 15 || query.health == 14 || query.health == 13 || query.health == 12 || query.health == 11",
+											"decrement_stack": {},
+											"add_mob_effect": {
+												"effect": "instant_health",
+												"target": "holder",
+												"duration": 1,
+												"amplifier": 6
+											},
+											"run_command": {
+												"command": [
+													"give @s overworld:bandage_roll_3"
+												]
+											}
+										}
+									]
+								}
+							}
+						},
+						"key": "events",
+						"children": [
+							{
+								"open": {
+									"bandage": {
+										"sequence": [
+											{
+												"condition": "query.health == 10 || query.health == 9 || query.health == 8 || query.health == 7 || query.health == 6 || query.health == 5 || query.health == 4 || query.health == 3 || query.health == 2 || query.health == 1 ",
+												"decrement_stack": {},
+												"run_command": {
+													"command": [
+														"give @s overworld:bloody_bandage_roll"
+													]
+												},
+												"add_mob_effect": {
+													"effect": "instant_health",
+													"target": "holder",
+													"duration": 1,
+													"amplifier": 6
+												}
+											},
+											{
+												"condition": "query.health == 20 || query.health == 19 || query.health == 18 || query.health == 17 || query.health == 16 || query.health == 15 || query.health == 14 || query.health == 13 || query.health == 12 || query.health == 11",
+												"decrement_stack": {},
+												"add_mob_effect": {
+													"effect": "instant_health",
+													"target": "holder",
+													"duration": 1,
+													"amplifier": 6
+												},
+												"run_command": {
+													"command": [
+														"give @s overworld:bandage_roll_3"
+													]
+												}
+											}
+										]
+									}
+								},
+								"key": "bandage",
+								"children": [
+									{
+										"open": {
+											"sequence": [
+												{
+													"condition": "query.health == 10 || query.health == 9 || query.health == 8 || query.health == 7 || query.health == 6 || query.health == 5 || query.health == 4 || query.health == 3 || query.health == 2 || query.health == 1 ",
+													"decrement_stack": {},
+													"run_command": {
+														"command": [
+															"give @s overworld:bloody_bandage_roll"
+														]
+													},
+													"add_mob_effect": {
+														"effect": "instant_health",
+														"target": "holder",
+														"duration": 1,
+														"amplifier": 6
+													}
+												},
+												{
+													"condition": "query.health == 20 || query.health == 19 || query.health == 18 || query.health == 17 || query.health == 16 || query.health == 15 || query.health == 14 || query.health == 13 || query.health == 12 || query.health == 11",
+													"decrement_stack": {},
+													"add_mob_effect": {
+														"effect": "instant_health",
+														"target": "holder",
+														"duration": 1,
+														"amplifier": 6
+													},
+													"run_command": {
+														"command": [
+															"give @s overworld:bandage_roll_3"
+														]
+													}
+												}
+											]
+										},
+										"key": "sequence",
+										"children": [
+											{
+												"open": [
+													{
+														"condition": "query.health == 10 || query.health == 9 || query.health == 8 || query.health == 7 || query.health == 6 || query.health == 5 || query.health == 4 || query.health == 3 || query.health == 2 || query.health == 1 ",
+														"decrement_stack": {},
+														"run_command": {
+															"command": [
+																"give @s overworld:bloody_bandage_roll"
+															]
+														},
+														"add_mob_effect": {
+															"effect": "instant_health",
+															"target": "holder",
+															"duration": 1,
+															"amplifier": 6
+														}
+													},
+													{
+														"condition": "query.health == 20 || query.health == 19 || query.health == 18 || query.health == 17 || query.health == 16 || query.health == 15 || query.health == 14 || query.health == 13 || query.health == 12 || query.health == 11",
+														"decrement_stack": {},
+														"add_mob_effect": {
+															"effect": "instant_health",
+															"target": "holder",
+															"duration": 1,
+															"amplifier": 6
+														},
+														"run_command": {
+															"command": [
+																"give @s overworld:bandage_roll_3"
+															]
+														}
+													}
+												],
+												"children": [
+													{
+														"open": {
+															"condition": "query.health == 10 || query.health == 9 || query.health == 8 || query.health == 7 || query.health == 6 || query.health == 5 || query.health == 4 || query.health == 3 || query.health == 2 || query.health == 1 ",
+															"decrement_stack": {},
+															"run_command": {
+																"command": [
+																	"give @s overworld:bloody_bandage_roll"
+																]
+															},
+															"add_mob_effect": {
+																"effect": "instant_health",
+																"target": "holder",
+																"duration": 1,
+																"amplifier": 6
+															}
+														},
+														"data": "query.health == 10 || query.health == 9 || query.health == 8 || query.health == 7 || query.health == 6 || query.health == 5 || query.health == 4 || query.health == 3 || query.health == 2 || query.health == 1 ",
+														"key": "condition"
+													},
+													{
+														"key": "decrement_stack",
+														"is_minified": true,
+														"children": {}
+													},
+													{
+														"open": {
+															"condition": "query.health == 10 || query.health == 9 || query.health == 8 || query.health == 7 || query.health == 6 || query.health == 5 || query.health == 4 || query.health == 3 || query.health == 2 || query.health == 1 ",
+															"decrement_stack": {},
+															"run_command": {
+																"command": [
+																	"give @s overworld:bloody_bandage_roll"
+																]
+															},
+															"add_mob_effect": {
+																"effect": "instant_health",
+																"target": "holder",
+																"duration": 1,
+																"amplifier": 6
+															}
+														},
+														"key": "run_command",
+														"children": [
+															{
+																"open": {
+																	"command": [
+																		"give @s overworld:bloody_bandage_roll"
+																	]
+																},
+																"key": "command",
+																"is_minified": true,
+																"children": [
+																	"give @s overworld:bloody_bandage_roll"
+																]
+															}
+														]
+													},
+													{
+														"open": {
+															"condition": "query.health == 10 || query.health == 9 || query.health == 8 || query.health == 7 || query.health == 6 || query.health == 5 || query.health == 4 || query.health == 3 || query.health == 2 || query.health == 1 ",
+															"decrement_stack": {},
+															"run_command": {
+																"command": [
+																	"give @s overworld:bloody_bandage_roll"
+																]
+															},
+															"add_mob_effect": {
+																"effect": "instant_health",
+																"target": "holder",
+																"duration": 1,
+																"amplifier": 6
+															}
+														},
+														"key": "add_mob_effect",
+														"is_minified": true,
+														"children": {
+															"effect": "instant_health",
+															"target": "holder",
+															"duration": 1,
+															"amplifier": 6
+														}
+													}
+												]
+											},
+											{
+												"open": [
+													{
+														"condition": "query.health == 10 || query.health == 9 || query.health == 8 || query.health == 7 || query.health == 6 || query.health == 5 || query.health == 4 || query.health == 3 || query.health == 2 || query.health == 1 ",
+														"decrement_stack": {},
+														"run_command": {
+															"command": [
+																"give @s overworld:bloody_bandage_roll"
+															]
+														},
+														"add_mob_effect": {
+															"effect": "instant_health",
+															"target": "holder",
+															"duration": 1,
+															"amplifier": 6
+														}
+													},
+													{
+														"condition": "query.health == 20 || query.health == 19 || query.health == 18 || query.health == 17 || query.health == 16 || query.health == 15 || query.health == 14 || query.health == 13 || query.health == 12 || query.health == 11",
+														"decrement_stack": {},
+														"add_mob_effect": {
+															"effect": "instant_health",
+															"target": "holder",
+															"duration": 1,
+															"amplifier": 6
+														},
+														"run_command": {
+															"command": [
+																"give @s overworld:bandage_roll_3"
+															]
+														}
+													}
+												],
+												"children": [
+													{
+														"data": "query.health == 20 || query.health == 19 || query.health == 18 || query.health == 17 || query.health == 16 || query.health == 15 || query.health == 14 || query.health == 13 || query.health == 12 || query.health == 11",
+														"key": "condition"
+													},
+													{
+														"key": "decrement_stack",
+														"is_minified": true,
+														"children": {}
+													},
+													{
+														"key": "add_mob_effect",
+														"is_minified": true,
+														"children": {
+															"effect": "instant_health",
+															"target": "holder",
+															"duration": 1,
+															"amplifier": 6
+														}
+													},
+													{
+														"open": {
+															"condition": "query.health == 20 || query.health == 19 || query.health == 18 || query.health == 17 || query.health == 16 || query.health == 15 || query.health == 14 || query.health == 13 || query.health == 12 || query.health == 11",
+															"decrement_stack": {},
+															"add_mob_effect": {
+																"effect": "instant_health",
+																"target": "holder",
+																"duration": 1,
+																"amplifier": 6
+															},
+															"run_command": {
+																"command": [
+																	"give @s overworld:bandage_roll_3"
+																]
+															}
+														},
+														"key": "run_command",
+														"children": [
+															{
+																"open": {
+																	"command": [
+																		"give @s overworld:bandage_roll_3"
+																	]
+																},
+																"key": "command",
+																"is_minified": true,
+																"children": [
+																	"give @s overworld:bandage_roll_3"
+																]
+															}
+														]
+													}
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

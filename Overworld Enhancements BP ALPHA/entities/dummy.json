@@ -1,0 +1,140 @@
+//bridge-file-version: #12
+{
+	"format_version": "1.16.100",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "overworld:dummy",
+			"is_summonable": true,
+			"is_spawnable": true
+		},
+		"component_groups": {
+			"instant_despawn": {
+				"minecraft:instant_despawn": {},
+				"minecraft:spawn_entity": {
+					"entities": [
+						{
+							"num_to_spawn": 1,
+							"min_wait_time": 0,
+							"max_wait_time": 0,
+							"spawn_item": "overworld:dummy_spawn_egg",
+							"single_use": true
+						}
+					]
+				}
+			},
+			"normal": {
+				"minecraft:damage_sensor": {
+					"triggers": [
+						{
+							"on_damage": {
+								"event": "hurt",
+								"target": "self"
+							}
+						}
+					]
+				}
+			},
+			"named_steve": {
+				"minecraft:damage_sensor": {
+					"triggers": [
+						{
+							"on_damage": {
+								"event": "named_steve_hurt",
+								"target": "self"
+							}
+						}
+					]
+				}
+			}
+		},
+		"components": {
+			"minecraft:physics": {},
+			"minecraft:knockback_resistance": {
+				"value": 1
+			},
+			"minecraft:persistent": {},
+			"minecraft:collision_box": {
+				"width": 0.5,
+				"height": 1.7
+			},
+			"minecraft:health": {
+				"value": 1000000000,
+				"max": 1000000000
+			},
+			"minecraft:interact": {
+				"interactions": [
+					{
+						"interact_text": "action.interact.dummy",
+						"swing": true,
+						"on_interact": {
+							"event": "instant_despawn",
+							"target": "self",
+							"filters": {
+								"test": "is_sneaking",
+								"operator": "==",
+								"subject": "other",
+								"value": true
+							}
+						}
+					}
+				]
+			},
+			"minecraft:nameable": {
+				"allow_name_tag_renaming": true,
+				"name_actions": [
+					{
+						"name_filter": "Steve",
+						"on_named": {
+							"event": "named_steve",
+							"target": "self"
+						}
+					}
+				]
+			}
+		},
+		"events": {
+			"hurt": {
+				"run_command": {
+					"command": [
+						"playanimation @s animation.dummy.hurt t",
+						"playsound armor.equip_leather @a ~ ~ ~"
+					]
+				}
+			},
+			"instant_despawn": {
+				"add": {
+					"component_groups": [
+						"instant_despawn"
+					]
+				}
+			},
+			"named_steve_hurt": {
+				"run_command": {
+					"command": [
+						"playanimation @s animation.dummy.hurt t",
+						"playsound random.hurt @a ~ ~ ~"
+					]
+				}
+			},
+			"named_steve": {
+				"add": {
+					"component_groups": [
+						"named_steve"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"normal"
+					]
+				}
+			},
+			"minecraft:entity_spawned": {
+				"add": {
+					"component_groups": [
+						"normal"
+					]
+				}
+			}
+		}
+	}
+}

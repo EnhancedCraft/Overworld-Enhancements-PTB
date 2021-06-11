@@ -1,0 +1,49 @@
+//bridge-file-version: #1
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "overworld:canary_grass"
+		},
+		"components": {
+			"minecraft:destroy_time": 0.1,
+			"minecraft:block_light_absorption": 0,
+			"minecraft:breathability": "air",
+			"minecraft:loot": "loot_tables/blank.json",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "canary_grass",
+					"render_method": "alpha_test"
+				}
+			},
+			"minecraft:geometry": "geometry.canary",
+			"minecraft:entity_collision": false,
+			"minecraft:pick_collision": {
+				"origin": [
+					-4,
+					0,
+					-3
+				],
+				"size": [
+					8,
+					14,
+					8
+				]
+			},
+			"minecraft:placement_filter": {
+				"conditions": [
+					{
+						"block_filter": [
+							"minecraft:grass",
+							"minecraft:dirt"
+						],
+						"allowed_faces": [
+							"up"
+						]
+					}
+				]
+			}
+		},
+		"events": {}
+	}
+}

@@ -1,0 +1,53 @@
+//bridge-file-version: #54
+{
+	"format_version": "1.16.100",
+	"minecraft:attachable": {
+		"description": {
+			"identifier": "overworld:lantern_on_stick_burnt_out",
+			"materials": {
+				"default": "entity_alphatest",
+				"enchanted": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/models/armor/lantern_on_a_stick_burnt",
+				"enchanted": "textures/misc/enchanted_item_glint"
+			},
+			"geometry": {
+				"default": "geometry.lantern_on_a_stick"
+			},
+			"render_controllers": [
+				"controller.render.item_default"
+			],
+			"animations": {
+				"move": "animation.lantern_on_a_stick.move",
+				"third_person_main_hand": "animation.lantern_on_stick.third_person_main_hand",
+				"third_person_off_hand": "animation.lantern_on_stick.third_person_off_hand",
+				"first_person_main_hand": "animation.lantern_on_stick.first_person_main_hand",
+				"first_person_off_hand": "animation.lantern_on_stick.first_person_off_hand"
+			},
+			"scripts": {
+				"animate": [
+					{
+						"move": "query.modified_move_speed"
+					},
+					{
+						"third_person_main_hand": "v.main_hand && !c.is_first_person"
+					},
+					{
+						"third_person_off_hand": "v.off_hand && !c.is_first_person"
+					},
+					{
+						"first_person_main_hand": "v.main_hand && c.is_first_person"
+					},
+					{
+						"first_person_off_hand": "v.off_hand && c.is_first_person"
+					}
+				],
+				"pre_animation": [
+					"v.main_hand = c.item_slot == 'main_hand';",
+					"v.off_hand = c.item_slot == 'off_hand';"
+				]
+			}
+		}
+	}
+}

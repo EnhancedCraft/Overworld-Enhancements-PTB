@@ -1,0 +1,17 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_furnace": {
+		"description": {
+			"identifier": "overworld:cooked_cactus_fruit"
+		},
+		"tags": [
+			"furnace",
+			"smoker",
+			"campfire",
+			"soul_campfire"
+		],
+		"input": "overworld:raw_cactus_fruit",
+		"output": "overworld:cooked_cactus_fruit"
+	}
+}

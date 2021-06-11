@@ -1,0 +1,102 @@
+//bridge-file-version: #51
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.player.lantern_on_stick": {
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"lantern_on_stick": "query.get_equipped_item_name == 'lantern_on_stick'"
+						}
+					],
+					"on_entry": [
+						"/tag @s remove lantern"
+					]
+				},
+				"lantern_on_stick": {
+					"transitions": [
+						{
+							"default": "query.get_equipped_item_name != 'lantern_on_stick'"
+						}
+					],
+					"on_entry": [
+						"/tag @s add lantern"
+					]
+				}
+			}
+		},
+		"controller.animation.player.torch": {
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"torch": "query.get_equipped_item_name == 'torch' && query.is_in_water_or_rain == 0"
+						}
+					],
+					"on_entry": [
+						"/tag @s remove torch"
+					]
+				},
+				"torch": {
+					"transitions": [
+						{
+							"default": "query.get_equipped_item_name != 'torch' || query.is_in_water_or_rain"
+						}
+					],
+					"on_entry": [
+						"/tag @s add torch"
+					]
+				}
+			}
+		},
+		"controller.animation.player.helmet": {
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"helmet": "query.equipped_item_all_tags('slot.armor.head', 'overworld:mining_helmet')"
+						}
+					],
+					"on_entry": [
+						"/tag @s remove helmet"
+					]
+				},
+				"helmet": {
+					"transitions": [
+						{
+							"default": "query.equipped_item_all_tags('slot.armor.head', 'overworld:mining_helmet') == 0"
+						}
+					],
+					"on_entry": [
+						"/tag @s add helmet"
+					]
+				}
+			}
+		},
+		"controller.animation.player.lantern_on_stick_offhand": {
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"lantern_on_stick": "query.get_equipped_item_name(1) == 'lantern_on_stick'"
+						}
+					],
+					"on_entry": [
+						"/tag @s remove lantern"
+					]
+				},
+				"lantern_on_stick": {
+					"transitions": [
+						{
+							"default": "query.get_equipped_item_name(1) != 'lantern_on_stick'"
+						}
+					],
+					"on_entry": [
+						"/tag @s add lantern"
+					]
+				}
+			}
+		}
+	}
+}

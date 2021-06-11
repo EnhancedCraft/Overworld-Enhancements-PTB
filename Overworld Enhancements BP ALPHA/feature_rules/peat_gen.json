@@ -1,0 +1,52 @@
+//bridge-file-version: #1
+{
+	"format_version": "1.13.0",
+	"minecraft:feature_rules": {
+		"description": {
+			"identifier": "overworld:peat_gen",
+			"places_feature": "overworld:peat_feature"
+		},
+		"conditions": {
+			"placement_pass": "underground_pass",
+			"minecraft:biome_filter": {
+				"any_of": [
+					{
+						"test": "has_biome_tag",
+						"operator": "==",
+						"value": "swamp"
+					},
+					{
+						"test": "has_biome_tag",
+						"operator": "==",
+						"value": "mangrove"
+					}
+				]
+			}
+		},
+		"distribution": {
+			"iterations": 6,
+			"coordinate_eval_order": "zyx",
+			"x": {
+				"distribution": "uniform",
+				"extent": [
+					0,
+					16
+				]
+			},
+			"y": {
+				"distribution": "uniform",
+				"extent": [
+					50,
+					71
+				]
+			},
+			"z": {
+				"distribution": "uniform",
+				"extent": [
+					0,
+					16
+				]
+			}
+		}
+	}
+}

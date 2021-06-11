@@ -1,0 +1,81 @@
+{
+	"format_version": "1.16.220",
+	"minecraft:biome": {
+		"description": {
+			"identifier": "mangrove_forest"
+		},
+		"components": {
+			"minecraft:swamp_surface": {
+				"sea_floor_depth": 16,
+				"sea_floor_material": "minecraft:gravel",
+				"foundation_material": "minecraft:stone",
+				"mid_material": "minecraft:dirt",
+				"sea_material": "minecraft:water",
+				"top_material": {
+					"states": {
+						"dirt_type": "coarse"
+					},
+					"name": "minecraft:dirt"
+				}
+			},
+			"minecraft:overworld_height": {
+				"noise_type": "swamp"
+			},
+			"minecraft:climate": {
+				"downfall": 0.5,
+				"snow_accumulation": [
+					0,
+					0.125
+				],
+				"temperature": 0.8
+			},
+			"minecraft:overworld_generation_rules": {
+				"generate_for_climates": [
+					[
+						"medium",
+						0.5
+					]
+				]
+			},
+			"minecraft:surface_material_adjustments": {
+				"adjustments": [
+					{
+						"materials": {
+							"top_material": "minecraft:podzol"
+						},
+						"noise_range": [
+							0,
+							0.3
+						],
+						"noise_frequency_scale": 0.2
+					},
+					{
+						"materials": {
+							"top_material": "overworld:peat",
+							"mid_material": "overworld:peat"
+						},
+						"noise_range": [
+							0.1,
+							0.2
+						],
+						"noise_frequency_scale": 0.1
+					},
+					{
+						"materials": {
+							"top_material": "minecraft:dirt"
+						},
+						"noise_range": [
+							0,
+							0.1
+						],
+						"noise_frequency_scale": 0.2
+					}
+				]
+			},
+			"animal": {},
+			"overworld": {},
+			"monster": {},
+			"mangrove": {}
+		}
+	}
+}

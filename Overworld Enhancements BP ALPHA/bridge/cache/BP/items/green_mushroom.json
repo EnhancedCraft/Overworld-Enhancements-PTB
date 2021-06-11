@@ -1,0 +1,242 @@
+{
+	"file_path": "C:\\Users\\nicki\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Overworld Enhancements BP\\items\\green_mushroom.json",
+	"file_type": "item",
+	"format_version": 1,
+	"file_uuid": "395e24e4_d36b_4cd5_b1a2_8c9c3f05c976",
+	"file_version": 5,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:item": {
+						"description": {
+							"identifier": "overworld:green_mushroom.item"
+						},
+						"components": {
+							"minecraft:max_stack_size": 64,
+							"minecraft:icon": {
+								"texture": "green_mushroom_item"
+							},
+							"minecraft:render_offsets": "plants",
+							"minecraft:block_placer": {
+								"block": "overworld:green_mushroom",
+								"use_block_description": true
+							},
+							"minecraft:on_use_on": {
+								"on_use_on": {
+									"event": "play_sound",
+									"target": "self"
+								}
+							},
+							"minecraft:creative_category": {
+								"parent": "itemGroup.name.mushroom"
+							}
+						},
+						"events": {
+							"play_sound": {
+								"run_command": {
+									"command": [
+										"stopsound @s dig.stone",
+										"playsound dig.grass @a ~ ~ ~",
+										"stopsound @s step.stone",
+										"stopsound @s hit.stone",
+										"stopsound @s jump.stand",
+										"stopsound @s land.stone",
+										"stopsound @s use.stone"
+									]
+								}
+							}
+						}
+					}
+				},
+				"key": "minecraft:item",
+				"children": [
+					{
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "overworld:green_mushroom.item"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "overworld:green_mushroom.item"
+							},
+							"components": {
+								"minecraft:max_stack_size": 64,
+								"minecraft:icon": {
+									"texture": "green_mushroom_item"
+								},
+								"minecraft:render_offsets": "plants",
+								"minecraft:block_placer": {
+									"block": "overworld:green_mushroom",
+									"use_block_description": true
+								},
+								"minecraft:on_use_on": {
+									"on_use_on": {
+										"event": "play_sound",
+										"target": "self"
+									}
+								},
+								"minecraft:creative_category": {
+									"parent": "itemGroup.name.mushroom"
+								}
+							},
+							"events": {
+								"play_sound": {
+									"run_command": {
+										"command": [
+											"stopsound @s dig.stone",
+											"playsound dig.grass @a ~ ~ ~",
+											"stopsound @s step.stone",
+											"stopsound @s hit.stone",
+											"stopsound @s jump.stand",
+											"stopsound @s land.stone",
+											"stopsound @s use.stone"
+										]
+									}
+								}
+							}
+						},
+						"key": "components",
+						"children": [
+							{
+								"data": "64",
+								"key": "minecraft:max_stack_size"
+							},
+							{
+								"key": "minecraft:icon",
+								"is_minified": true,
+								"children": {
+									"texture": "green_mushroom_item"
+								}
+							},
+							{
+								"data": "plants",
+								"key": "minecraft:render_offsets"
+							},
+							{
+								"key": "minecraft:block_placer",
+								"is_minified": true,
+								"children": {
+									"block": "overworld:green_mushroom",
+									"use_block_description": true
+								}
+							},
+							{
+								"key": "minecraft:on_use_on",
+								"is_minified": true,
+								"children": {
+									"on_use_on": {
+										"event": "play_sound",
+										"target": "self"
+									}
+								}
+							},
+							{
+								"open": {
+									"minecraft:max_stack_size": 64,
+									"minecraft:icon": {
+										"texture": "green_mushroom_item"
+									},
+									"minecraft:render_offsets": "plants",
+									"minecraft:block_placer": {
+										"block": "overworld:green_mushroom",
+										"use_block_description": true
+									},
+									"minecraft:on_use_on": {
+										"on_use_on": {
+											"event": "play_sound",
+											"target": "self"
+										}
+									},
+									"minecraft:creative_category": {
+										"parent": "itemGroup.name.mushroom"
+									}
+								},
+								"key": "minecraft:creative_category",
+								"is_minified": true,
+								"children": {
+									"parent": "itemGroup.name.mushroom"
+								}
+							}
+						]
+					},
+					{
+						"key": "events",
+						"children": [
+							{
+								"open": {
+									"play_sound": {
+										"run_command": {
+											"command": [
+												"stopsound @s dig.stone",
+												"playsound dig.grass @a ~ ~ ~",
+												"stopsound @s step.stone",
+												"stopsound @s hit.stone",
+												"stopsound @s jump.stand",
+												"stopsound @s land.stone",
+												"stopsound @s use.stone"
+											]
+										}
+									}
+								},
+								"key": "play_sound",
+								"children": [
+									{
+										"open": {
+											"run_command": {
+												"command": [
+													"stopsound @s dig.stone",
+													"playsound dig.grass @a ~ ~ ~",
+													"stopsound @s step.stone",
+													"stopsound @s hit.stone",
+													"stopsound @s jump.stand",
+													"stopsound @s land.stone",
+													"stopsound @s use.stone"
+												]
+											}
+										},
+										"key": "run_command",
+										"children": [
+											{
+												"open": {
+													"command": [
+														"stopsound @s dig.stone",
+														"playsound dig.grass @a ~ ~ ~",
+														"stopsound @s step.stone",
+														"stopsound @s hit.stone",
+														"stopsound @s jump.stand",
+														"stopsound @s land.stone",
+														"stopsound @s use.stone"
+													]
+												},
+												"key": "command",
+												"is_minified": true,
+												"children": [
+													"stopsound @s dig.stone",
+													"playsound dig.grass @a ~ ~ ~",
+													"stopsound @s step.stone",
+													"stopsound @s hit.stone",
+													"stopsound @s jump.stand",
+													"stopsound @s land.stone",
+													"stopsound @s use.stone"
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

@@ -1,0 +1,370 @@
+{
+	"file_path": "C:\\Users\\nicki\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\Overworld Enhancements RP\\textures\\item_texture.json",
+	"file_type": "item_texture",
+	"format_version": 1,
+	"file_uuid": "64cc93dd_1686_4364_b0fa_7ac8ffee4879",
+	"file_version": 22,
+	"cache_content": {
+		"children": [
+			{
+				"data": "bridgeRP",
+				"key": "resource_pack_name"
+			},
+			{
+				"data": "atlas.items",
+				"key": "texture_name"
+			},
+			{
+				"open": {
+					"resource_pack_name": "bridgeRP",
+					"texture_name": "atlas.items",
+					"texture_data": {
+						"green_mushroom_item": {
+							"textures": [
+								"textures/blocks/green_mushroom"
+							]
+						},
+						"cattail_item": {
+							"textures": [
+								"textures/items/cattail"
+							]
+						},
+						"lantern_on_stick": {
+							"textures": "textures/items/lantern_on_stick"
+						},
+						"lantern_on_stick_left": {
+							"textures": "textures/items/lantern_on_stick_left"
+						},
+						"lantern_on_stick_burnt": {
+							"textures": "textures/items/lantern_on_stick_burnt"
+						},
+						"wampi_fruit": {
+							"textures": "textures/items/wampi_fruit"
+						},
+						"wampi_plant_item": {
+							"textures": "textures/blocks/wampi_plant"
+						},
+						"canary_grass_item": {
+							"textures": "textures/blocks/canary_grass"
+						},
+						"yellow_mushroom_item": {
+							"textures": "textures/blocks/yellow_mushroom"
+						},
+						"peat_icon": {
+							"textures": "textures/blocks/peat_icon"
+						},
+						"gold_helmet": {
+							"textures": "textures/items/gold_helmet"
+						},
+						"green_mushroom_stew": {
+							"textures": "textures/items/green_mushroom_stew"
+						},
+						"yellow_mushroom_stew": {
+							"textures": "textures/items/yellow_mushroom_stew"
+						},
+						"cotton": {
+							"textures": "textures/items/cotton"
+						},
+						"catkins": {
+							"textures": "textures/items/catkins"
+						},
+						"bandage": {
+							"textures": "textures/items/bandage"
+						},
+						"bloody_bandage": {
+							"textures": "textures/items/bloody_bandage"
+						},
+						"bandage_pad": {
+							"textures": "textures/items/bandage_pad"
+						},
+						"roots": {
+							"textures": "textures/items/roots"
+						},
+						"mangrove_sapling": {
+							"textures": "textures/blocks/mangrove_sapling"
+						}
+					}
+				},
+				"key": "texture_data",
+				"children": [
+					{
+						"key": "green_mushroom_item",
+						"is_minified": true,
+						"children": {
+							"textures": [
+								"textures/blocks/green_mushroom"
+							]
+						}
+					},
+					{
+						"key": "cattail_item",
+						"is_minified": true,
+						"children": {
+							"textures": [
+								"textures/items/cattail"
+							]
+						}
+					},
+					{
+						"key": "lantern_on_stick",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/items/lantern_on_stick"
+						}
+					},
+					{
+						"key": "lantern_on_stick_left",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/items/lantern_on_stick_left"
+						}
+					},
+					{
+						"key": "lantern_on_stick_burnt",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/items/lantern_on_stick_burnt"
+						}
+					},
+					{
+						"key": "wampi_fruit",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/items/wampi_fruit"
+						}
+					},
+					{
+						"key": "wampi_plant_item",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/wampi_plant"
+						}
+					},
+					{
+						"key": "canary_grass_item",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/canary_grass"
+						}
+					},
+					{
+						"key": "yellow_mushroom_item",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/yellow_mushroom"
+						}
+					},
+					{
+						"key": "peat_icon",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/peat_icon"
+						}
+					},
+					{
+						"key": "gold_helmet",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/items/gold_helmet"
+						}
+					},
+					{
+						"key": "green_mushroom_stew",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/items/green_mushroom_stew"
+						}
+					},
+					{
+						"key": "yellow_mushroom_stew",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/items/yellow_mushroom_stew"
+						}
+					},
+					{
+						"key": "cotton",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/items/cotton"
+						}
+					},
+					{
+						"key": "catkins",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/items/catkins"
+						}
+					},
+					{
+						"key": "bandage",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/items/bandage"
+						}
+					},
+					{
+						"key": "bloody_bandage",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/items/bloody_bandage"
+						}
+					},
+					{
+						"key": "bandage_pad",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/items/bandage_pad"
+						}
+					},
+					{
+						"open": {
+							"green_mushroom_item": {
+								"textures": [
+									"textures/blocks/green_mushroom"
+								]
+							},
+							"cattail_item": {
+								"textures": [
+									"textures/items/cattail"
+								]
+							},
+							"lantern_on_stick": {
+								"textures": "textures/items/lantern_on_stick"
+							},
+							"lantern_on_stick_left": {
+								"textures": "textures/items/lantern_on_stick_left"
+							},
+							"lantern_on_stick_burnt": {
+								"textures": "textures/items/lantern_on_stick_burnt"
+							},
+							"wampi_fruit": {
+								"textures": "textures/items/wampi_fruit"
+							},
+							"wampi_plant_item": {
+								"textures": "textures/blocks/wampi_plant"
+							},
+							"canary_grass_item": {
+								"textures": "textures/blocks/canary_grass"
+							},
+							"yellow_mushroom_item": {
+								"textures": "textures/blocks/yellow_mushroom"
+							},
+							"peat_icon": {
+								"textures": "textures/blocks/peat_icon"
+							},
+							"gold_helmet": {
+								"textures": "textures/items/gold_helmet"
+							},
+							"green_mushroom_stew": {
+								"textures": "textures/items/green_mushroom_stew"
+							},
+							"yellow_mushroom_stew": {
+								"textures": "textures/items/yellow_mushroom_stew"
+							},
+							"cotton": {
+								"textures": "textures/items/cotton"
+							},
+							"catkins": {
+								"textures": "textures/items/catkins"
+							},
+							"bandage": {
+								"textures": "textures/items/bandage"
+							},
+							"bloody_bandage": {
+								"textures": "textures/items/bloody_bandage"
+							},
+							"bandage_pad": {
+								"textures": "textures/items/bandage_pad"
+							},
+							"roots": {
+								"textures": "textures/items/roots"
+							},
+							"mangrove_sapling": {
+								"textures": "textures/blocks/mangrove_sapling"
+							}
+						},
+						"key": "roots",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/items/roots"
+						}
+					},
+					{
+						"open": {
+							"green_mushroom_item": {
+								"textures": [
+									"textures/blocks/green_mushroom"
+								]
+							},
+							"cattail_item": {
+								"textures": [
+									"textures/items/cattail"
+								]
+							},
+							"lantern_on_stick": {
+								"textures": "textures/items/lantern_on_stick"
+							},
+							"lantern_on_stick_left": {
+								"textures": "textures/items/lantern_on_stick_left"
+							},
+							"lantern_on_stick_burnt": {
+								"textures": "textures/items/lantern_on_stick_burnt"
+							},
+							"wampi_fruit": {
+								"textures": "textures/items/wampi_fruit"
+							},
+							"wampi_plant_item": {
+								"textures": "textures/blocks/wampi_plant"
+							},
+							"canary_grass_item": {
+								"textures": "textures/blocks/canary_grass"
+							},
+							"yellow_mushroom_item": {
+								"textures": "textures/blocks/yellow_mushroom"
+							},
+							"peat_icon": {
+								"textures": "textures/blocks/peat_icon"
+							},
+							"gold_helmet": {
+								"textures": "textures/items/gold_helmet"
+							},
+							"green_mushroom_stew": {
+								"textures": "textures/items/green_mushroom_stew"
+							},
+							"yellow_mushroom_stew": {
+								"textures": "textures/items/yellow_mushroom_stew"
+							},
+							"cotton": {
+								"textures": "textures/items/cotton"
+							},
+							"catkins": {
+								"textures": "textures/items/catkins"
+							},
+							"bandage": {
+								"textures": "textures/items/bandage"
+							},
+							"bloody_bandage": {
+								"textures": "textures/items/bloody_bandage"
+							},
+							"bandage_pad": {
+								"textures": "textures/items/bandage_pad"
+							},
+							"roots": {
+								"textures": "textures/items/roots"
+							},
+							"mangrove_sapling": {
+								"textures": "textures/blocks/mangrove_sapling"
+							}
+						},
+						"key": "mangrove_sapling",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/mangrove_sapling"
+						}
+					}
+				]
+			}
+		]
+	}
+}

@@ -1,0 +1,247 @@
+{
+	"file_path": "C:\\Users\\nicki\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Overworld Enhancements BP\\recipes\\mangrove_planks.json",
+	"file_type": "recipe",
+	"format_version": 1,
+	"file_uuid": "775284ce_722c_4018_9ba8_7d39f98c7754",
+	"file_version": 0,
+	"cache_content": {
+		"children": [
+			{
+				"open": {
+					"format_version": 1.12,
+					"minecraft:recipe_shaped": {
+						"description": {
+							"identifier": "overworld:mangrove_planks"
+						},
+						"tags": [
+							"crafting_table"
+						],
+						"group": "planks",
+						"pattern": [
+							"#"
+						],
+						"key": {
+							"#": {
+								"item": "overworld:mangrove_log"
+							}
+						},
+						"result": [
+							{
+								"item": "overworld:mangrove_planks",
+								"count": 4
+							}
+						]
+					}
+				},
+				"data": "1.12",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": 1.12,
+					"minecraft:recipe_shaped": {
+						"description": {
+							"identifier": "overworld:mangrove_planks"
+						},
+						"tags": [
+							"crafting_table"
+						],
+						"group": "planks",
+						"pattern": [
+							"#"
+						],
+						"key": {
+							"#": {
+								"item": "overworld:mangrove_log"
+							}
+						},
+						"result": [
+							{
+								"item": "overworld:mangrove_planks",
+								"count": 4
+							}
+						]
+					}
+				},
+				"key": "minecraft:recipe_shaped",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "overworld:mangrove_planks"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"group": "planks",
+							"pattern": [
+								"#"
+							],
+							"key": {
+								"#": {
+									"item": "overworld:mangrove_log"
+								}
+							},
+							"result": [
+								{
+									"item": "overworld:mangrove_planks",
+									"count": 4
+								}
+							]
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "overworld:mangrove_planks"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "overworld:mangrove_planks"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"group": "planks",
+							"pattern": [
+								"#"
+							],
+							"key": {
+								"#": {
+									"item": "overworld:mangrove_log"
+								}
+							},
+							"result": [
+								{
+									"item": "overworld:mangrove_planks",
+									"count": 4
+								}
+							]
+						},
+						"key": "tags",
+						"is_minified": true,
+						"children": [
+							"crafting_table"
+						]
+					},
+					{
+						"data": "planks",
+						"key": "group"
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "overworld:mangrove_planks"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"group": "planks",
+							"pattern": [
+								"#"
+							],
+							"key": {
+								"#": {
+									"item": "overworld:mangrove_log"
+								}
+							},
+							"result": [
+								{
+									"item": "overworld:mangrove_planks",
+									"count": 4
+								}
+							]
+						},
+						"key": "pattern",
+						"is_minified": true,
+						"children": [
+							"#"
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "overworld:mangrove_planks"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"group": "planks",
+							"pattern": [
+								"#"
+							],
+							"key": {
+								"#": {
+									"item": "overworld:mangrove_log"
+								}
+							},
+							"result": [
+								{
+									"item": "overworld:mangrove_planks",
+									"count": 4
+								}
+							]
+						},
+						"key": "key",
+						"children": [
+							{
+								"open": {
+									"#": {
+										"item": "overworld:mangrove_log"
+									}
+								},
+								"key": "#",
+								"is_minified": true,
+								"children": {
+									"item": "overworld:mangrove_log"
+								}
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "overworld:mangrove_planks"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"group": "planks",
+							"pattern": [
+								"#"
+							],
+							"key": {
+								"#": {
+									"item": "overworld:mangrove_log"
+								}
+							},
+							"result": [
+								{
+									"item": "overworld:mangrove_planks",
+									"count": 4
+								}
+							]
+						},
+						"key": "result",
+						"children": [
+							{
+								"open": [
+									{
+										"item": "overworld:mangrove_planks",
+										"count": 4
+									}
+								],
+								"is_minified": true,
+								"children": {
+									"item": "overworld:mangrove_planks",
+									"count": 4
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

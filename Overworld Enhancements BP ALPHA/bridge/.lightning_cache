@@ -1,0 +1,750 @@
+{
+	"block": {
+		"BP/blocks/mangrove_log.json": {
+			"identifiers": [
+				"overworld:mangrove_log"
+			],
+			"events": [
+				"overworld:update_rotation"
+			],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/cattail.json": {
+			"identifiers": [
+				"overworld:cattail"
+			],
+			"events": [
+				"drop_loot",
+				"skin",
+				"grow"
+			],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/green_mushroom.json": {
+			"identifiers": [
+				"overworld:yellow_mushroom"
+			],
+			"events": [],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/mangrove_planks.json": {
+			"identifiers": [
+				"overworld:palm_planks"
+			],
+			"events": [],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/canary_grass.json": {
+			"identifiers": [
+				"overworld:canary_grass"
+			],
+			"events": [],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/wampi_plant.json": {
+			"identifiers": [
+				"overworld:wampi_plant"
+			],
+			"events": [
+				"harvest",
+				"grow"
+			],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/palm_log.json": {
+			"identifiers": [
+				"overworld:palm_log"
+			],
+			"events": [
+				"overworld:update_rotation"
+			],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/palm_leaves.json": {
+			"identifiers": [
+				"overworld:palm_leaves"
+			],
+			"events": [],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/mangrove_leaves.json": {
+			"identifiers": [
+				"overworld:mangrove_leaves"
+			],
+			"events": [],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/peat.json": {
+			"identifiers": [
+				"overworld:peat"
+			],
+			"events": [],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/root_block.json": {
+			"identifiers": [
+				"overworld:root_block"
+			],
+			"events": [],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/yellow_mushroom.json": {
+			"identifiers": [
+				"overworld:yellow_mushroom"
+			],
+			"events": [],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/peat_bricks.json": {
+			"identifiers": [
+				"overworld:peat_bricks"
+			],
+			"events": [],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/palm_planks.json": {
+			"identifiers": [
+				"overworld:palm_planks"
+			],
+			"events": [],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/mangrove_sapling.json": {
+			"identifiers": [
+				"overworld:mangrove_sapling"
+			],
+			"events": [
+				"bonemeal"
+			],
+			"recipe_tags": [],
+			"custom_components": [],
+			"custom_commands": []
+		},
+		"BP/blocks/desert_spike_bush.json": {
+			"identifiers": [
+				"overworld:desert_spike_bush"
+			],
+			"events": [],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/pink_opal_lily.json": {
+			"identifiers": [
+				"overworld:pink_opal_lily"
+			],
+			"events": [],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/glowing_mushroom_block.json": {
+			"identifiers": [
+				"overworld:glowing_mushroom_block"
+			],
+			"events": [],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		}
+	},
+	"feature_rule": {
+		"BP/feature_rules/mangrove1_feature_rule.json": {
+			"identifiers": [
+				"minecraft:mangrove1_feature_rule"
+			]
+		},
+		"BP/feature_rules/mangrove3_feature_rule.json": {
+			"identifiers": [
+				"overworld:swamp_statue_gen"
+			]
+		},
+		"BP/feature_rules/mangrove2_feature_rule.json": {
+			"identifiers": [
+				"overworld:witch_house_rule"
+			]
+		},
+		"BP/feature_rules/cattail_gen.json": {
+			"identifiers": [
+				"overworld:canary_gen"
+			]
+		},
+		"BP/feature_rules/green_mushroom_gen.json": {
+			"identifiers": [
+				"overworld:yellow_mushroom_gen"
+			]
+		},
+		"BP/feature_rules/canary_gen.json": {
+			"identifiers": [
+				"overworld:canary_gen"
+			]
+		},
+		"BP/feature_rules/witch_house_rule.json": {
+			"identifiers": [
+				"overworld:witch_house_rule"
+			]
+		},
+		"BP/feature_rules/peat_gen.json": {
+			"identifiers": [
+				"overworld:root_gen"
+			]
+		},
+		"BP/feature_rules/wampi_plant_gen.json": {
+			"identifiers": [
+				"overworld:wampi_plant_gen"
+			]
+		},
+		"BP/feature_rules/root_gen.json": {
+			"identifiers": [
+				"overworld:root_gen"
+			]
+		},
+		"BP/feature_rules/yellow_mushroom_gen.json": {
+			"identifiers": [
+				"overworld:yellow_mushroom_gen"
+			]
+		},
+		"BP/feature_rules/swamp_statue_generation.json": {
+			"identifiers": [
+				"overworld:swamp_statue_generation"
+			]
+		},
+		"BP/feature_rules/pink_opal_lily_gen.json": {
+			"identifiers": [
+				"overworld:pink_opal_lily_gen"
+			]
+		}
+	},
+	"feature": {
+		"BP/features/cattail_feature_2.json": {
+			"identifiers": [
+				"overworld:canary_feature_1"
+			]
+		},
+		"BP/features/cattail_feature_3.json": {
+			"identifiers": [
+				"overworld:canary_feature_2"
+			]
+		},
+		"BP/features/green_mushroom_feature.json": {
+			"identifiers": [
+				"overworld:yellow_mushroom_feature"
+			]
+		},
+		"BP/features/green_mushroom_scatter.json": {
+			"identifiers": [
+				"overworld:yellow_mushroom_scatter"
+			]
+		},
+		"BP/features/swamp_tree_feature.json": {
+			"identifiers": [
+				"minecraft:swamp_tree_feature"
+			]
+		},
+		"BP/features/canary_feature_1.json": {
+			"identifiers": [
+				"overworld:canary_feature_1"
+			]
+		},
+		"BP/features/canary_feature_2.json": {
+			"identifiers": [
+				"overworld:canary_feature_2"
+			]
+		},
+		"BP/features/witch_house_feature.json": {
+			"identifiers": [
+				"overworld:witch_house_feature"
+			]
+		},
+		"BP/features/peat_feature.json": {
+			"identifiers": [
+				"overworld:root_feature"
+			]
+		},
+		"BP/features/wampi_plant_feature.json": {
+			"identifiers": [
+				"overworld:wampi_plant_feature"
+			]
+		},
+		"BP/features/root_feature.json": {
+			"identifiers": [
+				"overworld:root_feature"
+			]
+		},
+		"BP/features/yellow_mushroom_feature.json": {
+			"identifiers": [
+				"overworld:yellow_mushroom_feature"
+			]
+		},
+		"BP/features/yellow_mushroom_scatter.json": {
+			"identifiers": [
+				"overworld:yellow_mushroom_scatter"
+			]
+		},
+		"BP/features/swamp_statue_structure.json": {
+			"identifiers": [
+				"overworld:swamp_statue_structure"
+			]
+		},
+		"BP/features/pink_opal_lily_feature.json": {
+			"identifiers": [
+				"overworld:pink_opal_lily_feature"
+			]
+		}
+	},
+	"entity": {
+		"BP/entities/player.json": {
+			"events": [],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"minecraft:player"
+			],
+			"animation_references": [
+				"start",
+				"torch",
+				"ntorch",
+				"water",
+				"nwater",
+				"lantern",
+				"nlantern",
+				"offhand",
+				"noffhand",
+				"helmet",
+				"nhelmet"
+			],
+			"families": [
+				"player"
+			],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/entities/scorcher.json": {
+			"events": [
+				"minecraft:start_exploding_forced",
+				"minecraft:start_exploding",
+				"overworld:start_erupting",
+				"minecraft:stop_exploding"
+			],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"overworld:scorcher"
+			],
+			"animation_references": [],
+			"families": [
+				"creeper",
+				"monster",
+				"mob"
+			],
+			"custom_commands": [],
+			"custom_components": []
+		}
+	},
+	"function": {
+		"395e24e4_d36b_4cd5_b1a2_8c9c3f05c976": {},
+		"857cb7ac_56be_41ef_bd73_2e9f595b2067": {},
+		"ee77a03f_c95c_4c23_b6b2_57e2458601c6": {},
+		"BP/functions/start.mcfunction": {
+			"custom_commands": [],
+			"tags": [
+				"water"
+			],
+			"scoreboards": [
+				"expire",
+				"Tickdelay",
+				"Minutes",
+				"Tickdelay2",
+				"Minutes2"
+			]
+		},
+		"678d92c8_d939_4420_911e_09d0843836b2": {
+			"tags": [
+				"helmet"
+			]
+		},
+		"8640311b_f966_4c91_8b0e_ab3f0cf86a3f": {},
+		"6915fb51_602d_4946_8dac_41656c0145f1": {},
+		"33a7d3a3_2c49_45fd_bc95_dd58d59a8d3b": {},
+		"BP/functions/leaf.mcfunction": {
+			"custom_commands": []
+		},
+		"f68397cb_8d21_41e2_a78d_63f28076f7dd": {},
+		"aa1aeb70_dd8a_4487_8654_c73e1fe84b0c": {},
+		"76b494e8_bb3f_44c3_b666_51b09f09d087": {},
+		"d33da455_0d74_4ab6_9464_ccef9b9e3aa9": {},
+		"060e27eb_d27b_4163_9b9b_3f716eb1b64f": {},
+		"f77c9fa8_75fb_40fa_aab2_d38697e1a2b1": {},
+		"8c835e4b_88ff_4ea4_ab97_002f6b177d87": {},
+		"BP/functions/welcome.mcfunction": {
+			"custom_commands": [],
+			"tags": [
+				"returningplayer"
+			]
+		},
+		"08c2d117_8c6b_4e2a_bc89_eeed4d56ceab": {}
+	},
+	"item": {
+		"BP/items/green_mushroom.json": {
+			"identifiers": [
+				"overworld:green_mushroom.item"
+			],
+			"custom_commands": []
+		},
+		"BP/items/cattail.json": {
+			"identifiers": [
+				"overworld:cattail.item"
+			],
+			"custom_commands": []
+		},
+		"BP/items/lantern_on_stick.json": {
+			"identifiers": [
+				"overworld:lantern_on_stick"
+			],
+			"custom_commands": []
+		},
+		"BP/items/lantern_on_stick_burnt_out.json": {
+			"identifiers": [
+				"overworld:lantern_on_stick_burnt_out"
+			],
+			"custom_commands": []
+		},
+		"BP/items/wampi_fruit.json": {
+			"identifiers": [
+				"overworld:wampi_fruit"
+			],
+			"custom_commands": []
+		},
+		"BP/items/wampi_plant_item.json": {
+			"identifiers": [
+				"overworld:canary_grass_item"
+			],
+			"custom_commands": []
+		},
+		"BP/items/canary_grass_item.json": {
+			"identifiers": [
+				"overworld:canary_grass_item"
+			],
+			"custom_commands": []
+		},
+		"BP/items/yellow_mushroom_item.json": {
+			"identifiers": [
+				"overworld:yellow_mushroom_item"
+			],
+			"custom_commands": []
+		},
+		"BP/items/mining_helmet.json": {
+			"identifiers": [
+				"overworld:mining_helmet"
+			],
+			"custom_commands": []
+		},
+		"BP/items/green_mushroom_stew.json": {
+			"identifiers": [
+				"overworld:green_mushroom_stew"
+			],
+			"custom_commands": []
+		},
+		"BP/items/yellow_mushroom_stew.json": {
+			"identifiers": [
+				"overworld:yellow_mushroom_stew"
+			],
+			"custom_commands": []
+		},
+		"BP/items/cotton.json": {
+			"identifiers": [
+				"overworld:cotton"
+			],
+			"custom_commands": []
+		},
+		"BP/items/catkins.json": {
+			"identifiers": [
+				"overworld:catkins"
+			],
+			"custom_commands": []
+		},
+		"BP/items/bloody_bandage_roll.json": {
+			"identifiers": [
+				"overworld:bandage_roll_2"
+			],
+			"custom_commands": []
+		},
+		"BP/items/bandage_roll.json": {
+			"identifiers": [
+				"overworld:bandage_pad"
+			],
+			"custom_commands": []
+		},
+		"BP/items/bandage_roll_2.json": {
+			"identifiers": [
+				"overworld:bandage_roll_2"
+			],
+			"custom_commands": []
+		},
+		"BP/items/bandage_roll_3.json": {
+			"identifiers": [
+				"overworld:bandage_roll_3"
+			],
+			"custom_commands": []
+		},
+		"BP/items/bandage_pad.json": {
+			"identifiers": [
+				"overworld:bandage_pad"
+			],
+			"custom_commands": []
+		},
+		"BP/items/roots.json": {
+			"identifiers": [
+				"overworld:roots"
+			],
+			"custom_commands": []
+		},
+		"BP/items/mangrove_sapling_item.json": {
+			"identifiers": [
+				"overworld:mangrove_sapling_item"
+			],
+			"custom_commands": []
+		}
+	},
+	"attachable": {
+		"RP/attachables/lantern_in_a_stick.json": {
+			"texture_references": [
+				"default"
+			],
+			"material_references": [
+				"default"
+			],
+			"geometry_references": [
+				"default"
+			]
+		},
+		"RP/attachables/lantern_on_stick_burnt_out.json": {
+			"texture_references": [
+				"default",
+				"offhand"
+			],
+			"material_references": [
+				"default",
+				"offhand"
+			],
+			"geometry_references": [
+				"default",
+				"offhand"
+			]
+		},
+		"RP/attachables/lantern_on_a_stick.json": {
+			"texture_references": [
+				"default",
+				"offhand"
+			],
+			"material_references": [
+				"default",
+				"offhand"
+			],
+			"geometry_references": [
+				"default",
+				"offhand"
+			]
+		},
+		"RP/attachables/mining_helmet.json": {
+			"texture_references": [
+				"default",
+				"enchanted"
+			],
+			"material_references": [
+				"default",
+				"enchanted"
+			],
+			"geometry_references": [
+				"default"
+			]
+		},
+		"RP/attachables/mining_helmet.player.json": {
+			"texture_references": [
+				"default",
+				"enchanted"
+			],
+			"material_references": [
+				"default",
+				"enchanted"
+			],
+			"geometry_references": [
+				"default"
+			]
+		}
+	},
+	"animation": {
+		"BP/animations/player.json": {
+			"ids": [
+				"animation.start",
+				"animation.torch",
+				"animation.ntorch",
+				"animation.water",
+				"animation.nwater",
+				"animation.lantern",
+				"animation.nlantern",
+				"animation.offhand.lantern",
+				"animation.offhand.nlantern",
+				"animation.helmet",
+				"animation.nhelmet"
+			],
+			"custom_commands": []
+		}
+	},
+	"animation_controller": {
+		"BP/animation_controllers/start.json": {
+			"ids": [
+				"controller.animation.start"
+			],
+			"custom_commands": []
+		}
+	},
+	"biome": {
+		"BP/biomes/swamp.json": {
+			"tags": []
+		},
+		"BP/biomes/glowing_mushroom.json": {
+			"tags": [
+				"glowing_mushroom"
+			]
+		}
+	},
+	"rp_animation_controller": {},
+	"rp_animation": {},
+	"client_entity": {},
+	"particle": {
+		"RP/particles/leaf.particle.json": {
+			"ids": [
+				"overworld:leaf"
+			]
+		}
+	},
+	"recipe": {
+		"BP/recipes/peat_bricks.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/green_mushroom_stew.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/yellow_mushroom_stew.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/catkins_to_cotton.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/root_is_sapling1.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/root_is_sapling2.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/root_is_sapling3.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/root_is_sapling4.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/root_is_sapling5.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/root_is_sapling6.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/root_to_bonemeal.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/root_to_healing_potion.json": {
+			"tags": [
+				"brewing_stand"
+			]
+		},
+		"BP/recipes/root_to_healing_strong.json": {
+			"tags": [
+				"brewing_stand"
+			]
+		},
+		"BP/recipes/mangrove_planks.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/mangrove_planks_to_sticks.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/mangrove_planks_to_sword.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/mangrove_planks_to_pickaxe.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/mangrove_planks_to_axe.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/mangrove_planks_to_shovel.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/mangrove_planks_to_hoe.json": {
+			"tags": [
+				"crafting_table"
+			]
+		}
+	}
+}

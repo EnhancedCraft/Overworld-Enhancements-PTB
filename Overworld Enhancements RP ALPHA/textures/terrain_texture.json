@@ -1,0 +1,135 @@
+//bridge-file-version: #32
+{
+	"resource_pack_name": "bridgeRP",
+	"texture_name": "atlas.terrain",
+	"padding": 8,
+	"num_mip_levels": 4,
+	"texture_data": {
+		"palm_leaves": {
+			"textures": "textures/blocks/palm_leaves"
+		},
+		"cattail": {
+			"textures": "textures/blocks/cattail"
+		},
+		"pink_opal_lily": {
+			"textures": "textures/blocks/pink_opal_lily"
+		},
+		"mangrove_planks": {
+			"textures": [
+				"textures/blocks/mangrove_planks"
+			]
+		},
+		"mangrove_log": {
+			"textures": [
+				"textures/blocks/mangrove_log"
+			]
+		},
+		"canary_grass": {
+			"textures": "textures/blocks/canary_grass"
+		},
+		"wampi_plant": {
+			"textures": "textures/blocks/wampi_plant"
+		},
+		"palm_log": {
+			"textures": "textures/blocks/palm_log"
+		},
+		"mangrove_leaves": {
+			"textures": "textures/blocks/mangrove_leaves"
+		},
+		"peat": {
+			"textures": "textures/blocks/peat"
+		},
+		"mud": {
+			"textures": "textures/blocks/mud"
+		},
+		"wampi_plant_non": {
+			"textures": "textures/blocks/wampi_plant_non"
+		},
+		"root_dirt": {
+			"textures": "textures/blocks/root_dirt"
+		},
+		"toproot": {
+			"textures": "textures/blocks/toproot"
+		},
+		"peat_bricks": {
+			"textures": "textures/blocks/peat_bricks"
+		},
+		"palm_planks": {
+			"textures": "textures/blocks/palm_planks"
+		},
+		"cattail_skinned": {
+			"textures": "textures/blocks/cattail_skinned"
+		},
+		"mangrove_sapling": {
+			"textures": "textures/blocks/mangrove_sapling"
+		},
+		"spike_plant": {
+			"textures": "textures/blocks/spike_plant"
+		},
+		"prickly_pear": {
+			"textures": [
+				"textures/blocks/prickly_pear"
+			]
+		},
+		"baby_cactus": {
+			"textures": "textures/blocks/baby_cactus"
+		},
+		"dirt": {
+			"textures": [
+				"textures/blocks/dirt",
+				"textures/blocks/coarse_dirt"
+			]
+		},
+		"corn_stage_1": {
+			"textures": "textures/blocks/corn/corn_stage_1"
+		},
+		"corn_stage_2": {
+			"textures": "textures/blocks/corn/corn_stage_2"
+		},
+		"corn_stage_3": {
+			"textures": "textures/blocks/corn/corn_stage_3"
+		},
+		"corn_stage_4": {
+			"textures": "textures/blocks/corn/corn_stage_4"
+		},
+		"scarecrow": {
+			"textures": "textures/blocks/scarecrow"
+		},
+		"mangrove_door": {
+			"textures": "textures/blocks/mangrove_door"
+		},
+		"mangrove_trapdoor": {
+			"textures": "textures/blocks/mangrove_trapdoor"
+		},
+		"rock": {
+			"textures": "textures/blocks/rock"
+		},
+		"stripped_mangrove_log": {
+			"textures": "textures/blocks/stripped_mangrove_log"
+		},
+		"stripped_palm_log": {
+			"textures": "textures/blocks/stripped_palm_log"
+		},
+		"mangrove_wood": {
+			"textures": "textures/blocks/mangrove_wood"
+		},
+		"palm_wood": {
+			"textures": "textures/blocks/palm_wood"
+		},
+		"palm_door": {
+			"textures": "textures/blocks/palm_door"
+		},
+		"stripped_mangrove_wood": {
+			"textures": "textures/blocks/stripped_mangrove_wood"
+		},
+		"stripped_palm_wood": {
+			"textures": "textures/blocks/stripped_palm_wood"
+		},
+		"wild_corn": {
+			"textures": "textures/blocks/corn/wild_corn"
+		},
+		"palm_sapling": {
+			"textures": "textures/blocks/palm_sapling"
+		}
+	}
+}

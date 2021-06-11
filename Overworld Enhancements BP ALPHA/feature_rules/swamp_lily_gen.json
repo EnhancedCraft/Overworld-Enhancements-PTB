@@ -1,0 +1,46 @@
+//bridge-file-version: #10
+{
+	"format_version": "1.16.100",
+	"minecraft:feature_rules": {
+		"description": {
+			"identifier": "overworld:swamp_lily_gen",
+			"places_feature": "overworld:swamp_lily_feature"
+		},
+		"conditions": {
+			"placement_pass": "after_sky_pass",
+			"minecraft:biome_filter": {
+				"any_of": [
+					{
+						"test": "has_biome_tag",
+						"operator": "==",
+						"value": "mangrove"
+					}
+				]
+			}
+		},
+		"distribution": {
+			"iterations": 21,
+			"x": {
+				"extent": [
+					0,
+					16
+				],
+				"distribution": "uniform"
+			},
+			"z": {
+				"extent": [
+					0,
+					16
+				],
+				"distribution": "uniform"
+			},
+			"y": {
+				"extent": [
+					0,
+					"query.heightmap(variable.worldx, variable.worldz) * 2"
+				],
+				"distribution": "uniform"
+			}
+		}
+	}
+}

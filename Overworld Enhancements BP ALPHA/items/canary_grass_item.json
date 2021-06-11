@@ -1,0 +1,28 @@
+//bridge-file-version: #2
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "overworld:canary_grass_item",
+			"category": "nature"
+		},
+		"components": {
+			"minecraft:hand_equipped": false,
+			"minecraft:stacked_by_data": true,
+			"minecraft:block_placer": {
+				"block": "overworld:canary_grass",
+				"use_block_description": true
+			},
+			"minecraft:icon": {
+				"texture": "canary_grass_item"
+			},
+			"minecraft:display_name": {
+				"value": "Canary Grass"
+			},
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.groundCover"
+			}
+		},
+		"events": {}
+	}
+}

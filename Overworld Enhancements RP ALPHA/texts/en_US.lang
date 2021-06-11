@@ -1,0 +1,41 @@
+##bridge-file-version: #41
+pack.name=Overworld Enhancements RP
+pack.description=Created By Warhead.
+
+tile.overworld:mangrove_leaves.name=Mangrove Leaves
+tile.overworld:mangrove_planks.name=Mangrove Planks
+tile.overworld:mangrove_log.name=Mangrove Log
+item.overworld:cattail.item=Cattail
+tile.overworld:peat.name=Peat
+tile.overworld:canary_grass.name=Canary Grass
+tile.overworld:wampi_plant.name=Wampi Plant
+tile.overworld:root_block.name=Root Block
+tile.overworld:peat_bricks.name=Peat Bricks
+tile.overworld:palm_log.name=Palm Log
+tile.overworld:palm_planks.name=Palm Planks
+tile.overworld:desert_spike_bush.name=Desert Spike Bush
+action.interact.dummy=Pick Up Dummy
+item.spawn_egg.entity.overworld:frog.name=Spawn Frog
+item.spawn_egg.entity.overworld:dummy.name=Dummy
+tile.overworld:mangrove_wood.name=Mangrove Wood
+tile.overworld:stripped_mangrove_log.name=Stripped Mangrove Log
+tile.overworld:stripped_mangrove_wood.name=Stripped Mangrove Wood
+tile.overworld:mangrove_door.name=Mangrove Door
+tile.overworld:palm_door.name=Palm Door
+tile.overworld:smooth_peperite.name=Smooth Peperite
+tile.overworld:scarecrow.name=Scarecrow
+tile.overworld:palm_wood.name=Palm Wood
+tile.overworld:stripped_palm_log=Stripped Palm Log
+tile.overworld:stripped_palm_wood=Stripped Palm Wood
+tile.overworld:mangrove_slab.name=Mangrove Slab
+tile.overworld:palm_slab.name=Palm Slab
+tile.overworld:imbued_scarecrow.name=Imbued Scarecrow
+
+patchNotes.error.notFound.title=Patch Notes OE V1.0
+
+patchNotes.error.notFound.msg=Patch notes for Overworld Enhancements!  Changes:                                                                                                                                                                     No new changes! If you're looking for the V1.0 content please go to the page labeled V1.0                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       
+howtoplay.category.overworld=Overworld Enhancements! 
+howtoplay.overworldInfo=Overworld Enhancements Information
+howtoplay.overworldInfo.title=Overworld Enhancements Information
+howtoplay.overworldInfo.header.1=What is Overworld Enhancements? 
+howtoplay.overworldInfo.text.1=Overworld Enhancements is an add-on that expands and enhances apon vanilla Minecraft, from vanilla biome overhauls to completly new features and mechanics like the scarecrow, this add-on changes your game like never before! 

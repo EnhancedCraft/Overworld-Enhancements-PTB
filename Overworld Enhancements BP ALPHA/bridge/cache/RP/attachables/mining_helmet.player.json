@@ -1,0 +1,149 @@
+{
+	"file_path": "C:\\Users\\nicki\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\Overworld Enhancements RP\\attachables\\mining_helmet.player.json",
+	"file_type": "attachable",
+	"format_version": 1,
+	"file_uuid": "961e25b0_4fc9_410e_a07b_bf2bdbbee3f0",
+	"file_version": 0,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.10.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.10.0",
+					"minecraft:attachable": {
+						"description": {
+							"item": {
+								"overworld:mining_helmet": "query.owner_identifier == 'minecraft:player'"
+							},
+							"materials": {
+								"default": "armor",
+								"enchanted": "armor_enchanted"
+							},
+							"textures": {
+								"default": "textures/models/armor/gold_1",
+								"enchanted": "textures/misc/enchanted_item_glint"
+							},
+							"geometry": {
+								"default": "geometry.player.armor.helmet"
+							},
+							"scripts": {
+								"parent_setup": "variable.helmet_layer_visible = 0.0;"
+							},
+							"render_controllers": [
+								"controller.render.armor"
+							],
+							"identifier": "overworld:mining_helmet.player"
+						}
+					}
+				},
+				"key": "minecraft:attachable",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"item": {
+									"overworld:mining_helmet": "query.owner_identifier == 'minecraft:player'"
+								},
+								"materials": {
+									"default": "armor",
+									"enchanted": "armor_enchanted"
+								},
+								"textures": {
+									"default": "textures/models/armor/gold_1",
+									"enchanted": "textures/misc/enchanted_item_glint"
+								},
+								"geometry": {
+									"default": "geometry.player.armor.helmet"
+								},
+								"scripts": {
+									"parent_setup": "variable.helmet_layer_visible = 0.0;"
+								},
+								"render_controllers": [
+									"controller.render.armor"
+								],
+								"identifier": "overworld:mining_helmet.player"
+							}
+						},
+						"key": "description",
+						"children": [
+							{
+								"open": {
+									"item": {
+										"overworld:mining_helmet": "query.owner_identifier == 'minecraft:player'"
+									},
+									"materials": {
+										"default": "armor",
+										"enchanted": "armor_enchanted"
+									},
+									"textures": {
+										"default": "textures/models/armor/gold_1",
+										"enchanted": "textures/misc/enchanted_item_glint"
+									},
+									"geometry": {
+										"default": "geometry.player.armor.helmet"
+									},
+									"scripts": {
+										"parent_setup": "variable.helmet_layer_visible = 0.0;"
+									},
+									"render_controllers": [
+										"controller.render.armor"
+									],
+									"identifier": "overworld:mining_helmet.player"
+								},
+								"key": "item",
+								"is_minified": true,
+								"children": {
+									"overworld:mining_helmet": "query.owner_identifier == 'minecraft:player'"
+								}
+							},
+							{
+								"key": "materials",
+								"is_minified": true,
+								"children": {
+									"default": "armor",
+									"enchanted": "armor_enchanted"
+								}
+							},
+							{
+								"key": "textures",
+								"is_minified": true,
+								"children": {
+									"default": "textures/models/armor/gold_1",
+									"enchanted": "textures/misc/enchanted_item_glint"
+								}
+							},
+							{
+								"key": "geometry",
+								"is_minified": true,
+								"children": {
+									"default": "geometry.player.armor.helmet"
+								}
+							},
+							{
+								"key": "scripts",
+								"is_minified": true,
+								"children": {
+									"parent_setup": "variable.helmet_layer_visible = 0.0;"
+								}
+							},
+							{
+								"key": "render_controllers",
+								"is_minified": true,
+								"children": [
+									"controller.render.armor"
+								]
+							},
+							{
+								"data": "overworld:mining_helmet.player",
+								"key": "identifier"
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

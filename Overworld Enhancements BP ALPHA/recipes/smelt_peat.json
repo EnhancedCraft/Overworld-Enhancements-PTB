@@ -1,0 +1,20 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_furnace": {
+        "description": {
+            "identifier": "overworld:smelt_peat"
+        },
+        "tags": [
+            "furnace",
+            "blast_furnace",
+            "campfire",
+            "soul_campfire"
+        ],
+        "input": {
+            "item": "overworld:peat_clumps",
+            "data": 0,
+            "count": 1
+        },
+        "output": "overworld:dried_peat_brick"
+    }
+}

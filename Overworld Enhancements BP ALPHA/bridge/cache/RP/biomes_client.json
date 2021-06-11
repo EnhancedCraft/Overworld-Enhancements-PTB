@@ -1,0 +1,59 @@
+{
+	"file_path": "C:\\Users\\kerri\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\Overworld Enhancements RP\\biomes_client.json",
+	"file_type": "client_biome",
+	"format_version": 1,
+	"file_uuid": "601537db_d900_40b1_a2fa_3ed3abefff82",
+	"file_version": 12,
+	"cache_content": {
+		"children": [
+			{
+				"open": {
+					"biomes": {
+						"default": {
+							"water_surface_color": "#44AFF5",
+							"water_surface_transparency": 0.65,
+							"water_fog_color": "#44AFF5",
+							"water_fog_distance": 15
+						},
+						"tropical_desert": {
+							"water_surface_color": "#3ac2b2",
+							"water_surface_transparency": 1
+						},
+						"dunes": {
+							"water_surface_color": "#32A598",
+							"water_fog_color": "#32A598"
+						},
+						"glowing_mushroom": {
+							"water_surface_color": "#50838C",
+							"water_surface_transparency": 0.7,
+							"fog_identifier": "overworld:glowing_mushroom_fog"
+						}
+					}
+				},
+				"key": "biomes",
+				"is_minified": true,
+				"children": {
+					"default": {
+						"water_surface_color": "#44AFF5",
+						"water_surface_transparency": 0.65,
+						"water_fog_color": "#44AFF5",
+						"water_fog_distance": 15
+					},
+					"tropical_desert": {
+						"water_surface_color": "#3ac2b2",
+						"water_surface_transparency": 1
+					},
+					"dunes": {
+						"water_surface_color": "#32A598",
+						"water_fog_color": "#32A598"
+					},
+					"glowing_mushroom": {
+						"water_surface_color": "#50838C",
+						"water_surface_transparency": 0.7,
+						"fog_identifier": "overworld:glowing_mushroom_fog"
+					}
+				}
+			}
+		]
+	}
+}

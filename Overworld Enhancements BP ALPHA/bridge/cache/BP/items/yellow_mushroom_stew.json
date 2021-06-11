@@ -1,0 +1,600 @@
+{
+	"file_path": "C:\\Users\\nicki\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Overworld Enhancements BP\\items\\yellow_mushroom_stew.json",
+	"file_type": "item",
+	"format_version": 1,
+	"file_uuid": "b2c1c6ec_457c_440a_bf23_cce9566fccf1",
+	"file_version": 6,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:item": {
+						"description": {
+							"identifier": "overworld:yellow_mushroom_stew",
+							"category": "nature"
+						},
+						"components": {
+							"minecraft:use_duration": 1.6,
+							"minecraft:max_stack_size": 1,
+							"minecraft:food": {
+								"nutrition": 10,
+								"saturation_modifier": "max",
+								"using_converts_to": "bowl",
+								"on_consume": {
+									"event": "eat",
+									"target": "self"
+								}
+							},
+							"minecraft:stacked_by_data": true,
+							"minecraft:icon": {
+								"texture": "yellow_mushroom_stew"
+							},
+							"minecraft:display_name": {
+								"value": "Yellow Mushroom Stew"
+							},
+							"minecraft:use_animation": "eat",
+							"minecraft:creative_category": {
+								"parent": "itemGroup.name.miscFood"
+							}
+						},
+						"events": {
+							"eat": {
+								"sequence": [
+									{
+										"add_mob_effect": {
+											"effect": "mining_fatigue",
+											"target": "holder",
+											"duration": 10,
+											"amplifier": 1
+										}
+									},
+									{
+										"add_mob_effect": {
+											"effect": "nausea",
+											"target": "holder",
+											"duration": 30,
+											"amplifier": 0
+										}
+									},
+									{
+										"add_mob_effect": {
+											"effect": "strength",
+											"target": "holder",
+											"duration": 60,
+											"amplifier": 2
+										}
+									}
+								]
+							}
+						}
+					}
+				},
+				"key": "minecraft:item",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "overworld:yellow_mushroom_stew",
+								"category": "nature"
+							},
+							"components": {
+								"minecraft:use_duration": 1.6,
+								"minecraft:max_stack_size": 1,
+								"minecraft:food": {
+									"nutrition": 10,
+									"saturation_modifier": "max",
+									"using_converts_to": "bowl",
+									"on_consume": {
+										"event": "eat",
+										"target": "self"
+									}
+								},
+								"minecraft:stacked_by_data": true,
+								"minecraft:icon": {
+									"texture": "yellow_mushroom_stew"
+								},
+								"minecraft:display_name": {
+									"value": "Yellow Mushroom Stew"
+								},
+								"minecraft:use_animation": "eat",
+								"minecraft:creative_category": {
+									"parent": "itemGroup.name.miscFood"
+								}
+							},
+							"events": {
+								"eat": {
+									"sequence": [
+										{
+											"add_mob_effect": {
+												"effect": "mining_fatigue",
+												"target": "holder",
+												"duration": 10,
+												"amplifier": 1
+											}
+										},
+										{
+											"add_mob_effect": {
+												"effect": "nausea",
+												"target": "holder",
+												"duration": 30,
+												"amplifier": 0
+											}
+										},
+										{
+											"add_mob_effect": {
+												"effect": "strength",
+												"target": "holder",
+												"duration": 60,
+												"amplifier": 2
+											}
+										}
+									]
+								}
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "overworld:yellow_mushroom_stew",
+							"category": "nature"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "overworld:yellow_mushroom_stew",
+								"category": "nature"
+							},
+							"components": {
+								"minecraft:use_duration": 1.6,
+								"minecraft:max_stack_size": 1,
+								"minecraft:food": {
+									"nutrition": 10,
+									"saturation_modifier": "max",
+									"using_converts_to": "bowl",
+									"on_consume": {
+										"event": "eat",
+										"target": "self"
+									}
+								},
+								"minecraft:stacked_by_data": true,
+								"minecraft:icon": {
+									"texture": "yellow_mushroom_stew"
+								},
+								"minecraft:display_name": {
+									"value": "Yellow Mushroom Stew"
+								},
+								"minecraft:use_animation": "eat",
+								"minecraft:creative_category": {
+									"parent": "itemGroup.name.miscFood"
+								}
+							},
+							"events": {
+								"eat": {
+									"sequence": [
+										{
+											"add_mob_effect": {
+												"effect": "mining_fatigue",
+												"target": "holder",
+												"duration": 10,
+												"amplifier": 1
+											}
+										},
+										{
+											"add_mob_effect": {
+												"effect": "nausea",
+												"target": "holder",
+												"duration": 30,
+												"amplifier": 0
+											}
+										},
+										{
+											"add_mob_effect": {
+												"effect": "strength",
+												"target": "holder",
+												"duration": 60,
+												"amplifier": 2
+											}
+										}
+									]
+								}
+							}
+						},
+						"key": "components",
+						"children": [
+							{
+								"data": "1.6",
+								"key": "minecraft:use_duration"
+							},
+							{
+								"data": "1",
+								"key": "minecraft:max_stack_size"
+							},
+							{
+								"open": {
+									"minecraft:use_duration": 1.6,
+									"minecraft:max_stack_size": 1,
+									"minecraft:food": {
+										"nutrition": 10,
+										"saturation_modifier": "max",
+										"using_converts_to": "bowl",
+										"on_consume": {
+											"event": "eat",
+											"target": "self"
+										}
+									},
+									"minecraft:stacked_by_data": true,
+									"minecraft:icon": {
+										"texture": "yellow_mushroom_stew"
+									},
+									"minecraft:display_name": {
+										"value": "Yellow Mushroom Stew"
+									},
+									"minecraft:use_animation": "eat",
+									"minecraft:creative_category": {
+										"parent": "itemGroup.name.miscFood"
+									}
+								},
+								"key": "minecraft:food",
+								"children": [
+									{
+										"data": "10",
+										"key": "nutrition"
+									},
+									{
+										"data": "max",
+										"key": "saturation_modifier"
+									},
+									{
+										"data": "bowl",
+										"key": "using_converts_to"
+									},
+									{
+										"open": {
+											"nutrition": 10,
+											"saturation_modifier": "max",
+											"using_converts_to": "bowl",
+											"on_consume": {
+												"event": "eat",
+												"target": "self"
+											}
+										},
+										"key": "on_consume",
+										"is_minified": true,
+										"children": {
+											"event": "eat",
+											"target": "self"
+										}
+									}
+								]
+							},
+							{
+								"data": "true",
+								"key": "minecraft:stacked_by_data"
+							},
+							{
+								"open": {
+									"minecraft:use_duration": 1.6,
+									"minecraft:max_stack_size": 1,
+									"minecraft:food": {
+										"nutrition": 10,
+										"saturation_modifier": "max",
+										"using_converts_to": "bowl",
+										"on_consume": {
+											"event": "eat",
+											"target": "self"
+										}
+									},
+									"minecraft:stacked_by_data": true,
+									"minecraft:icon": {
+										"texture": "yellow_mushroom_stew"
+									},
+									"minecraft:display_name": {
+										"value": "Yellow Mushroom Stew"
+									},
+									"minecraft:use_animation": "eat",
+									"minecraft:creative_category": {
+										"parent": "itemGroup.name.miscFood"
+									}
+								},
+								"key": "minecraft:icon",
+								"is_minified": true,
+								"children": {
+									"texture": "yellow_mushroom_stew"
+								}
+							},
+							{
+								"open": {
+									"minecraft:use_duration": 1.6,
+									"minecraft:max_stack_size": 1,
+									"minecraft:food": {
+										"nutrition": 10,
+										"saturation_modifier": "max",
+										"using_converts_to": "bowl",
+										"on_consume": {
+											"event": "eat",
+											"target": "self"
+										}
+									},
+									"minecraft:stacked_by_data": true,
+									"minecraft:icon": {
+										"texture": "yellow_mushroom_stew"
+									},
+									"minecraft:display_name": {
+										"value": "Yellow Mushroom Stew"
+									},
+									"minecraft:use_animation": "eat",
+									"minecraft:creative_category": {
+										"parent": "itemGroup.name.miscFood"
+									}
+								},
+								"key": "minecraft:display_name",
+								"is_minified": true,
+								"children": {
+									"value": "Yellow Mushroom Stew"
+								}
+							},
+							{
+								"data": "eat",
+								"key": "minecraft:use_animation"
+							},
+							{
+								"open": {
+									"minecraft:use_duration": 1.6,
+									"minecraft:max_stack_size": 1,
+									"minecraft:food": {
+										"nutrition": 10,
+										"saturation_modifier": "max",
+										"using_converts_to": "bowl",
+										"on_consume": {
+											"event": "eat",
+											"target": "self"
+										}
+									},
+									"minecraft:stacked_by_data": true,
+									"minecraft:icon": {
+										"texture": "yellow_mushroom_stew"
+									},
+									"minecraft:display_name": {
+										"value": "Yellow Mushroom Stew"
+									},
+									"minecraft:use_animation": "eat",
+									"minecraft:creative_category": {
+										"parent": "itemGroup.name.miscFood"
+									}
+								},
+								"key": "minecraft:creative_category",
+								"is_minified": true,
+								"children": {
+									"parent": "itemGroup.name.miscFood"
+								}
+							}
+						]
+					},
+					{
+						"key": "events",
+						"children": [
+							{
+								"open": {
+									"eat": {
+										"sequence": [
+											{
+												"add_mob_effect": {
+													"effect": "mining_fatigue",
+													"target": "holder",
+													"duration": 10,
+													"amplifier": 1
+												}
+											},
+											{
+												"add_mob_effect": {
+													"effect": "nausea",
+													"target": "holder",
+													"duration": 30,
+													"amplifier": 0
+												}
+											},
+											{
+												"add_mob_effect": {
+													"effect": "strength",
+													"target": "holder",
+													"duration": 60,
+													"amplifier": 2
+												}
+											}
+										]
+									}
+								},
+								"key": "eat",
+								"children": [
+									{
+										"open": {
+											"sequence": [
+												{
+													"add_mob_effect": {
+														"effect": "mining_fatigue",
+														"target": "holder",
+														"duration": 10,
+														"amplifier": 1
+													}
+												},
+												{
+													"add_mob_effect": {
+														"effect": "nausea",
+														"target": "holder",
+														"duration": 30,
+														"amplifier": 0
+													}
+												},
+												{
+													"add_mob_effect": {
+														"effect": "strength",
+														"target": "holder",
+														"duration": 60,
+														"amplifier": 2
+													}
+												}
+											]
+										},
+										"key": "sequence",
+										"children": [
+											{
+												"open": [
+													{
+														"add_mob_effect": {
+															"effect": "mining_fatigue",
+															"target": "holder",
+															"duration": 10,
+															"amplifier": 1
+														}
+													},
+													{
+														"add_mob_effect": {
+															"effect": "nausea",
+															"target": "holder",
+															"duration": 30,
+															"amplifier": 0
+														}
+													},
+													{
+														"add_mob_effect": {
+															"effect": "strength",
+															"target": "holder",
+															"duration": 60,
+															"amplifier": 2
+														}
+													}
+												],
+												"children": [
+													{
+														"open": {
+															"add_mob_effect": {
+																"effect": "mining_fatigue",
+																"target": "holder",
+																"duration": 10,
+																"amplifier": 1
+															}
+														},
+														"key": "add_mob_effect",
+														"is_minified": true,
+														"children": {
+															"effect": "mining_fatigue",
+															"target": "holder",
+															"duration": 10,
+															"amplifier": 1
+														}
+													}
+												]
+											},
+											{
+												"open": [
+													{
+														"add_mob_effect": {
+															"effect": "mining_fatigue",
+															"target": "holder",
+															"duration": 10,
+															"amplifier": 1
+														}
+													},
+													{
+														"add_mob_effect": {
+															"effect": "nausea",
+															"target": "holder",
+															"duration": 30,
+															"amplifier": 0
+														}
+													},
+													{
+														"add_mob_effect": {
+															"effect": "strength",
+															"target": "holder",
+															"duration": 60,
+															"amplifier": 2
+														}
+													}
+												],
+												"children": [
+													{
+														"open": {
+															"add_mob_effect": {
+																"effect": "nausea",
+																"target": "holder",
+																"duration": 30,
+																"amplifier": 0
+															}
+														},
+														"key": "add_mob_effect",
+														"is_minified": true,
+														"children": {
+															"effect": "nausea",
+															"target": "holder",
+															"duration": 30,
+															"amplifier": 0
+														}
+													}
+												]
+											},
+											{
+												"open": [
+													{
+														"add_mob_effect": {
+															"effect": "mining_fatigue",
+															"target": "holder",
+															"duration": 10,
+															"amplifier": 1
+														}
+													},
+													{
+														"add_mob_effect": {
+															"effect": "nausea",
+															"target": "holder",
+															"duration": 30,
+															"amplifier": 0
+														}
+													},
+													{
+														"add_mob_effect": {
+															"effect": "strength",
+															"target": "holder",
+															"duration": 60,
+															"amplifier": 2
+														}
+													}
+												],
+												"children": [
+													{
+														"open": {
+															"add_mob_effect": {
+																"effect": "strength",
+																"target": "holder",
+																"duration": 60,
+																"amplifier": 2
+															}
+														},
+														"key": "add_mob_effect",
+														"is_minified": true,
+														"children": {
+															"effect": "strength",
+															"target": "holder",
+															"duration": 60,
+															"amplifier": 2
+														}
+													}
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

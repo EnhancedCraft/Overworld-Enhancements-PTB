@@ -1,0 +1,383 @@
+{
+	"file_path": "C:\\Users\\nicki\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Overworld Enhancements BP\\items\\bandage_roll_3.json",
+	"file_type": "item",
+	"format_version": 1,
+	"file_uuid": "d33da455_0d74_4ab6_9464_ccef9b9e3aa9",
+	"file_version": 25,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:item": {
+						"description": {
+							"identifier": "overworld:bandage_roll_3",
+							"category": "commands"
+						},
+						"components": {
+							"minecraft:max_stack_size": 1,
+							"minecraft:stacked_by_data": true,
+							"minecraft:use_duration": 3,
+							"minecraft:use_animation": "bow",
+							"minecraft:cooldown": {
+								"category": "chorusfruit",
+								"duration": 0.6
+							},
+							"minecraft:icon": {
+								"texture": "bandage"
+							},
+							"minecraft:display_name": {
+								"value": "Bandage Roll §41 Use Remain"
+							},
+							"minecraft:food": {
+								"nutrition": 0,
+								"can_always_eat": true,
+								"saturation_modifier": "poor",
+								"on_consume": {
+									"event": "bandage",
+									"target": "self"
+								}
+							}
+						},
+						"events": {
+							"bandage": {
+								"sequence": [
+									{
+										"decrement_stack": {},
+										"add_mob_effect": {
+											"effect": "instant_health",
+											"target": "holder",
+											"duration": 1,
+											"amplifier": 4
+										}
+									}
+								]
+							}
+						}
+					}
+				},
+				"key": "minecraft:item",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "overworld:bandage_roll_3",
+								"category": "commands"
+							},
+							"components": {
+								"minecraft:max_stack_size": 1,
+								"minecraft:stacked_by_data": true,
+								"minecraft:use_duration": 3,
+								"minecraft:use_animation": "bow",
+								"minecraft:cooldown": {
+									"category": "chorusfruit",
+									"duration": 0.6
+								},
+								"minecraft:icon": {
+									"texture": "bandage"
+								},
+								"minecraft:display_name": {
+									"value": "Bandage Roll §41 Use Remain"
+								},
+								"minecraft:food": {
+									"nutrition": 0,
+									"can_always_eat": true,
+									"saturation_modifier": "poor",
+									"on_consume": {
+										"event": "bandage",
+										"target": "self"
+									}
+								}
+							},
+							"events": {
+								"bandage": {
+									"sequence": [
+										{
+											"decrement_stack": {},
+											"add_mob_effect": {
+												"effect": "instant_health",
+												"target": "holder",
+												"duration": 1,
+												"amplifier": 4
+											}
+										}
+									]
+								}
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "overworld:bandage_roll_3",
+							"category": "commands"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "overworld:bandage_roll_3",
+								"category": "commands"
+							},
+							"components": {
+								"minecraft:max_stack_size": 1,
+								"minecraft:stacked_by_data": true,
+								"minecraft:use_duration": 3,
+								"minecraft:use_animation": "bow",
+								"minecraft:cooldown": {
+									"category": "chorusfruit",
+									"duration": 0.6
+								},
+								"minecraft:icon": {
+									"texture": "bandage"
+								},
+								"minecraft:display_name": {
+									"value": "Bandage Roll §41 Use Remain"
+								},
+								"minecraft:food": {
+									"nutrition": 0,
+									"can_always_eat": true,
+									"saturation_modifier": "poor",
+									"on_consume": {
+										"event": "bandage",
+										"target": "self"
+									}
+								}
+							},
+							"events": {
+								"bandage": {
+									"sequence": [
+										{
+											"decrement_stack": {},
+											"add_mob_effect": {
+												"effect": "instant_health",
+												"target": "holder",
+												"duration": 1,
+												"amplifier": 4
+											}
+										}
+									]
+								}
+							}
+						},
+						"key": "components",
+						"children": [
+							{
+								"data": "1",
+								"key": "minecraft:max_stack_size"
+							},
+							{
+								"data": "true",
+								"key": "minecraft:stacked_by_data"
+							},
+							{
+								"data": "3",
+								"key": "minecraft:use_duration"
+							},
+							{
+								"data": "bow",
+								"key": "minecraft:use_animation"
+							},
+							{
+								"key": "minecraft:cooldown",
+								"is_minified": true,
+								"children": {
+									"category": "chorusfruit",
+									"duration": 0.6
+								}
+							},
+							{
+								"key": "minecraft:icon",
+								"is_minified": true,
+								"children": {
+									"texture": "bandage"
+								}
+							},
+							{
+								"key": "minecraft:display_name",
+								"is_minified": true,
+								"children": {
+									"value": "Bandage Roll §41 Use Remain"
+								}
+							},
+							{
+								"open": {
+									"minecraft:max_stack_size": 1,
+									"minecraft:stacked_by_data": true,
+									"minecraft:use_duration": 3,
+									"minecraft:use_animation": "bow",
+									"minecraft:cooldown": {
+										"category": "chorusfruit",
+										"duration": 0.6
+									},
+									"minecraft:icon": {
+										"texture": "bandage"
+									},
+									"minecraft:display_name": {
+										"value": "Bandage Roll §41 Use Remain"
+									},
+									"minecraft:food": {
+										"nutrition": 0,
+										"can_always_eat": true,
+										"saturation_modifier": "poor",
+										"on_consume": {
+											"event": "bandage",
+											"target": "self"
+										}
+									}
+								},
+								"key": "minecraft:food",
+								"children": [
+									{
+										"data": "0",
+										"key": "nutrition"
+									},
+									{
+										"data": "true",
+										"key": "can_always_eat"
+									},
+									{
+										"data": "poor",
+										"key": "saturation_modifier"
+									},
+									{
+										"open": {
+											"nutrition": 0,
+											"can_always_eat": true,
+											"saturation_modifier": "poor",
+											"on_consume": {
+												"event": "bandage",
+												"target": "self"
+											}
+										},
+										"key": "on_consume",
+										"is_minified": true,
+										"children": {
+											"event": "bandage",
+											"target": "self"
+										}
+									}
+								]
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "overworld:bandage_roll_3",
+								"category": "commands"
+							},
+							"components": {
+								"minecraft:max_stack_size": 1,
+								"minecraft:stacked_by_data": true,
+								"minecraft:use_duration": 3,
+								"minecraft:use_animation": "bow",
+								"minecraft:cooldown": {
+									"category": "chorusfruit",
+									"duration": 0.6
+								},
+								"minecraft:icon": {
+									"texture": "bandage"
+								},
+								"minecraft:display_name": {
+									"value": "Bandage Roll §41 Use Remain"
+								},
+								"minecraft:food": {
+									"nutrition": 0,
+									"can_always_eat": true,
+									"saturation_modifier": "poor",
+									"on_consume": {
+										"event": "bandage",
+										"target": "self"
+									}
+								}
+							},
+							"events": {
+								"bandage": {
+									"sequence": [
+										{
+											"decrement_stack": {},
+											"add_mob_effect": {
+												"effect": "instant_health",
+												"target": "holder",
+												"duration": 1,
+												"amplifier": 4
+											}
+										}
+									]
+								}
+							}
+						},
+						"key": "events",
+						"children": [
+							{
+								"open": {
+									"bandage": {
+										"sequence": [
+											{
+												"decrement_stack": {},
+												"add_mob_effect": {
+													"effect": "instant_health",
+													"target": "holder",
+													"duration": 1,
+													"amplifier": 4
+												}
+											}
+										]
+									}
+								},
+								"key": "bandage",
+								"children": [
+									{
+										"open": {
+											"sequence": [
+												{
+													"decrement_stack": {},
+													"add_mob_effect": {
+														"effect": "instant_health",
+														"target": "holder",
+														"duration": 1,
+														"amplifier": 4
+													}
+												}
+											]
+										},
+										"key": "sequence",
+										"children": [
+											{
+												"open": [
+													{
+														"decrement_stack": {},
+														"add_mob_effect": {
+															"effect": "instant_health",
+															"target": "holder",
+															"duration": 1,
+															"amplifier": 4
+														}
+													}
+												],
+												"is_minified": true,
+												"children": {
+													"decrement_stack": {},
+													"add_mob_effect": {
+														"effect": "instant_health",
+														"target": "holder",
+														"duration": 1,
+														"amplifier": 4
+													}
+												}
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

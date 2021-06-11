@@ -1,0 +1,93 @@
+//bridge-file-version: #10
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "overworld:wampi_plant",
+			"properties": {
+				"overworld:wampi": [
+					0,
+					1
+				]
+			}
+		},
+		"components": {
+			"minecraft:destroy_time": 2,
+			"minecraft:block_light_emission": 0.5,
+			"minecraft:block_light_absorption": 0,
+			"minecraft:explosion_resistance": 1,
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "wampi_plant",
+					"render_method": "alpha_test"
+				}
+			},
+			"minecraft:geometry": "geometry.double_sided",
+			"minecraft:entity_collision": false,
+			"minecraft:placement_filter": {
+				"conditions": [
+					{
+						"block_filter": [
+							"overworld:mangrove_log",
+							"minecraft:log",
+							"minecraft:log2",
+							"minecraft:leaves",
+							"minecraft:leaves2"
+						],
+						"allowed_faces": [
+							"down"
+						]
+					}
+				]
+			},
+			"minecraft:loot": "loot_tables/blocks/break_wampi.json",
+			"minecraft:on_interact": {
+				"event": "harvest",
+				"target": "self",
+				"condition": "query.block_property('overworld:wampi') == 0 "
+			}
+		},
+		"events": {
+			"harvest": {
+				"set_block_property": {
+					"overworld:wampi": 1
+				},
+				"spawn_loot": {
+					"table": "loot_tables/blocks/wampi_harvest.json"
+				}
+			},
+			"grow": {
+				"set_block_property": {
+					"overworld:wampi": 0
+				}
+			}
+		},
+		"permutations": [
+			{
+				"condition": "query.block_property('overworld:wampi') == 1",
+				"components": {
+					"minecraft:material_instances": {
+						"*": {
+							"texture": "wampi_plant_non",
+							"render_method": "alpha_test"
+						}
+					},
+					"minecraft:loot": "loot_tables/blank.json",
+					"minecraft:block_light_emission": 0,
+					"minecraft:ticking": {
+						"looping": true,
+						"range": [
+							24000,
+							26400
+						],
+						"on_tick": {
+							"event": "grow",
+							"condition": "query.block_property('overworld:wampi') == 1",
+							"target": "self"
+						}
+					}
+				}
+			}
+		]
+	}
+}

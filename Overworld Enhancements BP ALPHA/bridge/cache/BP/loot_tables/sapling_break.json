@@ -1,0 +1,75 @@
+{
+	"file_path": "C:\\Users\\nicki\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Overworld Enhancements BP\\loot_tables\\sapling_break.json",
+	"file_type": "loot_table",
+	"format_version": 1,
+	"file_uuid": "7dcdd100_de24_4d9d_beaf_cfac2102240e",
+	"file_version": 0,
+	"cache_content": {
+		"children": [
+			{
+				"open": {
+					"pools": [
+						{
+							"rolls": 1,
+							"entries": [
+								{
+									"type": "item",
+									"name": "overworld:mangrove_sapling_item"
+								}
+							]
+						}
+					]
+				},
+				"key": "pools",
+				"children": [
+					{
+						"open": [
+							{
+								"rolls": 1,
+								"entries": [
+									{
+										"type": "item",
+										"name": "overworld:mangrove_sapling_item"
+									}
+								]
+							}
+						],
+						"children": [
+							{
+								"data": "1",
+								"key": "rolls"
+							},
+							{
+								"open": {
+									"rolls": 1,
+									"entries": [
+										{
+											"type": "item",
+											"name": "overworld:mangrove_sapling_item"
+										}
+									]
+								},
+								"key": "entries",
+								"children": [
+									{
+										"open": [
+											{
+												"type": "item",
+												"name": "overworld:mangrove_sapling_item"
+											}
+										],
+										"is_minified": true,
+										"children": {
+											"type": "item",
+											"name": "overworld:mangrove_sapling_item"
+										}
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

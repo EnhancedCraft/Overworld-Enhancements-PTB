@@ -1,0 +1,63 @@
+//bridge-file-version: #8
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "overworld:pink_opal_lily"
+		},
+		"components": {
+			"minecraft:block_light_absorption": 0,
+			"minecraft:destroy_time": 0.2,
+			"minecraft:material_instances": {
+				"*": {
+					"render_method": "alpha_test",
+					"texture": "pink_opal_lily",
+					"face_dimming": false,
+					"ambient_occlusion": false
+				}
+			},
+			"minecraft:loot": "loot_tables/blank.json",
+			"minecraft:geometry": "geometry.lily",
+			"minecraft:pick_collision": {
+				"origin": [
+					-8,
+					0,
+					-8
+				],
+				"size": [
+					16,
+					1,
+					16
+				]
+			},
+			"minecraft:breakonpush": true,
+			"minecraft:breathability": "air",
+			"minecraft:entity_collision": {
+				"origin": [
+					-8,
+					0,
+					-8
+				],
+				"size": [
+					16,
+					1,
+					16
+				]
+			},
+			"minecraft:placement_filter": {
+				"conditions": [
+					{
+						"block_filter": [
+							"minecraft:water"
+						],
+						"allowed_faces": [
+							"up",
+							"down"
+						]
+					}
+				]
+			}
+		},
+		"events": {}
+	}
+}
